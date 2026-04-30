@@ -48,7 +48,7 @@ if "%~1"=="collect" (
     echo 正式采集：抓取全部来源数据，写入 TursoDB...
     echo 需要设置环境变量 TURSO_DB_URL 和 TURSO_AUTH_TOKEN
     echo.
-    python -m modelinfo.cli collect all
+    python -m modelinfo.cli collect --table all
     goto :end
 )
 

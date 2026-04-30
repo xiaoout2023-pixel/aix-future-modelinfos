@@ -22,7 +22,7 @@ jobs:
         env:
           TURSO_DB_URL: ${{ secrets.TURSO_DB_URL }}
           TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
-        run: python -m modelinfo.cli collect all
+        run: python -m modelinfo.cli collect --table all
       - name: Commit change log
         run: |
           mkdir -p logs

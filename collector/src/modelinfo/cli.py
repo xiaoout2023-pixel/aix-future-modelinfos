@@ -22,9 +22,9 @@ def get_db():
 
 @app.command()
 def collect(
-    table: str = typer.Argument("all", help="models, pricing, evaluations, or all"),
-    source: str = typer.Option("all", help="openrouter, openai, anthropic, or all"),
-    dry_run: bool = typer.Option(False, help="Fetch and parse but do not write to DB"),
+    table: str = typer.Option("all", "--table", "-t", help="models, pricing, evaluations, or all"),
+    source: str = typer.Option("all", "--source", "-s", help="openrouter, openai, anthropic, or all"),
+    dry_run: bool = typer.Option(False, "--dry-run", help="Fetch and parse but do not write to DB"),
 ):
     """Collect model metadata from configured sources."""
     db = get_db()
