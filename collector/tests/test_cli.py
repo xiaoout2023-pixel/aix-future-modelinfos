@@ -52,7 +52,6 @@ def test_collect_unknown_source():
 
 
 def test_help_shows_commands():
-    """--help should list collect and diff commands."""
+    """--help should list the collect command."""
     result = runner.invoke(app, ["--help"])
     assert "collect" in result.stdout
-    assert "diff" in result.stdout

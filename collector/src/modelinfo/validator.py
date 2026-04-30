@@ -39,3 +39,19 @@ def validate_pricing(data: dict) -> list[str]:
             errors.append(f"output_price_per_1m seems unreasonable: {output_price}")
 
     return errors
+
+
+def validate_evaluation(data: dict) -> list[str]:
+    errors = []
+    if not data.get("eval_id"):
+        errors.append("eval_id is required")
+    if not data.get("model_id"):
+        errors.append("model_id is required")
+    if not data.get("eval_date"):
+        errors.append("eval_date is required")
+    if not data.get("source"):
+        errors.append("source is required")
+    overall = data.get("overall_score")
+    if overall is not None and (overall < 0 or overall > 100):
+        errors.append(f"overall_score out of range: {overall}")
+    return errors

@@ -179,6 +179,7 @@ def _row_to_dict(columns: list[str], row: list) -> dict:
 
 def init_schema(db: Database):
     """Execute all CREATE TABLE IF NOT EXISTS statements."""
+    db._client.execute("PRAGMA foreign_keys = ON")
     for statement in SCHEMA_SQL.strip().split(";"):
         stmt = statement.strip()
         if stmt:

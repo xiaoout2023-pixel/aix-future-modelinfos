@@ -1,4 +1,4 @@
-from modelinfo.validator import validate_model, validate_pricing
+from modelinfo.validator import validate_model, validate_pricing, validate_evaluation
 
 def test_validate_model_missing_required():
     errors = validate_model({"model_name": "Test"})  # missing model_id, provider
@@ -37,3 +37,16 @@ def test_validate_pricing_valid():
         "input_price_per_1m": 2.5, "output_price_per_1m": 10.0,
     })
     assert len(errors) == 0
+
+
+def test_validate_evaluation_valid():
+    errors = validate_evaluation({
+        "eval_id": "test/x/aa/2025-01-01", "model_id": "x",
+        "eval_date": "2025-01-01", "source": "test", "overall_score": 85.0,
+    })
+    assert len(errors) == 0
+
+
+def test_validate_evaluation_missing_fields():
+    errors = validate_evaluation({"source": "test"})
+    assert len(errors) > 0

@@ -1,4 +1,4 @@
-from modelinfo.validator import validate_model, validate_pricing
+from modelinfo.validator import validate_model, validate_pricing, validate_evaluation
 
 
 class Writer:
@@ -33,6 +33,10 @@ class Writer:
         upserted = 0
         errors = 0
         for e in evals:
+            validation_errors = validate_evaluation(e)
+            if validation_errors:
+                errors += 1
+                continue
             self.db.upsert_evaluation(e)
             upserted += 1
         return {"upserted": upserted, "errors": errors, "changes_written": upserted}

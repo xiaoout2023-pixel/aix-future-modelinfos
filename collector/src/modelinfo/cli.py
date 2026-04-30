@@ -65,13 +65,6 @@ def collect(
     asyncio.run(_run())
 
 
-@app.command()
-def diff(dry_run: bool = typer.Option(False, help="Show changes without writing")):
-    """Compare DB state against fresh fetch and show differences."""
-    typer.echo("Diff mode: fetching latest data and comparing against DB... (not yet fully implemented)")
-    # Future: fetch latest, compare with DB, print ChangeRecords
-
-
 def _get_sources(source: str) -> list:
     registry = {
         "openrouter": OpenRouterParser,
