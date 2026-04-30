@@ -14,13 +14,18 @@ app = typer.Typer()
 logger = structlog.get_logger()
 
 
+@app.callback()
+def main():
+    """Model metadata collector - scrapes and normalizes AI model metadata."""
+
+
 def get_db():
     url = os.environ.get("TURSO_DB_URL", "file:local.db")
     token = os.environ.get("TURSO_AUTH_TOKEN", "")
     return Database(url=url, auth_token=token)
 
 
-@app.command()
+@app.command(name="collect")
 def collect(
     table: str = typer.Option("all", "--table", "-t", help="models, pricing, evaluations, or all"),
     source: str = typer.Option("all", "--source", "-s", help="openrouter, openai, anthropic, or all"),
