@@ -1,4 +1,4 @@
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from enum import Enum
 from typing import Optional
 from pydantic import BaseModel, Field
@@ -87,8 +87,8 @@ class PricingInfo(BaseModel):
     price_per_request: Optional[float] = None
     price_per_image: Optional[float] = None
     price_per_audio_min: Optional[float] = None
-    tiers: Optional[dict] = None
-    volume_discount: Optional[dict] = None
+    tiers: Optional[dict[str, object]] = None
+    volume_discount: Optional[dict[str, object]] = None
     reserved_discount_pct: Optional[float] = None
     free_tier_tokens: Optional[int] = None
     min_billable_tokens: Optional[int] = None
@@ -106,7 +106,7 @@ class EvalInfo(BaseModel):
     mmlu: Optional[float] = None
     gsm8k: Optional[float] = None
     humaneval: Optional[float] = None
-    other_benchmarks: Optional[dict] = None
+    other_benchmarks: Optional[dict[str, object]] = None
     tokens_per_second: Optional[int] = None
     avg_latency_ms: Optional[int] = None
     p95_latency_ms: Optional[int] = None
@@ -121,5 +121,5 @@ class ChangeRecord(BaseModel):
     field_name: str
     old_value: Optional[str] = None
     new_value: Optional[str] = None
-    changed_at: datetime = Field(default_factory=datetime.now)
+    changed_at: datetime = Field(default_factory=lambda: datetime.now(tz=timezone.utc))
     source_url: Optional[str] = None
