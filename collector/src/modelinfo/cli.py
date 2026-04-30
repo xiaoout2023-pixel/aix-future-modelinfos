@@ -20,8 +20,8 @@ def main():
 
 
 def get_db():
-    url = os.environ.get("TURSO_DB_URL", "file:local.db")
-    token = os.environ.get("TURSO_AUTH_TOKEN", "")
+    url = os.environ.get("TURSO_DB_URL") or "file:local.db"
+    token = os.environ.get("TURSO_AUTH_TOKEN") or ""
     return Database(url=url, auth_token=token)
 
 
