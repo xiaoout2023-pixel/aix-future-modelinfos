@@ -1,0 +1,27 @@
+name: Daily Price Check
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+
+jobs:
+  price-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e "collector/.[dev]"
+      - name: Collect pricing
+        env:
+          TURSO_DB_URL: ${{ secrets.TURSO_DB_URL }}
+          TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+        run: python -m modelinfo.cli collect pricing
+      - name: Commit change log
+        run: |
+          git config user.name "modelinfo-bot"
+          git config user.email "bot@modelinfo"
+          git add logs/change_log.md
+          git diff --staged --quiet || git commit -m "chore: daily price check $(date +%Y-%m-%d)"
+          git push
