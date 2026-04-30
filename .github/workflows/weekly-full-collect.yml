@@ -4,9 +4,14 @@ on:
     - cron: "0 2 * * 1"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   full-collect:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -20,8 +25,13 @@ jobs:
         run: python -m modelinfo.cli collect all
       - name: Commit change log
         run: |
+          mkdir -p logs
           git config user.name "modelinfo-bot"
           git config user.email "bot@modelinfo"
-          git add logs/change_log.md logs/errors.jsonl
-          git diff --staged --quiet || git commit -m "chore: weekly full collect $(date +%Y-%m-%d)"
-          git push
+          git add logs/change_log.md logs/errors.jsonl 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No changes detected"
+          else
+            git commit -m "chore: weekly full collect $(date +%Y-%m-%d)"
+            git push
+          fi

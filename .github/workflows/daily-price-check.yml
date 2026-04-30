@@ -4,9 +4,14 @@ on:
     - cron: "0 8 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   price-check:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -20,8 +25,13 @@ jobs:
         run: python -m modelinfo.cli collect pricing
       - name: Commit change log
         run: |
+          mkdir -p logs
           git config user.name "modelinfo-bot"
           git config user.email "bot@modelinfo"
           git add logs/change_log.md
-          git diff --staged --quiet || git commit -m "chore: daily price check $(date +%Y-%m-%d)"
-          git push
+          if git diff --staged --quiet; then
+            echo "No pricing changes detected"
+          else
+            git commit -m "chore: daily price check $(date +%Y-%m-%d)"
+            git push
+          fi
