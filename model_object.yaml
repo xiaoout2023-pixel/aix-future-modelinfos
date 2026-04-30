@@ -1,0 +1,169 @@
+model_id: 唯一标识（string）
+model_name: 模型名称（string）
+provider: 厂商（string）
+provider_type: 厂商类型（closed/open_source）
+release_date: 发布时间（YYYY-MM-DD）
+status: 状态（active / beta / deprecated）
+
+capabilities:
+
+  # === 核心能力 ===
+  text_generation: 文本生成（true/false）
+  code_generation: 代码生成（true/false）
+  reasoning: 推理能力（true/false）
+  instruction_following: 指令遵循（true/false）
+  long_context_understanding: 长上下文理解（true/false)
+
+  # === 多模态能力 ===
+  vision_understanding: 图像理解（true/false）
+  image_generation: 图像生成（true/false）
+  audio_understanding: 音频理解（true/false）
+  audio_generation: 音频生成（true/false）
+  video_understanding: 视频理解（true/false）
+  video_generation: 视频生成（true/false）
+  multimodal_fusion: 多模态融合（true/false）
+
+  # === 工具与Agent能力 ===
+  tool_calling: 工具调用（true/false）
+  function_calling: 函数调用（true/false）
+  agent_planning: Agent规划能力（true/false）
+  multi_step_reasoning: 多步推理（true/false）
+  self_reflection: 自我反思（true/false）
+  task_decomposition: 任务拆解能力（true/false）
+
+  # === 结构化与工程能力 ===
+  json_mode: JSON输出（true/false）
+  structured_output: 结构化输出（true/false）
+  schema_following: Schema约束（true/false）
+  deterministic_output: 可控输出（true/false）
+  streaming: 流式输出（true/false）
+  batch_processing: 批处理（true/false）
+
+  # === 编码与执行 ===
+  code_execution: 代码执行（true/false）
+  code_interpreter: 代码解释器（true/false）
+  debugging: Debug能力（true/false）
+
+  # === 性能 ===
+  context_length: 最大上下文长度（int）
+  max_output_tokens: 最大输出长度（int）
+  reasoning_level: 推理等级（low/medium/high）
+  latency_level: 延迟等级（low/medium/high）
+  throughput_level: 吞吐等级（low/medium/high）
+  cold_start_latency_ms: 冷启动延迟（ms）
+  avg_latency_ms: 平均延迟（ms）
+  p95_latency_ms: P95延迟（ms）
+  tokens_per_second: 生成速度（tokens/s）
+
+  # === 质量与稳定性 ===
+  hallucination_rate: 幻觉率（low/medium/high 或 %）
+  consistency: 输出一致性（low/medium/high）
+  stability: 稳定性（low/medium/high）
+  error_rate: 错误率（%）
+  timeout_rate: 超时率（%）
+
+  # === 安全与合规 ===
+  safety_alignment: 安全对齐（low/medium/high）
+  jailbreak_resistance: 越狱防护（low/medium/high）
+  pii_handling: 敏感信息处理能力（low/medium/high）
+  compliance: 合规支持（GDPR/PDPA/HIPAA等）
+
+  # === 可扩展能力 ===
+  fine_tuning: 是否支持微调（true/false）
+  lora_support: LoRA支持（true/false）
+  embedding: 向量能力（true/false）
+  personalization: 个性化能力（true/false）
+
+  # === 交互体验 ===
+  conversational: 多轮对话（true/false）
+  persona_control: 角色控制（true/false）
+  tone_control: 语气控制（true/false）
+
+pricing:
+
+  # === Token计费 ===
+  input_price_per_1m_tokens: 输入价格（USD）
+  output_price_per_1m_tokens: 输出价格（USD）
+
+  # === 缓存计费 ===
+  cache_read_price_per_1m_tokens: 缓存读价格（USD）
+  cache_write_price_per_1m_tokens: 缓存写价格（USD）
+
+  # === 其他计费模式 ===
+  price_per_request: 单次调用价格（USD）
+  price_per_second: 按时间计费（USD/s）
+  price_per_image: 图像生成价格（USD/张）
+  price_per_audio_minute: 音频价格（USD/分钟）
+
+  # === 成本优化关键字段 ===
+  minimum_billable_tokens: 最小计费token（int）
+  rounding_unit: 计费取整单位（tokens）
+  free_tier: 免费额度（tokens/月）
+  discount_tiers: 阶梯价格（[{threshold, price}]）
+  reserved_instance_discount: 预付折扣（%）
+  spot_pricing: 是否支持竞价实例（true/false）
+
+  currency: 货币（USD）
+
+limits:
+  rate_limit_qps: 每秒请求数限制
+  rate_limit_tpm: 每分钟token限制
+  concurrent_requests: 最大并发
+  max_requests_per_day: 每日限制
+
+cost_modeling:
+
+  # === 核心成本因子 ===
+  cost_per_1k_tokens_input: 每千token输入成本
+  cost_per_1k_tokens_output: 每千token输出成本
+  avg_output_input_ratio: 输出/输入比例（float）
+
+  # === 场景模拟关键 ===
+  avg_tokens_per_request: 单次请求平均token
+  avg_session_turns: 平均对话轮数
+  cache_hit_rate: 缓存命中率（%）
+  retry_rate: 重试率（%）
+
+  # === Agent场景 ===
+  avg_tool_calls_per_request: 每次调用工具次数
+  avg_steps_per_task: Agent平均步骤数
+  chain_of_thought_tokens: 推理token占比（%）
+
+  # === 成本优化空间 ===
+  compressibility: 可压缩率（%）
+  prompt_reusability: Prompt复用率（%）
+  batching_efficiency: 批处理提升（%）
+
+scores:
+  overall_score: 综合评分
+  cost_efficiency_score: 性价比
+  quality_score: 质量
+  reasoning_score: 推理
+  latency_score: 延迟
+  stability_score: 稳定性
+
+benchmark:
+  mmlu: 分数
+  gsm8k: 分数
+  human_eval: 分数
+
+use_cases:
+  recommended: 推荐场景（string[]）
+  not_recommended: 不推荐场景（string[]）
+
+deployment:
+  region: 支持区域（string[]）
+  private_deployment: 私有部署（true/false）
+  on_premise: 本地部署（true/false）
+
+compatibility:
+  openai_compatible: 是否兼容OpenAI（true/false）
+  sdk_support: SDK支持（string[]）
+
+tags: 标签（string[]）
+
+source:
+  official_url: 官方链接
+  pricing_url: 定价链接
+  docs_url: 文档链接
+  last_verified: 最后验证时间

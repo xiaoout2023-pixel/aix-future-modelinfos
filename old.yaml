@@ -1,0 +1,60 @@
+model_id: 唯一标识（string，如 openai-gpt-4o, deepseek-deepseek-chat）
+model_name: 模型名称（string，如 GPT-4o, DeepSeek V3）
+provider: 厂商（string，如 openai / google / deepseek / aliyun / anthropic）
+release_date: 发布时间（YYYY-MM-DD 或 null）
+status: 状态（active / beta / deprecated）
+
+capabilities: 能力对象
+  text: 文本生成（bool）
+  vision: 图像理解（bool）
+  audio: 音频能力（bool）
+  code: 代码生成（bool）
+  reasoning: 推理能力（bool）
+  tool_use: 工具调用（bool）
+  function_calling: 函数调用（bool）
+  image_generation: 图像生成（bool）
+  video_understanding: 视频理解（bool）
+  video_generation: 视频生成（bool）
+  json_mode: JSON模式（bool）
+  structured_output: 结构化输出（bool）
+  code_execution: 代码执行（bool）
+  fine_tuning: 微调支持（bool）
+  embedding: 嵌入模型（bool）
+  context_length: 最大上下文长度（int，如 128000）
+  max_output_tokens: 最大输出token数（int，如 4096）
+  reasoning_level: 推理等级（low/medium/high）
+
+pricing: 定价对象
+  input_per_1m_tokens: 输入价格（每100万token，USD）
+  output_per_1m_tokens: 输出价格（每100万token，USD）
+  cached_input_price: 缓存输入价格（每100万token，USD 或 null）
+  batch_input_price: 批量输入价格（USD 或 null）
+  batch_output_price: 批量输出价格（USD 或 null）
+  price_per_image: 每张图片价格（USD 或 null）
+  price_per_request: 每次请求价格（USD 或 null）
+  reasoning_price_per_1m: 推理价格（每100万token，USD 或 null）
+  currency: 货币（默认USD）
+  free_tier: 是否免费（bool）
+
+scores: 评分对象
+  reasoning_score: 推理评分（0-100）
+  coding_score: 编码评分（0-100）
+  speed_score: 速度评分（0-100）
+  cost_efficiency_score: 性价比评分（0-100）
+  overall_score: 综合评分（0-100）
+  latency_level: 延迟等级（low/medium/high）
+  throughput_level: 吞吐等级（low/medium/high）
+
+tags: 标签数组（如 ["vision", "coding", "tool_use", "reasoning", "cheap", "premium", "long_context"]）
+
+source: 来源对象
+  model_page: 模型页面URL
+  api_docs: API文档URL
+  pricing_page: 定价页面URL
+  source_type: 数据来源类型（official / marketplace / open_source）
+  region_restriction: 是否有地区限制（bool）
+  enterprise_only: 是否仅企业可用（bool）
+  openai_compatible: 是否兼容OpenAI API（bool）
+  sdk_support: 是否提供SDK（bool）
+
+last_updated: 最后更新日期（YYYY-MM-DD）
