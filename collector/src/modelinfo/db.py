@@ -1,3 +1,6 @@
+import json
+from datetime import datetime, timezone
+
 SCHEMA_SQL = """
 CREATE TABLE IF NOT EXISTS models (
     model_id TEXT PRIMARY KEY,
@@ -78,22 +81,71 @@ CREATE TABLE IF NOT EXISTS change_log (
 """
 
 
+def _now_iso() -> str:
+    return datetime.now(timezone.utc).isoformat()
+
+
+def _row_to_dict(columns: list[str], row: list) -> dict:
+    return dict(zip(columns, row))
+
+
 class Database:
-    """Thin wrapper around libsql-client for TursoDB (or local SQLite)."""
+    """Thin wrapper around TursoDB HTTP API (or local SQLite via libsql-client)."""
 
     def __init__(self, url: str, auth_token: str):
-        import libsql_client
+        self._url = url
+        self._auth_token = auth_token
+        self._http_base = None
 
         if url.startswith("file:"):
+            import libsql_client
             self._client = libsql_client.create_client_sync(url)
+        elif url.startswith("libsql://"):
+            db_host = url.replace("libsql://", "")
+            self._http_base = f"https://{db_host}"
         else:
-            self._client = libsql_client.create_client_sync(
-                url=url, auth_token=auth_token
-            )
+            raise ValueError(f"Unsupported database URL scheme: {url}")
+
+    def _execute_http(self, sql: str, params=None) -> list[dict]:
+        import httpx
+
+        body = {
+            "requests": [
+                {"type": "execute", "stmt": {"sql": sql, "args": params or []}}
+            ]
+        }
+        resp = httpx.post(
+            f"{self._http_base}/v2/pipeline",
+            json=body,
+            headers={"Authorization": f"Bearer {self._auth_token}"},
+            timeout=30,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        # First result's rows
+        results = data.get("results", [])
+        if not results:
+            return []
+        result = results[0]
+        if result.get("type") != "execute":
+            return []
+        columns = result["response"]["result"]["cols"]
+        rows_data = result["response"]["result"].get("rows", [])
+        out = []
+        for row in rows_data:
+            out.append(dict(zip([c["name"] for c in columns], row)))
+        return out
 
     def execute(self, sql: str, params=None) -> list[list]:
-        result = self._client.execute(sql, params or [])
-        return [list(row) for row in result.rows]
+        if self._http_base:
+            http_rows = self._execute_http(sql, params)
+            if not http_rows:
+                return []
+            columns = list(http_rows[0].keys())
+            return [[r.get(c) for c in columns] for r in http_rows]
+        else:
+            result = self._client.execute(sql, params or [])
+            return [list(row) for row in result.rows]
 
     # -- helpers --------------------------------------------------------------
 
@@ -103,7 +155,6 @@ class Database:
 
     def _do_upsert(self, table: str, data: dict, pk: str):
         columns = self._get_columns(table)
-        # Only use keys that exist as columns
         filtered = {k: data[k] for k in data if k in columns}
         col_names = list(filtered.keys())
         placeholders = ", ".join(["?"] * len(col_names))
@@ -166,20 +217,8 @@ class Database:
         return [_row_to_dict(columns, row) for row in rows]
 
 
-# -- helpers ----------------------------------------------------------------
-
-def _now_iso() -> str:
-    from datetime import datetime, timezone
-    return datetime.now(timezone.utc).isoformat()
-
-
-def _row_to_dict(columns: list[str], row: list) -> dict:
-    return dict(zip(columns, row))
-
-
 def init_schema(db: Database):
     """Execute all CREATE TABLE IF NOT EXISTS statements."""
-    db._client.execute("PRAGMA foreign_keys = ON")
     for statement in SCHEMA_SQL.strip().split(";"):
         stmt = statement.strip()
         if stmt:

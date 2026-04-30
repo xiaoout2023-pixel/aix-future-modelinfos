@@ -15,7 +15,7 @@ def test_collect_models_dry_run(httpx_mock, openrouter_response, tmp_path):
     )
     os.environ["TURSO_DB_URL"] = f"file:{tmp_path / 'test.db'}"
 
-    result = runner.invoke(app, ["collect", "models", "--source", "openrouter", "--dry-run"])
+    result = runner.invoke(app, ["collect", "--table", "models", "--source", "openrouter", "--dry-run"])
 
     assert result.exit_code == 0
     assert "openrouter:" in result.stdout
@@ -38,7 +38,7 @@ def test_collect_pricing_dry_run(httpx_mock, openrouter_response, tmp_path):
     )
     os.environ["TURSO_DB_URL"] = f"file:{tmp_path / 'test.db'}"
 
-    result = runner.invoke(app, ["collect", "pricing", "--dry-run"])
+    result = runner.invoke(app, ["collect", "--table", "pricing", "--dry-run"])
 
     assert result.exit_code == 0
     assert "pricing records fetched (dry-run)" in result.stdout
@@ -46,7 +46,7 @@ def test_collect_pricing_dry_run(httpx_mock, openrouter_response, tmp_path):
 
 def test_collect_unknown_source():
     """Unknown source should exit with code 1."""
-    result = runner.invoke(app, ["collect", "models", "--source", "nonexistent"])
+    result = runner.invoke(app, ["collect", "--table", "models", "--source", "nonexistent"])
     assert result.exit_code == 1
     assert "Unknown source" in result.output
 
