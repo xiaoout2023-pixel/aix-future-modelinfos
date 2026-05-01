@@ -11,7 +11,13 @@ class Fetcher:
         self.max_retries = max_retries
         self._client = httpx.AsyncClient(
             timeout=timeout,
-            headers={"User-Agent": "ModelInfo-Collector/0.1 (automated metadata collection)"}
+            follow_redirects=True,
+            headers={
+                "User-Agent": "Mozilla/5.0 (compatible; ModelInfo-Collector/0.1; +https://github.com/xiaoout2023-pixel/aix-future-modelinfos)",
+                "Accept": "text/html,application/xhtml+xml,application/json,*/*",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Cache-Control": "no-cache",
+            },
         )
 
     async def __aenter__(self):

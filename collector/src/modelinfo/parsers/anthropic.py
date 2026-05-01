@@ -3,7 +3,7 @@ import re
 from datetime import date
 from modelinfo.parsers.base import BaseParser
 
-MODELS_URL = "https://platform.claude.com/docs/en/docs/about-claude/models"
+MODELS_URL = "https://platform.claude.com/docs/en/about-claude/models"
 PRICING_URL = "https://www.anthropic.com/pricing"
 
 
@@ -41,7 +41,7 @@ class AnthropicParser(BaseParser):
                 "context_length": self._parse_int(context_raw),
                 "max_output_tokens": self._parse_int(max_output_raw),
                 "capabilities": self._infer_capabilities(name),
-                "urls": json.dumps({"official": f"https://platform.claude.com/docs/en/docs/about-claude/models", "pricing": PRICING_URL}),
+                "urls": json.dumps({"official": f"https://platform.claude.com/docs/en/about-claude/models", "pricing": PRICING_URL}),
                 "tags": json.dumps(["anthropic", "claude"]),
             }
             models.append(model)
