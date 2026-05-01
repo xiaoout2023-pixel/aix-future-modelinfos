@@ -90,62 +90,25 @@ def _row_to_dict(columns: list[str], row: list) -> dict:
 
 
 class Database:
-    """Thin wrapper around TursoDB HTTP API (or local SQLite via libsql-client)."""
+    """Thin wrapper around libsql-client for TursoDB (or local SQLite)."""
 
     def __init__(self, url: str, auth_token: str):
-        self._url = url
-        self._auth_token = auth_token
-        self._http_base = None
+        import libsql_client
+
+        # libsql:// uses WebSocket which can be unreliable; convert to https://
+        if url.startswith("libsql://"):
+            url = url.replace("libsql://", "https://")
 
         if url.startswith("file:"):
-            import libsql_client
             self._client = libsql_client.create_client_sync(url)
-        elif url.startswith("libsql://"):
-            db_host = url.replace("libsql://", "")
-            self._http_base = f"https://{db_host}"
+        elif url.startswith("http://") or url.startswith("https://"):
+            self._client = libsql_client.create_client_sync(url, auth_token=auth_token)
         else:
             raise ValueError(f"Unsupported database URL scheme: {url}")
 
-    def _execute_http(self, sql: str, params=None) -> list[dict]:
-        import httpx
-
-        body = {
-            "requests": [
-                {"type": "execute", "stmt": {"sql": sql, "args": params or []}}
-            ]
-        }
-        resp = httpx.post(
-            f"{self._http_base}/v2/pipeline",
-            json=body,
-            headers={"Authorization": f"Bearer {self._auth_token}"},
-            timeout=30,
-        )
-        resp.raise_for_status()
-        data = resp.json()
-        # First result's rows
-        results = data.get("results", [])
-        if not results:
-            return []
-        result = results[0]
-        if result.get("type") != "execute":
-            return []
-        columns = result["response"]["result"]["cols"]
-        rows_data = result["response"]["result"].get("rows", [])
-        out = []
-        for row in rows_data:
-            out.append(dict(zip([c["name"] for c in columns], row)))
-        return out
-
     def execute(self, sql: str, params=None) -> list[list]:
-        if self._http_base:
-            http_rows = self._execute_http(sql, params)
-            if not http_rows:
-                return []
-            columns = list(http_rows[0].keys())
-            return [[r.get(c) for c in columns] for r in http_rows]
-        else:
-            result = self._client.execute(sql, params or [])
-            return [list(row) for row in result.rows]
+        result = self._client.execute(sql, params or [])
+        return [list(row) for row in result.rows]
 
     # -- helpers --------------------------------------------------------------
 
