@@ -24,27 +24,30 @@ class AnthropicParser(BaseParser):
 
         rows = table.find_all("tr")[1:]
         for row in rows:
-            cols = row.find_all("td")
-            if len(cols) < 3:
-                continue
-            name = cols[0].get_text(strip=True).lower()
-            context_raw = cols[1].get_text(strip=True)
-            max_output_raw = cols[2].get_text(strip=True)
+            try:
+                cols = row.find_all("td")
+                if len(cols) < 3:
+                    continue
+                name = cols[0].get_text(strip=True).lower()
+                context_raw = cols[1].get_text(strip=True)
+                max_output_raw = cols[2].get_text(strip=True)
 
-            # Normalize model name to ID-friendly format
-            model_id_name = name.replace(" ", "-")
-            model = {
-                "model_id": f"anthropic/{model_id_name}",
-                "model_name": name,
-                "provider": "anthropic",
-                "provider_type": "closed",
-                "context_length": self._parse_int(context_raw),
-                "max_output_tokens": self._parse_int(max_output_raw),
-                "capabilities": self._infer_capabilities(name),
-                "urls": json.dumps({"official": f"https://platform.claude.com/docs/en/about-claude/models", "pricing": PRICING_URL}),
-                "tags": json.dumps(["anthropic", "claude"]),
-            }
-            models.append(model)
+                # Normalize model name to ID-friendly format
+                model_id_name = name.replace(" ", "-")
+                model = {
+                    "model_id": f"anthropic/{model_id_name}",
+                    "model_name": name,
+                    "provider": "anthropic",
+                    "provider_type": "closed",
+                    "context_length": self._parse_int(context_raw),
+                    "max_output_tokens": self._parse_int(max_output_raw),
+                    "capabilities": self._infer_capabilities(name),
+                    "urls": json.dumps({"official": f"https://platform.claude.com/docs/en/about-claude/models", "pricing": PRICING_URL}),
+                    "tags": json.dumps(["anthropic", "claude"]),
+                }
+                models.append(model)
+            except Exception:
+                continue
         return models
 
     async def fetch_pricing(self, html_override: str | None = None):
@@ -65,30 +68,33 @@ class AnthropicParser(BaseParser):
 
         rows = table.find_all("tr")[1:]
         for row in rows:
-            cols = row.find_all("td")
-            if len(cols) < 3:
-                continue
-            name = cols[0].get_text(strip=True).lower()
-            input_raw = cols[1].get_text(strip=True)
-            output_raw = cols[2].get_text(strip=True)
+            try:
+                cols = row.find_all("td")
+                if len(cols) < 3:
+                    continue
+                name = cols[0].get_text(strip=True).lower()
+                input_raw = cols[1].get_text(strip=True)
+                output_raw = cols[2].get_text(strip=True)
 
-            input_price = self._parse_price(input_raw)
-            output_price = self._parse_price(output_raw)
-            if input_price is None or output_price is None:
-                continue
+                input_price = self._parse_price(input_raw)
+                output_price = self._parse_price(output_raw)
+                if input_price is None or output_price is None:
+                    continue
 
-            model_id_name = name.replace(" ", "-")
-            pricings.append({
-                "pricing_id": f"anthropic/{model_id_name}/official/global/{self._today()}",
-                "model_id": f"anthropic/{model_id_name}",
-                "channel": "official",
-                "region": "global",
-                "valid_from": self._today(),
-                "input_price_per_1m": input_price,
-                "output_price_per_1m": output_price,
-                "reasoning_tokens_charged": has_thinking_pricing,
-                "source": PRICING_URL,
-            })
+                model_id_name = name.replace(" ", "-")
+                pricings.append({
+                    "pricing_id": f"anthropic/{model_id_name}/official/global/{self._today()}",
+                    "model_id": f"anthropic/{model_id_name}",
+                    "channel": "official",
+                    "region": "global",
+                    "valid_from": self._today(),
+                    "input_price_per_1m": input_price,
+                    "output_price_per_1m": output_price,
+                    "reasoning_tokens_charged": has_thinking_pricing,
+                    "source": PRICING_URL,
+                })
+            except Exception:
+                continue
         return pricings
 
     def _parse_price(self, raw: str) -> float | None:
@@ -104,7 +110,17 @@ class AnthropicParser(BaseParser):
     def _parse_int(self, raw: str) -> int | None:
         if not raw:
             return None
-        return int(raw.replace(",", ""))
+        raw = raw.replace(",", "").strip()
+        match = re.search(r'(\d+(?:\.?\d*)?)\s*([KMkm]?)\b', raw)
+        if match:
+            num = float(match.group(1))
+            unit = match.group(2).upper()
+            if unit == 'K':
+                num *= 1000
+            elif unit == 'M':
+                num *= 1000000
+            return int(num)
+        return None
 
     def _infer_capabilities(self, name: str) -> str:
         caps = {
