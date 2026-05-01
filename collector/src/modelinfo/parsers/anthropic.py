@@ -17,95 +17,127 @@ class AnthropicParser(BaseParser):
         else:
             soup = await self.fetcher.fetch_html(MODELS_URL)
 
-        models = []
         table = soup.find("table")
         if not table:
-            return models
+            return []
 
-        rows = table.find_all("tr")[1:]
-        for row in rows:
-            try:
-                cols = row.find_all("td")
-                if len(cols) < 3:
-                    continue
-                name = cols[0].get_text(strip=True).lower()
-                context_raw = cols[1].get_text(strip=True)
-                max_output_raw = cols[2].get_text(strip=True)
+        # Parse transposed table: headers = model names, rows = features
+        rows = table.find_all("tr")
+        if not rows:
+            return []
 
-                # Normalize model name to ID-friendly format
-                model_id_name = name.replace(" ", "-")
-                model = {
-                    "model_id": f"anthropic/{model_id_name}",
-                    "model_name": name,
-                    "provider": "anthropic",
-                    "provider_type": "closed",
-                    "context_length": self._parse_int(context_raw),
-                    "max_output_tokens": self._parse_int(max_output_raw),
-                    "capabilities": self._infer_capabilities(name),
-                    "urls": json.dumps({"official": f"https://platform.claude.com/docs/en/about-claude/models", "pricing": PRICING_URL}),
-                    "tags": json.dumps(["anthropic", "claude"]),
-                }
-                models.append(model)
-            except Exception:
+        headers = rows[0].find_all(["th", "td"])
+        model_names = [h.get_text(strip=True) for h in headers[1:]]
+
+        # Extract features into {feature_name: [value_per_model, ...]}
+        features = {}
+        for row in rows[1:]:
+            cells = row.find_all(["th", "td"])
+            if len(cells) < 2:
                 continue
+            key = cells[0].get_text(strip=True).lower()
+            values = [c.get_text(strip=True) for c in cells[1:]]
+            features[key] = values
+
+        models = []
+        for i, name in enumerate(model_names):
+            model_id_name = (features.get("claude api id", [name])[i] if i < len(features.get("claude api id", [])) else name).replace(" ", "-").lower()
+            context_raw = features.get("context window", [""])[i] if i < len(features.get("context window", [""])) else ""
+            max_output_raw = features.get("max output", [""])[i] if i < len(features.get("max output", [""])) else ""
+
+            model = {
+                "model_id": f"anthropic/{model_id_name}",
+                "model_name": features.get("claude api id", model_names)[i] if i < len(features.get("claude api id", [""])) else name,
+                "provider": "anthropic",
+                "provider_type": "closed",
+                "context_length": self._parse_int(context_raw),
+                "max_output_tokens": self._parse_int(max_output_raw),
+                "capabilities": json.dumps({
+                    "text": True,
+                    "code": True,
+                    "reasoning": "extended thinking" in (features.get("extended thinking", [""])[i] if i < len(features.get("extended thinking", [""])) else ""),
+                    "vision": "vision" in features.keys(),
+                    "tool_use": True,
+                    "streaming": True,
+                }),
+                "urls": json.dumps({"official": MODELS_URL, "pricing": PRICING_URL}),
+                "tags": json.dumps(["anthropic", "claude"]),
+            }
+            models.append(model)
         return models
 
     async def fetch_pricing(self, html_override: str | None = None):
+        """Extract pricing from the models page (transposed table with Pricing row)."""
         if html_override is not None:
             from bs4 import BeautifulSoup
             soup = BeautifulSoup(html_override, "lxml")
         else:
-            soup = await self.fetcher.fetch_html(PRICING_URL)
+            soup = await self.fetcher.fetch_html(MODELS_URL)
 
         pricings = []
-        # Detect thinking token info in page text
-        page_text = soup.get_text()
-        has_thinking_pricing = "thinking" in page_text.lower() and "charged" in page_text.lower()
-
         table = soup.find("table")
         if not table:
             return pricings
 
-        rows = table.find_all("tr")[1:]
-        for row in rows:
-            try:
-                cols = row.find_all("td")
-                if len(cols) < 3:
-                    continue
-                name = cols[0].get_text(strip=True).lower()
-                input_raw = cols[1].get_text(strip=True)
-                output_raw = cols[2].get_text(strip=True)
+        rows = table.find_all("tr")
+        if not rows:
+            return pricings
 
-                input_price = self._parse_price(input_raw)
-                output_price = self._parse_price(output_raw)
-                if input_price is None or output_price is None:
-                    continue
+        headers = rows[0].find_all(["th", "td"])
+        model_names_api = []  # API IDs
 
-                model_id_name = name.replace(" ", "-")
-                pricings.append({
-                    "pricing_id": f"anthropic/{model_id_name}/official/global/{self._today()}",
-                    "model_id": f"anthropic/{model_id_name}",
-                    "channel": "official",
-                    "region": "global",
-                    "valid_from": self._today(),
-                    "input_price_per_1m": input_price,
-                    "output_price_per_1m": output_price,
-                    "reasoning_tokens_charged": has_thinking_pricing,
-                    "source": PRICING_URL,
-                })
-            except Exception:
+        # Build features map
+        features = {}
+        for row in rows[1:]:
+            cells = row.find_all(["th", "td"])
+            if len(cells) < 2:
                 continue
+            key = cells[0].get_text(strip=True).lower()
+            values = [c.get_text(strip=True) for c in cells[1:]]
+            features[key] = values
+
+        api_ids = features.get("claude api id", [])
+        thinking_flags = features.get("extended thinking", [])
+
+        # Parse pricing row: "$5 / input MTok$25 / output MTok"
+        pricing_raw = features.get("pricing1", [])
+        for i, api_id in enumerate(api_ids):
+            raw = pricing_raw[i] if i < len(pricing_raw) else ""
+            input_price, output_price = self._parse_pricing_cell(raw)
+            if input_price is None or output_price is None:
+                continue
+
+            has_thinking = False
+            if i < len(thinking_flags):
+                has_thinking = thinking_flags[i].lower() == "yes"
+
+            pricings.append({
+                "pricing_id": f"anthropic/{api_id}/official/global/{self._today()}",
+                "model_id": f"anthropic/{api_id}",
+                "channel": "official",
+                "region": "global",
+                "valid_from": self._today(),
+                "input_price_per_1m": input_price,
+                "output_price_per_1m": output_price,
+                "reasoning_tokens_charged": has_thinking,
+                "source": MODELS_URL,
+            })
         return pricings
 
-    def _parse_price(self, raw: str) -> float | None:
-        """Parse '$3.00 / MTok' or '$15.00 / MTok' to float per 1M tokens."""
+    def _parse_pricing_cell(self, raw: str) -> tuple:
+        """Parse '$5 / input MTok$25 / output MTok' -> (5.0, 25.0)."""
         if not raw:
-            return None
-        # Anthropic uses / MTok (per million tokens) -- same as per 1M, no conversion needed
-        match = re.search(r'\$?(\d+\.?\d*)', raw)
-        if match:
-            return float(match.group(1))
-        return None
+            return None, None
+        # Find input price
+        input_match = re.search(r'\$(\d+\.?\d*)\s*/\s*input\s*MTok', raw)
+        output_match = re.search(r'\$(\d+\.?\d*)\s*/\s*output\s*MTok', raw)
+        if input_match and output_match:
+            return float(input_match.group(1)), float(output_match.group(1))
+        # Fallback: try to find any two dollar amounts
+        amounts = re.findall(r'\$(\d+\.?\d*)', raw)
+        if len(amounts) >= 2:
+            return float(amounts[0]), float(amounts[1])
+        return None, None
 
     def _parse_int(self, raw: str) -> int | None:
         if not raw:
@@ -121,17 +153,6 @@ class AnthropicParser(BaseParser):
                 num *= 1000000
             return int(num)
         return None
-
-    def _infer_capabilities(self, name: str) -> str:
-        caps = {
-            "text": True,
-            "code": True,
-            "reasoning": True,  # Claude models have strong reasoning
-            "vision": True,     # All Claude models support vision
-            "tool_use": True,
-            "streaming": True,
-        }
-        return json.dumps(caps)
 
     @staticmethod
     def _today() -> str:

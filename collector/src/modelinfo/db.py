@@ -106,6 +106,13 @@ class Database:
         else:
             raise ValueError(f"Unsupported database URL scheme: {url}")
 
+    def close(self):
+        """Close the underlying client connection."""
+        try:
+            self._client.close()
+        except Exception:
+            pass
+
     def execute(self, sql: str, params=None) -> list[list]:
         result = self._client.execute(sql, params or [])
         return [list(row) for row in result.rows]

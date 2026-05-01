@@ -33,8 +33,8 @@ def test_collect_pricing_dry_run(httpx_mock, openrouter_response, tmp_path):
         text="<html><body><p>Pricing page</p></body></html>",
     )
     httpx_mock.add_response(
-        url="https://www.anthropic.com/pricing",
-        text="<html><body><p>Pricing page</p></body></html>",
+        url="https://platform.claude.com/docs/en/about-claude/models",
+        text="<html><body><p>Models page</p></body></html>",
     )
     os.environ["TURSO_DB_URL"] = f"file:{tmp_path / 'test.db'}"
 

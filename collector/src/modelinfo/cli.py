@@ -68,6 +68,7 @@ def collect(
                         typer.echo(f"WARNING: {parser.source_name} has failed 3+ times in the last 7 days. Consider creating a GitHub Issue.", err=True)
 
     asyncio.run(_run())
+    db.close()
 
 
 def _get_sources(source: str) -> list:
