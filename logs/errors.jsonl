@@ -1,0 +1,2 @@
+{"timestamp": "2026-05-11T22:11:42.128016+00:00", "source": "openrouter", "url": "", "error": "'result'"}
+{"timestamp": "2026-05-11T22:11:48.246001+00:00", "source": "openai", "url": "", "error": "Client error '403 Forbidden' for url 'https://platform.openai.com/docs/pricing'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"}
