@@ -7,7 +7,8 @@ import structlog
 logger = structlog.get_logger()
 
 MODELS_URL = "https://platform.openai.com/docs/models"
-PRICING_URL = "https://openai.com/api/pricing/"
+PRICING_JSON_URL = "https://bes-dev.github.io/openai-pricing-api/pricing.json"
+PRICING_HTML_URL = "https://openai.com/api/pricing/"
 PRICING_FALLBACK_URL = "https://platform.openai.com/docs/pricing"
 
 
@@ -44,7 +45,7 @@ class OpenAIParser(BaseParser):
                 "context_length": self._parse_int(context_raw),
                 "max_output_tokens": self._parse_int(max_output_raw),
                 "capabilities": self._infer_capabilities(name),
-                "urls": json.dumps({"official": f"https://platform.openai.com/docs/models/{name}", "pricing": PRICING_URL}),
+                "urls": json.dumps({"official": f"https://platform.openai.com/docs/models/{name}", "pricing": PRICING_JSON_URL}),
                 "tags": json.dumps(["openai"]),
             }
             models.append(model)
@@ -54,19 +55,55 @@ class OpenAIParser(BaseParser):
         if html_override is not None:
             from bs4 import BeautifulSoup
             soup = BeautifulSoup(html_override, "lxml")
-        else:
-            soup = await self._fetch_pricing_page()
+            pricings = self._parse_pricing_from_sections(soup)
+            if not pricings:
+                pricings = self._parse_pricing_from_table(soup)
+            return pricings
 
+        pricings = await self._fetch_pricing_from_json()
+        if pricings:
+            return pricings
+
+        soup = await self._fetch_pricing_html()
         pricings = self._parse_pricing_from_sections(soup)
         if not pricings:
             pricings = self._parse_pricing_from_table(soup)
         return pricings
 
-    async def _fetch_pricing_page(self):
+    async def _fetch_pricing_from_json(self) -> list[dict]:
         try:
-            return await self.fetcher.fetch_html(PRICING_URL)
+            data = await self.fetcher.fetch_json(PRICING_JSON_URL)
+            if not isinstance(data, dict):
+                return []
+            pricings = []
+            for key, entry in data.items():
+                if entry.get("pricing_type") != "per_1m_tokens":
+                    continue
+                model_name = entry.get("model", key).lower().strip()
+                input_price = entry.get("input")
+                output_price = entry.get("output")
+                if input_price is None and output_price is None:
+                    continue
+                pricings.append({
+                    "pricing_id": f"openai/{model_name}/official/global/{self._today()}",
+                    "model_id": f"openai/{model_name}",
+                    "channel": "official",
+                    "region": "global",
+                    "valid_from": self._today(),
+                    "input_price_per_1m": float(input_price) if input_price is not None else None,
+                    "output_price_per_1m": float(output_price) if output_price is not None else None,
+                    "source": PRICING_JSON_URL,
+                })
+            return pricings
         except Exception as e:
-            logger.warning("openai_pricing_fetch_failed", url=PRICING_URL, error=str(e))
+            logger.warning("openai_pricing_json_failed", error=str(e))
+            return []
+
+    async def _fetch_pricing_html(self):
+        try:
+            return await self.fetcher.fetch_html(PRICING_HTML_URL)
+        except Exception as e:
+            logger.warning("openai_pricing_fetch_failed", url=PRICING_HTML_URL, error=str(e))
             try:
                 return await self.fetcher.fetch_html(PRICING_FALLBACK_URL)
             except Exception as e2:
@@ -116,7 +153,7 @@ class OpenAIParser(BaseParser):
                     "valid_from": self._today(),
                     "input_price_per_1m": input_price,
                     "output_price_per_1m": output_price,
-                    "source": PRICING_URL,
+                    "source": PRICING_JSON_URL,
                 })
         return pricings
 
@@ -148,7 +185,7 @@ class OpenAIParser(BaseParser):
                 "valid_from": self._today(),
                 "input_price_per_1m": input_price,
                 "output_price_per_1m": output_price,
-                "source": PRICING_URL,
+                "source": PRICING_HTML_URL,
             })
         return pricings
 

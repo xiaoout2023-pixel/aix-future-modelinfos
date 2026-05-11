@@ -29,6 +29,10 @@ def test_collect_pricing_dry_run(httpx_mock, openrouter_response, tmp_path):
         json=openrouter_response,
     )
     httpx_mock.add_response(
+        url="https://bes-dev.github.io/openai-pricing-api/pricing.json",
+        json={},
+    )
+    httpx_mock.add_response(
         url="https://openai.com/api/pricing/",
         text="<html><body><p>Pricing page</p></body></html>",
     )
