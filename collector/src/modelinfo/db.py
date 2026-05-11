@@ -1,5 +1,8 @@
 import json
+import structlog
 from datetime import datetime, timezone
+
+logger = structlog.get_logger()
 
 SCHEMA_SQL = """
 CREATE TABLE IF NOT EXISTS models (
@@ -114,8 +117,15 @@ class Database:
             pass
 
     def execute(self, sql: str, params=None) -> list[list]:
-        result = self._client.execute(sql, params or [])
-        return [list(row) for row in result.rows]
+        try:
+            result = self._client.execute(sql, params or [])
+            return [list(row) for row in result.rows]
+        except KeyError as e:
+            logger.error("db_key_error", sql=sql[:80], error=str(e))
+            raise RuntimeError(f"Database returned unexpected response (missing key {e})") from e
+        except Exception as e:
+            logger.error("db_execute_failed", sql=sql[:80], error=str(e))
+            raise
 
     # -- helpers --------------------------------------------------------------
 

@@ -1,6 +1,9 @@
 from modelinfo.validator import validate_model, validate_pricing, validate_evaluation
 from modelinfo.differ import diff_models, diff_pricing
 from modelinfo.models import ChangeRecord
+import structlog
+
+logger = structlog.get_logger()
 
 
 class Writer:
@@ -19,15 +22,22 @@ class Writer:
                 continue
             valid_models[model["model_id"]] = model
 
-        existing_rows = self.db.get_all_models()
-        old_models = {r["model_id"]: r for r in existing_rows}
-        added, updated, _ = diff_models(old_models, valid_models)
-        self.changes.extend(added)
-        self.changes.extend(updated)
+        try:
+            existing_rows = self.db.get_all_models()
+            old_models = {r["model_id"]: r for r in existing_rows}
+            added, updated, _ = diff_models(old_models, valid_models)
+            self.changes.extend(added)
+            self.changes.extend(updated)
+        except Exception as e:
+            logger.warning("diff_models_failed", error=str(e))
 
         for model in valid_models.values():
-            self.db.upsert_model(model)
-            upserted += 1
+            try:
+                self.db.upsert_model(model)
+                upserted += 1
+            except Exception as e:
+                errors += 1
+                logger.warning("upsert_model_failed", model_id=model.get("model_id"), error=str(e))
         return {"upserted": upserted, "errors": errors, "changes_written": upserted}
 
     def write_pricing(self, pricings: list[dict]) -> dict:
@@ -38,15 +48,20 @@ class Writer:
             if validation_errors:
                 errors += 1
                 continue
-            model_id = p.get("model_id", "")
-            channel = p.get("channel", "official")
-            region = p.get("region", "global")
-            old_pricing_rows = self.db.get_all_pricing_for_model(model_id)
-            changed, _ = diff_pricing(model_id, old_pricing_rows, [p])
-            self.changes.extend(changed)
+            try:
+                model_id = p.get("model_id", "")
+                old_pricing_rows = self.db.get_all_pricing_for_model(model_id)
+                changed, _ = diff_pricing(model_id, old_pricing_rows, [p])
+                self.changes.extend(changed)
+            except Exception as e:
+                logger.warning("diff_pricing_failed", model_id=p.get("model_id"), error=str(e))
 
-            self.db.upsert_pricing(p)
-            upserted += 1
+            try:
+                self.db.upsert_pricing(p)
+                upserted += 1
+            except Exception as e:
+                errors += 1
+                logger.warning("upsert_pricing_failed", model_id=p.get("model_id"), error=str(e))
         return {"upserted": upserted, "errors": errors, "changes_written": upserted}
 
     def write_evaluations(self, evals: list[dict]) -> dict:
@@ -57,6 +72,10 @@ class Writer:
             if validation_errors:
                 errors += 1
                 continue
-            self.db.upsert_evaluation(e)
-            upserted += 1
+            try:
+                self.db.upsert_evaluation(e)
+                upserted += 1
+            except Exception as ex:
+                errors += 1
+                logger.warning("upsert_evaluation_failed", eval_id=e.get("eval_id"), error=str(ex))
         return {"upserted": upserted, "errors": errors, "changes_written": upserted}
