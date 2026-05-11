@@ -68,6 +68,11 @@ def collect(
                         typer.echo(f"WARNING: {parser.source_name} has failed 3+ times in the last 7 days. Consider creating a GitHub Issue.", err=True)
 
     asyncio.run(_run())
+
+    if not dry_run and writer.changes:
+        changelog.write(writer.changes, source_name="collect")
+        typer.echo(f"Change log: {len(writer.changes)} changes recorded")
+
     db.close()
 
 

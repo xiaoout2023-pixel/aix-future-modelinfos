@@ -25,7 +25,6 @@ jobs:
         run: python -m modelinfo.cli collect --table all
       - name: Commit change log
         run: |
-          mkdir -p logs
           git config user.name "modelinfo-bot"
           git config user.email "bot@modelinfo"
           git add logs/change_log.md logs/errors.jsonl 2>/dev/null || true
