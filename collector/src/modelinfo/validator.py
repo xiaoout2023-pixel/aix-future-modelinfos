@@ -51,7 +51,10 @@ def validate_evaluation(data: dict) -> list[str]:
         errors.append("eval_date is required")
     if not data.get("source"):
         errors.append("source is required")
-    overall = data.get("overall_score")
-    if overall is not None and (overall < 0 or overall > 100):
-        errors.append(f"overall_score out of range: {overall}")
+    aa_idx = data.get("aa_intelligence_index")
+    if aa_idx is not None and (aa_idx < 0 or aa_idx > 100):
+        errors.append(f"aa_intelligence_index out of range: {aa_idx}")
+    lmarena = data.get("lmarena_elo")
+    if lmarena is not None and (lmarena < 500 or lmarena > 2000):
+        errors.append(f"lmarena_elo out of range: {lmarena}")
     return errors

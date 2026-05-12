@@ -12,11 +12,10 @@ BENCHMARK_MAP = {
     "mmlu": "mmlu",
     "mmlu-pro": "mmlu_pro",
     "gpqa-diamond": "gpqa",
-    "math": "math_500",
-    "human-eval": "humaneval",
-    "swe-bench-verified": "swe_bench",
     "lmarena-elo": "lmarena_elo",
 }
+
+INDEPENDENT_SOURCES = {"artificial-analysis", "livebench", "lmarena", "hf-open-llm"}
 
 PROVIDER_MAP = {
     "Anthropic": "anthropic",
@@ -82,6 +81,9 @@ class LLMRegistryParser(BaseParser):
         other = {}
         for bench_id, score_data in scores.items():
             if not isinstance(score_data, dict):
+                continue
+            source_id = score_data.get("sourceId", "")
+            if source_id not in INDEPENDENT_SOURCES:
                 continue
             score = score_data.get("score")
             if score is None:

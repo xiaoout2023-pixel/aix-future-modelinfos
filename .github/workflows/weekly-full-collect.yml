@@ -23,7 +23,18 @@ jobs:
           TURSO_DB_URL: ${{ secrets.TURSO_DB_URL }}
           TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
         run: python -m modelinfo.cli collect --table all --source all
-      - name: Collect evaluations
+      - name: Collect evaluations (Artificial Analysis)
+        env:
+          TURSO_DB_URL: ${{ secrets.TURSO_DB_URL }}
+          TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+          AA_API_KEY: ${{ secrets.AA_API_KEY }}
+        run: python -m modelinfo.cli collect --table evaluations --source artificialanalysis
+      - name: Collect evaluations (LMArena)
+        env:
+          TURSO_DB_URL: ${{ secrets.TURSO_DB_URL }}
+          TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+        run: python -m modelinfo.cli collect --table evaluations --source lmarena
+      - name: Collect evaluations (LLM Registry - independent only)
         env:
           TURSO_DB_URL: ${{ secrets.TURSO_DB_URL }}
           TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}

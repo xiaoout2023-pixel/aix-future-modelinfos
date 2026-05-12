@@ -61,14 +61,19 @@ CREATE TABLE IF NOT EXISTS evaluations (
     mmlu REAL,
     mmlu_pro REAL,
     gpqa REAL,
-    gsm8k REAL,
-    math_500 REAL,
-    arc_challenge REAL,
-    humaneval REAL,
-    swe_bench REAL,
-    needle_haystack REAL,
-    bfcl REAL,
+    aa_intelligence_index REAL,
+    aa_coding_index REAL,
+    aa_math_index REAL,
+    hle REAL,
+    aime REAL,
+    livecodebench REAL,
+    scicode REAL,
+    ifbench REAL,
+    aa_lcr REAL,
     lmarena_elo REAL,
+    lmarena_coding REAL,
+    lmarena_math REAL,
+    lmarena_hard REAL,
     other_benchmarks TEXT,
     tokens_per_second INTEGER,
     avg_latency_ms INTEGER,
@@ -213,11 +218,13 @@ def init_schema(db: Database):
         if stmt:
             db.execute(stmt)
     _migrate_evaluations_table(db)
+    _clear_stale_evaluations(db)
 
 
 EVALUATIONS_NEW_COLUMNS = [
-    "mmlu_pro", "gpqa", "math_500", "arc_challenge",
-    "swe_bench", "needle_haystack", "bfcl", "lmarena_elo", "ttft_ms",
+    "aa_intelligence_index", "aa_coding_index", "aa_math_index",
+    "hle", "aime", "livecodebench", "scicode", "ifbench", "aa_lcr",
+    "lmarena_coding", "lmarena_math", "lmarena_hard",
 ]
 
 
@@ -225,6 +232,13 @@ def _migrate_evaluations_table(db: Database):
     existing = db._get_columns("evaluations")
     for col in EVALUATIONS_NEW_COLUMNS:
         if col not in existing:
-            col_type = "INTEGER" if col == "ttft_ms" else "REAL"
-            db.execute(f"ALTER TABLE evaluations ADD COLUMN {col} {col_type}")
+            db.execute(f"ALTER TABLE evaluations ADD COLUMN {col} REAL")
             logger.info("db_migration", action="add_column", table="evaluations", column=col)
+
+
+def _clear_stale_evaluations(db: Database):
+    existing = db._get_columns("evaluations")
+    stale_cols = {"gsm8k", "math_500", "arc_challenge", "humaneval", "swe_bench", "needle_haystack", "bfcl"}
+    if stale_cols & set(existing):
+        db.execute("DELETE FROM evaluations")
+        logger.info("db_migration", action="clear_stale_evaluations", reason="old_schema_columns_detected")

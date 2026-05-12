@@ -10,6 +10,8 @@ from modelinfo.parsers.openrouter import OpenRouterParser
 from modelinfo.parsers.openai import OpenAIParser
 from modelinfo.parsers.anthropic import AnthropicParser
 from modelinfo.parsers.llmregistry import LLMRegistryParser
+from modelinfo.parsers.artificialanalysis import ArtificialAnalysisParser
+from modelinfo.parsers.lmarena import LMArenaParser
 
 app = typer.Typer()
 logger = structlog.get_logger()
@@ -91,6 +93,8 @@ def _get_sources(source: str) -> list:
         "openai": OpenAIParser,
         "anthropic": AnthropicParser,
         "llmregistry": LLMRegistryParser,
+        "artificialanalysis": ArtificialAnalysisParser,
+        "lmarena": LMArenaParser,
     }
     if source == "all":
         return list(registry.values())
