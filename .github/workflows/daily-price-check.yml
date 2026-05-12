@@ -32,5 +32,6 @@ jobs:
             echo "No pricing changes detected"
           else
             git commit -m "chore: daily price check $(date +%Y-%m-%d)"
+            git pull --rebase || true
             git push
           fi

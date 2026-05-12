@@ -53,5 +53,6 @@ jobs:
             echo "No changes detected"
           else
             git commit -m "chore: weekly full collect $(date +%Y-%m-%d)"
+            git pull --rebase || true
             git push
           fi
