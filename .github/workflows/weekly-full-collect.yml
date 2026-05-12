@@ -18,11 +18,16 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -e "collector/.[dev]"
-      - name: Full collect
+      - name: Full collect (models + pricing only)
         env:
           TURSO_DB_URL: ${{ secrets.TURSO_DB_URL }}
           TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
-        run: python -m modelinfo.cli collect --table all --source all
+        run: python -m modelinfo.cli collect --table models --source all
+      - name: Collect pricing
+        env:
+          TURSO_DB_URL: ${{ secrets.TURSO_DB_URL }}
+          TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+        run: python -m modelinfo.cli collect --table pricing --source all
       - name: Collect evaluations (Artificial Analysis)
         env:
           TURSO_DB_URL: ${{ secrets.TURSO_DB_URL }}
