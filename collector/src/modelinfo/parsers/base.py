@@ -8,10 +8,11 @@ class BaseParser(ABC):
     def __init__(self, fetcher: Fetcher):
         self.fetcher = fetcher
 
-    @abstractmethod
     async def fetch_models(self) -> list[dict]:
-        """Fetch and parse model metadata. Returns list of dicts with model fields."""
+        return []
 
-    @abstractmethod
     async def fetch_pricing(self) -> list[dict]:
-        """Fetch and parse pricing data. Returns list of dicts with pricing fields."""
+        return []
+
+    async def fetch_evaluations(self) -> list[dict]:
+        return []

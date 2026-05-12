@@ -22,7 +22,12 @@ jobs:
         env:
           TURSO_DB_URL: ${{ secrets.TURSO_DB_URL }}
           TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
-        run: python -m modelinfo.cli collect --table all
+        run: python -m modelinfo.cli collect --table all --source all
+      - name: Collect evaluations
+        env:
+          TURSO_DB_URL: ${{ secrets.TURSO_DB_URL }}
+          TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+        run: python -m modelinfo.cli collect --table evaluations --source llmregistry
       - name: Commit change log
         run: |
           git config user.name "modelinfo-bot"

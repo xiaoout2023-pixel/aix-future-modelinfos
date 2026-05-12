@@ -104,12 +104,21 @@ class EvalInfo(BaseModel):
     eval_date: date
     source: str
     mmlu: Optional[float] = None
+    mmlu_pro: Optional[float] = None
+    gpqa: Optional[float] = None
     gsm8k: Optional[float] = None
+    math_500: Optional[float] = None
+    arc_challenge: Optional[float] = None
     humaneval: Optional[float] = None
+    swe_bench: Optional[float] = None
+    needle_haystack: Optional[float] = None
+    bfcl: Optional[float] = None
+    lmarena_elo: Optional[float] = None
     other_benchmarks: Optional[dict[str, object]] = None
     tokens_per_second: Optional[int] = None
     avg_latency_ms: Optional[int] = None
     p95_latency_ms: Optional[int] = None
+    ttft_ms: Optional[int] = None
     reasoning_level: Optional[ReasoningLevel] = None
     overall_score: Optional[float] = None
     cost_efficiency_score: Optional[float] = None

@@ -9,6 +9,7 @@ from modelinfo.change_log import ChangeLogManager, ErrorTracker
 from modelinfo.parsers.openrouter import OpenRouterParser
 from modelinfo.parsers.openai import OpenAIParser
 from modelinfo.parsers.anthropic import AnthropicParser
+from modelinfo.parsers.llmregistry import LLMRegistryParser
 
 app = typer.Typer()
 logger = structlog.get_logger()
@@ -61,6 +62,14 @@ def collect(
                         else:
                             typer.echo(f"{parser.source_name}: {len(pricings)} pricing records fetched (dry-run)")
 
+                    if table in ("evaluations", "all"):
+                        evals = await parser.fetch_evaluations()
+                        if not dry_run:
+                            result = writer.write_evaluations(evals)
+                            typer.echo(f"{parser.source_name}: {result['upserted']} evaluations upserted, {result['errors']} errors")
+                        else:
+                            typer.echo(f"{parser.source_name}: {len(evals)} evaluations fetched (dry-run)")
+
                 except Exception as e:
                     logger.error("parser_failed", source=parser.source_name, error=str(e))
                     error_tracker.log_error(parser.source_name, "", str(e))
@@ -81,6 +90,7 @@ def _get_sources(source: str) -> list:
         "openrouter": OpenRouterParser,
         "openai": OpenAIParser,
         "anthropic": AnthropicParser,
+        "llmregistry": LLMRegistryParser,
     }
     if source == "all":
         return list(registry.values())

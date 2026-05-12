@@ -59,12 +59,21 @@ CREATE TABLE IF NOT EXISTS evaluations (
     eval_date TEXT NOT NULL,
     source TEXT NOT NULL,
     mmlu REAL,
+    mmlu_pro REAL,
+    gpqa REAL,
     gsm8k REAL,
+    math_500 REAL,
+    arc_challenge REAL,
     humaneval REAL,
+    swe_bench REAL,
+    needle_haystack REAL,
+    bfcl REAL,
+    lmarena_elo REAL,
     other_benchmarks TEXT,
     tokens_per_second INTEGER,
     avg_latency_ms INTEGER,
     p95_latency_ms INTEGER,
+    ttft_ms INTEGER,
     reasoning_level TEXT,
     overall_score REAL,
     cost_efficiency_score REAL,
@@ -198,8 +207,24 @@ class Database:
 
 
 def init_schema(db: Database):
-    """Execute all CREATE TABLE IF NOT EXISTS statements."""
+    """Execute all CREATE TABLE IF NOT EXISTS statements and run migrations."""
     for statement in SCHEMA_SQL.strip().split(";"):
         stmt = statement.strip()
         if stmt:
             db.execute(stmt)
+    _migrate_evaluations_table(db)
+
+
+EVALUATIONS_NEW_COLUMNS = [
+    "mmlu_pro", "gpqa", "math_500", "arc_challenge",
+    "swe_bench", "needle_haystack", "bfcl", "lmarena_elo", "ttft_ms",
+]
+
+
+def _migrate_evaluations_table(db: Database):
+    existing = db._get_columns("evaluations")
+    for col in EVALUATIONS_NEW_COLUMNS:
+        if col not in existing:
+            col_type = "INTEGER" if col == "ttft_ms" else "REAL"
+            db.execute(f"ALTER TABLE evaluations ADD COLUMN {col} {col_type}")
+            logger.info("db_migration", action="add_column", table="evaluations", column=col)
