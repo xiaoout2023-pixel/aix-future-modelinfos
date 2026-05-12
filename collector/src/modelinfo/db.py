@@ -49,8 +49,7 @@ CREATE TABLE IF NOT EXISTS pricing (
     rounding_unit INTEGER,
     has_spot INTEGER DEFAULT 0,
     source TEXT,
-    last_verified TEXT,
-    FOREIGN KEY (model_id) REFERENCES models(model_id)
+    last_verified TEXT
 );
 
 CREATE TABLE IF NOT EXISTS evaluations (
@@ -81,8 +80,7 @@ CREATE TABLE IF NOT EXISTS evaluations (
     ttft_ms INTEGER,
     reasoning_level TEXT,
     overall_score REAL,
-    cost_efficiency_score REAL,
-    FOREIGN KEY (model_id) REFERENCES models(model_id)
+    cost_efficiency_score REAL
 );
 
 CREATE TABLE IF NOT EXISTS change_log (
@@ -112,7 +110,6 @@ class Database:
     def __init__(self, url: str, auth_token: str):
         import libsql_client
 
-        # libsql:// uses WebSocket which can be unreliable; convert to https://
         if url.startswith("libsql://"):
             url = url.replace("libsql://", "https://")
 
@@ -124,7 +121,6 @@ class Database:
             raise ValueError(f"Unsupported database URL scheme: {url}")
 
     def close(self):
-        """Close the underlying client connection."""
         try:
             self._client.close()
         except Exception:
@@ -135,13 +131,12 @@ class Database:
             result = self._client.execute(sql, params or [])
             return [list(row) for row in result.rows]
         except KeyError as e:
-            logger.error("db_key_error", sql=sql[:80], error=str(e))
-            raise RuntimeError(f"Database returned unexpected response (missing key {e})") from e
+            logger.error("db_key_error", sql=sql[:200], params=str(params)[:200] if params else None, error=str(e))
+            raise RuntimeError(f"Database returned unexpected response for SQL [{sql[:100]}]: missing key {e}") from e
         except Exception as e:
-            logger.error("db_execute_failed", sql=sql[:80], error=str(e))
+            err_msg = str(e)
+            logger.error("db_execute_failed", sql=sql[:200], error=err_msg)
             raise
-
-    # -- helpers --------------------------------------------------------------
 
     def _get_columns(self, table: str) -> list[str]:
         rows = self.execute(f"PRAGMA table_info({table})")
@@ -151,17 +146,21 @@ class Database:
         columns = self._get_columns(table)
         filtered = {k: data[k] for k in data if k in columns}
         col_names = list(filtered.keys())
+        if not col_names:
+            logger.warning("db_upsert_no_columns", table=table, pk=data.get(pk))
+            return
         placeholders = ", ".join(["?"] * len(col_names))
         col_list = ", ".join(col_names)
         set_clause = ", ".join(f"{c} = excluded.{c}" for c in col_names if c != pk)
-        sql = (
-            f"INSERT INTO {table} ({col_list}) VALUES ({placeholders}) "
-            f"ON CONFLICT({pk}) DO UPDATE SET {set_clause}"
-        )
+        if not set_clause:
+            sql = f"INSERT OR IGNORE INTO {table} ({col_list}) VALUES ({placeholders})"
+        else:
+            sql = (
+                f"INSERT INTO {table} ({col_list}) VALUES ({placeholders}) "
+                f"ON CONFLICT({pk}) DO UPDATE SET {set_clause}"
+            )
         values = [filtered[c] for c in col_names]
         self.execute(sql, values)
-
-    # -- public API -----------------------------------------------------------
 
     def upsert_model(self, data: dict):
         data.setdefault("status", "active")
@@ -216,9 +215,18 @@ def init_schema(db: Database):
     for statement in SCHEMA_SQL.strip().split(";"):
         stmt = statement.strip()
         if stmt:
-            db.execute(stmt)
+            try:
+                db.execute(stmt)
+            except Exception as e:
+                logger.warning("init_schema_create_failed", sql=stmt[:80], error=str(e))
+
+    try:
+        db.execute("PRAGMA foreign_keys = OFF")
+    except Exception:
+        pass
+
     _migrate_evaluations_table(db)
-    _clear_stale_evaluations(db)
+    _rebuild_evaluations_if_stale(db)
 
 
 EVALUATIONS_NEW_COLUMNS = [
@@ -229,16 +237,42 @@ EVALUATIONS_NEW_COLUMNS = [
 
 
 def _migrate_evaluations_table(db: Database):
-    existing = db._get_columns("evaluations")
+    try:
+        existing = db._get_columns("evaluations")
+    except Exception as e:
+        logger.warning("migrate_get_columns_failed", error=str(e))
+        return
     for col in EVALUATIONS_NEW_COLUMNS:
         if col not in existing:
-            db.execute(f"ALTER TABLE evaluations ADD COLUMN {col} REAL")
-            logger.info("db_migration", action="add_column", table="evaluations", column=col)
+            try:
+                db.execute(f"ALTER TABLE evaluations ADD COLUMN {col} REAL")
+                logger.info("db_migration", action="add_column", table="evaluations", column=col)
+            except Exception as e:
+                logger.warning("migrate_add_column_failed", column=col, error=str(e))
 
 
-def _clear_stale_evaluations(db: Database):
-    existing = db._get_columns("evaluations")
+def _rebuild_evaluations_if_stale(db: Database):
+    try:
+        existing = db._get_columns("evaluations")
+    except Exception as e:
+        logger.warning("rebuild_get_columns_failed", error=str(e))
+        return
+
     stale_cols = {"gsm8k", "math_500", "arc_challenge", "humaneval", "swe_bench", "needle_haystack", "bfcl"}
-    if stale_cols & set(existing):
-        db.execute("DELETE FROM evaluations")
-        logger.info("db_migration", action="clear_stale_evaluations", reason="old_schema_columns_detected")
+    if not (stale_cols & set(existing)):
+        return
+
+    logger.info("db_migration", action="rebuild_evaluations", reason="stale_schema_detected")
+    try:
+        db.execute("DROP TABLE evaluations")
+    except Exception as e:
+        logger.warning("rebuild_drop_failed", error=str(e))
+        return
+
+    for statement in SCHEMA_SQL.strip().split(";"):
+        stmt = statement.strip()
+        if stmt and "evaluations" in stmt:
+            try:
+                db.execute(stmt)
+            except Exception as e:
+                logger.error("rebuild_create_failed", error=str(e))
