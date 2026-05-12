@@ -26,10 +26,13 @@ class Fetcher:
     async def __aexit__(self, *args):
         await self._client.aclose()
 
-    async def fetch_json(self, url: str) -> dict:
+    async def fetch_json(self, url: str, headers: dict | None = None) -> dict:
         for attempt in range(1, self.max_retries + 1):
             try:
-                resp = await self._client.get(url)
+                req_headers = dict(self._client.headers)
+                if headers:
+                    req_headers.update(headers)
+                resp = await self._client.get(url, headers=req_headers)
                 resp.raise_for_status()
                 return resp.json()
             except Exception as e:

@@ -32,6 +32,11 @@ PROVIDER_MAP = {
     "MiniMax": "minimax",
     "Moonshot": "moonshot",
     "Xiaomi": "xiaomi",
+    "Amazon": "amazon",
+    "Microsoft": "microsoft",
+    "01.AI": "01ai",
+    "AI21 Labs": "ai21",
+    "Reka": "reka",
 }
 
 
@@ -39,55 +44,74 @@ class LLMRegistryParser(BaseParser):
     source_name = "llmregistry"
 
     async def fetch_evaluations(self) -> list[dict]:
-        models_data = await self.fetcher.fetch_json(f"{API_BASE}/models")
-        if not isinstance(models_data, dict) or "models" not in models_data:
-            logger.warning("llmregistry_no_models")
+        all_scores = await self._fetch_all_scores()
+        if not all_scores:
+            logger.warning("llmregistry_no_scores")
             return []
 
-        models_list = models_data["models"]
-        logger.info("llmregistry_fetching", total_models=len(models_list))
+        logger.info("llmregistry_fetching", total_scores=len(all_scores))
+
+        independent = [s for s in all_scores if s.get("sourceId") in INDEPENDENT_SOURCES]
+        logger.info("llmregistry_independent", count=len(independent))
+
+        model_scores: dict[str, dict[str, float]] = {}
+        model_providers: dict[str, str] = {}
+        for s in independent:
+            mid = s.get("modelId", "")
+            if not mid:
+                continue
+            model_providers[mid] = s.get("provider", "")
+            if mid not in model_scores:
+                model_scores[mid] = {}
+            bench_id = s.get("benchmarkId", "")
+            score = s.get("score")
+            if bench_id and score is not None:
+                model_scores[mid][bench_id] = score
 
         evals = []
-        for model_entry in models_list:
-            model_id = model_entry.get("id", "")
-            if not model_id:
-                continue
-            try:
-                detail = await self.fetcher.fetch_json(f"{API_BASE}/models/{model_id}")
-                if not isinstance(detail, dict) or "model" not in detail:
-                    continue
-                scores = detail["model"].get("scores", {})
-                if not scores:
-                    continue
-                eval_record = self._build_eval(model_entry, scores)
-                if eval_record:
-                    evals.append(eval_record)
-                await asyncio.sleep(0.3)
-            except Exception as e:
-                logger.warning("llmregistry_model_failed", model_id=model_id, error=str(e))
-                continue
+        for mid, scores in model_scores.items():
+            eval_record = self._build_eval(mid, scores, model_providers.get(mid, ""))
+            if eval_record:
+                evals.append(eval_record)
 
         logger.info("llmregistry_done", total_evals=len(evals))
         return evals
 
-    def _build_eval(self, model_entry: dict, scores: dict) -> dict | None:
-        model_id = model_entry.get("id", "")
-        provider_raw = model_entry.get("provider", "")
-        provider = PROVIDER_MAP.get(provider_raw, provider_raw.lower().replace(" ", "-"))
+    async def _fetch_all_scores(self) -> list[dict]:
+        all_scores = []
+        offset = 0
+        limit = 5000
+        while True:
+            try:
+                data = await self.fetcher.fetch_json(
+                    f"{API_BASE}/scores?limit={limit}&offset={offset}"
+                )
+            except Exception as e:
+                logger.error("llmregistry_fetch_scores_failed", offset=offset, error=str(e))
+                break
 
+            if not isinstance(data, dict):
+                logger.warning("llmregistry_unexpected_format")
+                break
+
+            scores = data.get("scores", [])
+            all_scores.extend(scores)
+
+            total = data.get("total", 0)
+            if offset + limit >= total or len(scores) < limit:
+                break
+            offset += limit
+            await asyncio.sleep(0.5)
+
+        return all_scores
+
+    def _build_eval(self, model_id: str, scores: dict, provider_raw: str) -> dict | None:
+        provider = PROVIDER_MAP.get(provider_raw, provider_raw.lower().replace(" ", "-") if provider_raw else model_id.split("-")[0])
         db_model_id = f"{provider}/{model_id}" if provider else model_id
 
         mapped = {}
         other = {}
-        for bench_id, score_data in scores.items():
-            if not isinstance(score_data, dict):
-                continue
-            source_id = score_data.get("sourceId", "")
-            if source_id not in INDEPENDENT_SOURCES:
-                continue
-            score = score_data.get("score")
-            if score is None:
-                continue
+        for bench_id, score in scores.items():
             if bench_id in BENCHMARK_MAP:
                 mapped[BENCHMARK_MAP[bench_id]] = score
             else:
