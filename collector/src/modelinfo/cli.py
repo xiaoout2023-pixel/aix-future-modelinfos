@@ -5,6 +5,7 @@ import structlog
 from modelinfo.fetcher import Fetcher
 from modelinfo.db import Database, init_schema
 from modelinfo.writer import Writer
+from modelinfo.snapshot import SnapshotManager
 from modelinfo.change_log import ChangeLogManager, ErrorTracker
 from modelinfo.parsers.openrouter import OpenRouterParser
 from modelinfo.parsers.openai import OpenAIParser
@@ -37,7 +38,8 @@ def collect(
     """Collect model metadata from configured sources."""
     db = get_db()
     init_schema(db)
-    writer = Writer(db)
+    snapshot = SnapshotManager()
+    writer = Writer(db, snapshot=snapshot)
     error_tracker = ErrorTracker()
     changelog = ChangeLogManager()
 

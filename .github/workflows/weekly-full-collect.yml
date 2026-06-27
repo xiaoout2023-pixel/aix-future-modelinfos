@@ -48,7 +48,7 @@ jobs:
         run: |
           git config user.name "modelinfo-bot"
           git config user.email "bot@modelinfo"
-          git add logs/change_log.md logs/errors.jsonl 2>/dev/null || true
+          git add logs/change_log.md logs/errors.jsonl collector/snapshots/ 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No changes detected"
           else
