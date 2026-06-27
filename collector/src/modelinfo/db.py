@@ -95,6 +95,15 @@ CREATE TABLE IF NOT EXISTS change_log (
 );
 """
 
+INDEX_SQL = """
+CREATE INDEX IF NOT EXISTS idx_pricing_model_id ON pricing(model_id);
+CREATE INDEX IF NOT EXISTS idx_pricing_lookup ON pricing(model_id, channel, region, valid_from);
+CREATE INDEX IF NOT EXISTS idx_evaluations_model_id ON evaluations(model_id);
+CREATE INDEX IF NOT EXISTS idx_evaluations_source ON evaluations(source);
+CREATE INDEX IF NOT EXISTS idx_change_log_model_id ON change_log(model_id);
+CREATE INDEX IF NOT EXISTS idx_change_log_table ON change_log(table_name, changed_at);
+"""
+
 
 def _now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
@@ -120,6 +129,8 @@ class Database:
         else:
             raise ValueError(f"Unsupported database URL scheme: {url}")
 
+        self._column_cache: dict[str, list[str]] = {}
+
     def close(self):
         try:
             self._client.close()
@@ -139,8 +150,61 @@ class Database:
             raise
 
     def _get_columns(self, table: str) -> list[str]:
+        if table in self._column_cache:
+            return self._column_cache[table]
         rows = self.execute(f"PRAGMA table_info({table})")
-        return [r[1] for r in rows]
+        cols = [r[1] for r in rows]
+        self._column_cache[table] = cols
+        return cols
+
+    def batch_upsert(self, table: str, rows: list[dict], pk: str, batch_size: int = 50):
+        """Batch upsert multiple rows in a single SQL statement.
+
+        Falls back to per-row upsert on error to isolate problematic records.
+        """
+        if not rows:
+            return
+        columns = self._get_columns(table)
+        # Normalize all rows to the same column set (fill missing with None)
+        filtered_rows = []
+        for r in rows:
+            f = {c: r.get(c) for c in columns if c in r}
+            if f:
+                filtered_rows.append(f)
+        if not filtered_rows:
+            return
+
+        # Use the intersection of columns to ensure all rows have values
+        common_cols = list(filtered_rows[0].keys())
+        for r in filtered_rows:
+            for c in common_cols:
+                r.setdefault(c, None)
+
+        col_list = ", ".join(common_cols)
+        single_placeholders = "(" + ", ".join(["?"] * len(common_cols)) + ")"
+        set_clause = ", ".join(f"{c} = excluded.{c}" for c in common_cols if c != pk)
+
+        for i in range(0, len(filtered_rows), batch_size):
+            batch = filtered_rows[i:i + batch_size]
+            batch_placeholders = ", ".join([single_placeholders] * len(batch))
+            if set_clause:
+                sql = (
+                    f"INSERT INTO {table} ({col_list}) VALUES {batch_placeholders} "
+                    f"ON CONFLICT({pk}) DO UPDATE SET {set_clause}"
+                )
+            else:
+                sql = f"INSERT OR IGNORE INTO {table} ({col_list}) VALUES {batch_placeholders}"
+            params = [r[c] for r in batch for c in common_cols]
+            try:
+                self.execute(sql, params)
+            except Exception as e:
+                logger.warning("db_batch_upsert_failed", table=table, batch_size=len(batch), error=str(e))
+                # Fallback to per-row upsert for this batch
+                for r in batch:
+                    try:
+                        self._do_upsert(table, r, pk)
+                    except Exception as e2:
+                        logger.warning("db_batch_fallback_failed", table=table, pk=r.get(pk), error=str(e2))
 
     def _do_upsert(self, table: str, data: dict, pk: str):
         columns = self._get_columns(table)
@@ -174,6 +238,19 @@ class Database:
         data["last_updated"] = data.get("last_updated") or _now_iso()
         self._do_upsert("models", data, "model_id")
 
+    def upsert_models(self, rows: list[dict]):
+        for r in rows:
+            r.setdefault("status", "active")
+            r.setdefault("aliases", "[]")
+            r.setdefault("capabilities", "{}")
+            r.setdefault("regions", "[]")
+            r.setdefault("private_deployment", 0)
+            r.setdefault("openai_compatible", 0)
+            r.setdefault("urls", "{}")
+            r.setdefault("tags", "[]")
+            r["last_updated"] = r.get("last_updated") or _now_iso()
+        self.batch_upsert("models", rows, "model_id")
+
     def upsert_pricing(self, data: dict):
         data.setdefault("channel", "official")
         data.setdefault("region", "global")
@@ -183,8 +260,21 @@ class Database:
         data["last_verified"] = data.get("last_verified") or _now_iso()
         self._do_upsert("pricing", data, "pricing_id")
 
+    def upsert_pricings(self, rows: list[dict]):
+        for r in rows:
+            r.setdefault("channel", "official")
+            r.setdefault("region", "global")
+            r.setdefault("currency", "USD")
+            r.setdefault("reasoning_tokens_charged", 0)
+            r.setdefault("has_spot", 0)
+            r["last_verified"] = r.get("last_verified") or _now_iso()
+        self.batch_upsert("pricing", rows, "pricing_id")
+
     def upsert_evaluation(self, data: dict):
         self._do_upsert("evaluations", data, "eval_id")
+
+    def upsert_evaluations(self, rows: list[dict]):
+        self.batch_upsert("evaluations", rows, "eval_id")
 
     def get_all_models(self) -> list[dict]:
         columns = self._get_columns("models")
@@ -219,6 +309,15 @@ def init_schema(db: Database):
                 db.execute(stmt)
             except Exception as e:
                 logger.warning("init_schema_create_failed", sql=stmt[:80], error=str(e))
+
+    # Create indexes for query performance (idempotent)
+    for statement in INDEX_SQL.strip().split(";"):
+        stmt = statement.strip()
+        if stmt:
+            try:
+                db.execute(stmt)
+            except Exception as e:
+                logger.warning("init_schema_index_failed", sql=stmt[:80], error=str(e))
 
     try:
         db.execute("PRAGMA foreign_keys = OFF")
