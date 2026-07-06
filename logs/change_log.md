@@ -11688,3 +11688,406 @@
 - **pricing.input_price_per_1m** | openai/gpt-3.5-turbo-0613 | `1.0` -> `1.5`
 - **pricing.input_price_per_1m** | anthropic/claude-sonnet-5 | `2.0` -> `3.0`
 - **pricing.output_price_per_1m** | anthropic/claude-sonnet-5 | `10.0` -> `15.0`
+
+## 2026-07-06 - collect
+
+- **models.*** | poolside/laguna-xs-2.1:free | `None` -> `new model`
+- **models.*** | poolside/laguna-xs-2.1 | `None` -> `new model`
+- **models.*** | anthropic/claude-sonnet-5 | `None` -> `new model`
+- **models.*** | google/gemini-3.1-flash-lite-image | `None` -> `new model`
+- **models.*** | sakana/fugu-ultra | `None` -> `new model`
+- **models.*** | google/gemini-3.1-flash-image | `None` -> `new model`
+- **models.*** | google/gemini-3-pro-image | `None` -> `new model`
+- **models.*** | cohere/north-mini-code:free | `None` -> `new model`
+- **models.*** | z-ai/glm-5.2 | `None` -> `new model`
+- **models.*** | openrouter/fusion | `None` -> `new model`
+- **models.*** | moonshotai/kimi-k2.7-code | `None` -> `new model`
+- **models.*** | ~anthropic/claude-fable-latest | `None` -> `new model`
+- **models.*** | anthropic/claude-fable-5 | `None` -> `new model`
+- **models.*** | nex-agi/nex-n2-pro | `None` -> `new model`
+- **models.*** | nvidia/nemotron-3.5-content-safety:free | `None` -> `new model`
+- **models.*** | nvidia/nemotron-3-ultra-550b-a55b:free | `None` -> `new model`
+- **models.*** | nvidia/nemotron-3-ultra-550b-a55b | `None` -> `new model`
+- **models.*** | qwen/qwen3.7-plus | `None` -> `new model`
+- **models.*** | minimax/minimax-m3 | `None` -> `new model`
+- **models.*** | stepfun/step-3.7-flash | `None` -> `new model`
+- **models.*** | anthropic/claude-opus-4.8-fast | `None` -> `new model`
+- **models.*** | anthropic/claude-opus-4.8 | `None` -> `new model`
+- **models.*** | qwen/qwen3.7-max | `None` -> `new model`
+- **models.*** | x-ai/grok-build-0.1 | `None` -> `new model`
+- **models.*** | google/gemini-3.5-flash | `None` -> `new model`
+- **models.*** | anthropic/claude-opus-4.7-fast | `None` -> `new model`
+- **models.*** | perceptron/perceptron-mk1 | `None` -> `new model`
+- **models.*** | inclusionai/ring-2.6-1t | `None` -> `new model`
+- **models.*** | google/gemini-3.1-flash-lite | `None` -> `new model`
+- **models.*** | openai/gpt-chat-latest | `None` -> `new model`
+- **models.*** | x-ai/grok-4.3 | `None` -> `new model`
+- **models.*** | ibm-granite/granite-4.1-8b | `None` -> `new model`
+- **models.*** | mistralai/mistral-medium-3-5 | `None` -> `new model`
+- **models.*** | nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free | `None` -> `new model`
+- **models.*** | poolside/laguna-xs.2:free | `None` -> `new model`
+- **models.*** | poolside/laguna-xs.2 | `None` -> `new model`
+- **models.*** | poolside/laguna-m.1:free | `None` -> `new model`
+- **models.*** | poolside/laguna-m.1 | `None` -> `new model`
+- **models.*** | ~anthropic/claude-haiku-latest | `None` -> `new model`
+- **models.*** | ~openai/gpt-mini-latest | `None` -> `new model`
+- **models.*** | ~google/gemini-pro-latest | `None` -> `new model`
+- **models.*** | ~moonshotai/kimi-latest | `None` -> `new model`
+- **models.*** | ~google/gemini-flash-latest | `None` -> `new model`
+- **models.*** | ~anthropic/claude-sonnet-latest | `None` -> `new model`
+- **models.*** | ~openai/gpt-latest | `None` -> `new model`
+- **models.*** | qwen/qwen3.5-plus-20260420 | `None` -> `new model`
+- **models.*** | qwen/qwen3.6-flash | `None` -> `new model`
+- **models.*** | qwen/qwen3.6-35b-a3b | `None` -> `new model`
+- **models.*** | qwen/qwen3.6-max-preview | `None` -> `new model`
+- **models.*** | qwen/qwen3.6-27b | `None` -> `new model`
+- **models.*** | openai/gpt-5.5-pro | `None` -> `new model`
+- **models.*** | openai/gpt-5.5 | `None` -> `new model`
+- **models.*** | deepseek/deepseek-v4-pro | `None` -> `new model`
+- **models.*** | deepseek/deepseek-v4-flash | `None` -> `new model`
+- **models.*** | inclusionai/ling-2.6-1t | `None` -> `new model`
+- **models.*** | tencent/hy3-preview | `None` -> `new model`
+- **models.*** | xiaomi/mimo-v2.5-pro | `None` -> `new model`
+- **models.*** | xiaomi/mimo-v2.5 | `None` -> `new model`
+- **models.*** | openai/gpt-5.4-image-2 | `None` -> `new model`
+- **models.*** | inclusionai/ling-2.6-flash | `None` -> `new model`
+- **models.*** | ~anthropic/claude-opus-latest | `None` -> `new model`
+- **models.*** | openrouter/pareto-code | `None` -> `new model`
+- **models.*** | moonshotai/kimi-k2.6 | `None` -> `new model`
+- **models.*** | anthropic/claude-opus-4.7 | `None` -> `new model`
+- **models.*** | z-ai/glm-5.1 | `None` -> `new model`
+- **models.*** | google/gemma-4-26b-a4b-it:free | `None` -> `new model`
+- **models.*** | google/gemma-4-26b-a4b-it | `None` -> `new model`
+- **models.*** | google/gemma-4-31b-it:free | `None` -> `new model`
+- **models.*** | google/gemma-4-31b-it | `None` -> `new model`
+- **models.*** | qwen/qwen3.6-plus | `None` -> `new model`
+- **models.*** | z-ai/glm-5v-turbo | `None` -> `new model`
+- **models.*** | arcee-ai/trinity-large-thinking | `None` -> `new model`
+- **models.*** | x-ai/grok-4.20-multi-agent | `None` -> `new model`
+- **models.*** | x-ai/grok-4.20 | `None` -> `new model`
+- **models.*** | google/lyria-3-pro-preview | `None` -> `new model`
+- **models.*** | google/lyria-3-clip-preview | `None` -> `new model`
+- **models.*** | kwaipilot/kat-coder-pro-v2 | `None` -> `new model`
+- **models.*** | rekaai/reka-edge | `None` -> `new model`
+- **models.*** | minimax/minimax-m2.7 | `None` -> `new model`
+- **models.*** | openai/gpt-5.4-nano | `None` -> `new model`
+- **models.*** | openai/gpt-5.4-mini | `None` -> `new model`
+- **models.*** | mistralai/mistral-small-2603 | `None` -> `new model`
+- **models.*** | z-ai/glm-5-turbo | `None` -> `new model`
+- **models.*** | nvidia/nemotron-3-super-120b-a12b:free | `None` -> `new model`
+- **models.*** | nvidia/nemotron-3-super-120b-a12b | `None` -> `new model`
+- **models.*** | bytedance-seed/seed-2.0-lite | `None` -> `new model`
+- **models.*** | qwen/qwen3.5-9b | `None` -> `new model`
+- **models.*** | openai/gpt-5.4-pro | `None` -> `new model`
+- **models.*** | openai/gpt-5.4 | `None` -> `new model`
+- **models.*** | inception/mercury-2 | `None` -> `new model`
+- **models.*** | openai/gpt-5.3-chat | `None` -> `new model`
+- **models.*** | google/gemini-3.1-flash-lite-preview | `None` -> `new model`
+- **models.*** | bytedance-seed/seed-2.0-mini | `None` -> `new model`
+- **models.*** | google/gemini-3.1-flash-image-preview | `None` -> `new model`
+- **models.*** | qwen/qwen3.5-35b-a3b | `None` -> `new model`
+- **models.*** | qwen/qwen3.5-27b | `None` -> `new model`
+- **models.*** | qwen/qwen3.5-122b-a10b | `None` -> `new model`
+- **models.*** | qwen/qwen3.5-flash-02-23 | `None` -> `new model`
+- **models.*** | liquid/lfm-2-24b-a2b | `None` -> `new model`
+- **models.*** | google/gemini-3.1-pro-preview-customtools | `None` -> `new model`
+- **models.*** | openai/gpt-5.3-codex | `None` -> `new model`
+- **models.*** | aion-labs/aion-2.0 | `None` -> `new model`
+- **models.*** | google/gemini-3.1-pro-preview | `None` -> `new model`
+- **models.*** | anthropic/claude-sonnet-4.6 | `None` -> `new model`
+- **models.*** | qwen/qwen3.5-plus-02-15 | `None` -> `new model`
+- **models.*** | qwen/qwen3.5-397b-a17b | `None` -> `new model`
+- **models.*** | minimax/minimax-m2.5 | `None` -> `new model`
+- **models.*** | z-ai/glm-5 | `None` -> `new model`
+- **models.*** | qwen/qwen3-max-thinking | `None` -> `new model`
+- **models.*** | anthropic/claude-opus-4.6 | `None` -> `new model`
+- **models.*** | qwen/qwen3-coder-next | `None` -> `new model`
+- **models.*** | openrouter/free | `None` -> `new model`
+- **models.*** | stepfun/step-3.5-flash | `None` -> `new model`
+- **models.*** | moonshotai/kimi-k2.5 | `None` -> `new model`
+- **models.*** | upstage/solar-pro-3 | `None` -> `new model`
+- **models.*** | minimax/minimax-m2-her | `None` -> `new model`
+- **models.*** | writer/palmyra-x5 | `None` -> `new model`
+- **models.*** | liquid/lfm-2.5-1.2b-thinking:free | `None` -> `new model`
+- **models.*** | liquid/lfm-2.5-1.2b-instruct:free | `None` -> `new model`
+- **models.*** | openai/gpt-audio | `None` -> `new model`
+- **models.*** | openai/gpt-audio-mini | `None` -> `new model`
+- **models.*** | z-ai/glm-4.7-flash | `None` -> `new model`
+- **models.*** | openai/gpt-5.2-codex | `None` -> `new model`
+- **models.*** | bytedance-seed/seed-1.6-flash | `None` -> `new model`
+- **models.*** | bytedance-seed/seed-1.6 | `None` -> `new model`
+- **models.*** | minimax/minimax-m2.1 | `None` -> `new model`
+- **models.*** | z-ai/glm-4.7 | `None` -> `new model`
+- **models.*** | google/gemini-3-flash-preview | `None` -> `new model`
+- **models.*** | nvidia/nemotron-3-nano-30b-a3b:free | `None` -> `new model`
+- **models.*** | nvidia/nemotron-3-nano-30b-a3b | `None` -> `new model`
+- **models.*** | openai/gpt-5.2-chat | `None` -> `new model`
+- **models.*** | openai/gpt-5.2-pro | `None` -> `new model`
+- **models.*** | openai/gpt-5.2 | `None` -> `new model`
+- **models.*** | mistralai/devstral-2512 | `None` -> `new model`
+- **models.*** | relace/relace-search | `None` -> `new model`
+- **models.*** | z-ai/glm-4.6v | `None` -> `new model`
+- **models.*** | openrouter/bodybuilder | `None` -> `new model`
+- **models.*** | openai/gpt-5.1-codex-max | `None` -> `new model`
+- **models.*** | amazon/nova-2-lite-v1 | `None` -> `new model`
+- **models.*** | mistralai/ministral-14b-2512 | `None` -> `new model`
+- **models.*** | mistralai/ministral-8b-2512 | `None` -> `new model`
+- **models.*** | mistralai/ministral-3b-2512 | `None` -> `new model`
+- **models.*** | mistralai/mistral-large-2512 | `None` -> `new model`
+- **models.*** | arcee-ai/trinity-mini | `None` -> `new model`
+- **models.*** | deepseek/deepseek-v3.2 | `None` -> `new model`
+- **models.*** | anthropic/claude-opus-4.5 | `None` -> `new model`
+- **models.*** | allenai/olmo-3-32b-think | `None` -> `new model`
+- **models.*** | google/gemini-3-pro-image-preview | `None` -> `new model`
+- **models.*** | deepcogito/cogito-v2.1-671b | `None` -> `new model`
+- **models.*** | openai/gpt-5.1 | `None` -> `new model`
+- **models.*** | openai/gpt-5.1-chat | `None` -> `new model`
+- **models.*** | openai/gpt-5.1-codex | `None` -> `new model`
+- **models.*** | openai/gpt-5.1-codex-mini | `None` -> `new model`
+- **models.*** | moonshotai/kimi-k2-thinking | `None` -> `new model`
+- **models.*** | amazon/nova-premier-v1 | `None` -> `new model`
+- **models.*** | perplexity/sonar-pro-search | `None` -> `new model`
+- **models.*** | mistralai/voxtral-small-24b-2507 | `None` -> `new model`
+- **models.*** | openai/gpt-oss-safeguard-20b | `None` -> `new model`
+- **models.*** | nvidia/nemotron-nano-12b-v2-vl:free | `None` -> `new model`
+- **models.*** | minimax/minimax-m2 | `None` -> `new model`
+- **models.*** | qwen/qwen3-vl-32b-instruct | `None` -> `new model`
+- **models.*** | ibm-granite/granite-4.0-h-micro | `None` -> `new model`
+- **models.*** | openai/gpt-5-image-mini | `None` -> `new model`
+- **models.*** | anthropic/claude-haiku-4.5 | `None` -> `new model`
+- **models.*** | qwen/qwen3-vl-8b-thinking | `None` -> `new model`
+- **models.*** | qwen/qwen3-vl-8b-instruct | `None` -> `new model`
+- **models.*** | openai/gpt-5-image | `None` -> `new model`
+- **models.*** | openai/o3-deep-research | `None` -> `new model`
+- **models.*** | openai/o4-mini-deep-research | `None` -> `new model`
+- **models.*** | nvidia/llama-3.3-nemotron-super-49b-v1.5 | `None` -> `new model`
+- **models.*** | google/gemini-2.5-flash-image | `None` -> `new model`
+- **models.*** | qwen/qwen3-vl-30b-a3b-thinking | `None` -> `new model`
+- **models.*** | qwen/qwen3-vl-30b-a3b-instruct | `None` -> `new model`
+- **models.*** | openai/gpt-5-pro | `None` -> `new model`
+- **models.*** | z-ai/glm-4.6 | `None` -> `new model`
+- **models.*** | anthropic/claude-sonnet-4.5 | `None` -> `new model`
+- **models.*** | deepseek/deepseek-v3.2-exp | `None` -> `new model`
+- **models.*** | thedrummer/cydonia-24b-v4.1 | `None` -> `new model`
+- **models.*** | relace/relace-apply-3 | `None` -> `new model`
+- **models.*** | google/gemini-2.5-flash-lite-preview-09-2025 | `None` -> `new model`
+- **models.*** | qwen/qwen3-vl-235b-a22b-thinking | `None` -> `new model`
+- **models.*** | qwen/qwen3-vl-235b-a22b-instruct | `None` -> `new model`
+- **models.*** | qwen/qwen3-max | `None` -> `new model`
+- **models.*** | qwen/qwen3-coder-plus | `None` -> `new model`
+- **models.*** | openai/gpt-5-codex | `None` -> `new model`
+- **models.*** | deepseek/deepseek-v3.1-terminus | `None` -> `new model`
+- **models.*** | qwen/qwen3-coder-flash | `None` -> `new model`
+- **models.*** | qwen/qwen3-next-80b-a3b-thinking | `None` -> `new model`
+- **models.*** | qwen/qwen3-next-80b-a3b-instruct:free | `None` -> `new model`
+- **models.*** | qwen/qwen3-next-80b-a3b-instruct | `None` -> `new model`
+- **models.*** | qwen/qwen-plus-2025-07-28:thinking | `None` -> `new model`
+- **models.*** | qwen/qwen-plus-2025-07-28 | `None` -> `new model`
+- **models.*** | nvidia/nemotron-nano-9b-v2:free | `None` -> `new model`
+- **models.*** | moonshotai/kimi-k2-0905 | `None` -> `new model`
+- **models.*** | qwen/qwen3-30b-a3b-thinking-2507 | `None` -> `new model`
+- **models.*** | nousresearch/hermes-4-70b | `None` -> `new model`
+- **models.*** | nousresearch/hermes-4-405b | `None` -> `new model`
+- **models.*** | deepseek/deepseek-chat-v3.1 | `None` -> `new model`
+- **models.*** | mistralai/mistral-medium-3.1 | `None` -> `new model`
+- **models.*** | z-ai/glm-4.5v | `None` -> `new model`
+- **models.*** | ai21/jamba-large-1.7 | `None` -> `new model`
+- **models.*** | openai/gpt-5-chat | `None` -> `new model`
+- **models.*** | openai/gpt-5 | `None` -> `new model`
+- **models.*** | openai/gpt-5-mini | `None` -> `new model`
+- **models.*** | openai/gpt-5-nano | `None` -> `new model`
+- **models.*** | openai/gpt-oss-120b:free | `None` -> `new model`
+- **models.*** | openai/gpt-oss-120b | `None` -> `new model`
+- **models.*** | openai/gpt-oss-20b:free | `None` -> `new model`
+- **models.*** | openai/gpt-oss-20b | `None` -> `new model`
+- **models.*** | anthropic/claude-opus-4.1 | `None` -> `new model`
+- **models.*** | mistralai/codestral-2508 | `None` -> `new model`
+- **models.*** | qwen/qwen3-coder-30b-a3b-instruct | `None` -> `new model`
+- **models.*** | qwen/qwen3-30b-a3b-instruct-2507 | `None` -> `new model`
+- **models.*** | z-ai/glm-4.5 | `None` -> `new model`
+- **models.*** | z-ai/glm-4.5-air | `None` -> `new model`
+- **models.*** | qwen/qwen3-235b-a22b-thinking-2507 | `None` -> `new model`
+- **models.*** | qwen/qwen3-coder:free | `None` -> `new model`
+- **models.*** | qwen/qwen3-coder | `None` -> `new model`
+- **models.*** | bytedance/ui-tars-1.5-7b | `None` -> `new model`
+- **models.*** | google/gemini-2.5-flash-lite | `None` -> `new model`
+- **models.*** | qwen/qwen3-235b-a22b-2507 | `None` -> `new model`
+- **models.*** | switchpoint/router | `None` -> `new model`
+- **models.*** | moonshotai/kimi-k2 | `None` -> `new model`
+- **models.*** | cognitivecomputations/dolphin-mistral-24b-venice-edition:free | `None` -> `new model`
+- **models.*** | tencent/hunyuan-a13b-instruct | `None` -> `new model`
+- **models.*** | morph/morph-v3-large | `None` -> `new model`
+- **models.*** | morph/morph-v3-fast | `None` -> `new model`
+- **models.*** | baidu/ernie-4.5-vl-424b-a47b | `None` -> `new model`
+- **models.*** | mistralai/mistral-small-3.2-24b-instruct | `None` -> `new model`
+- **models.*** | minimax/minimax-m1 | `None` -> `new model`
+- **models.*** | google/gemini-2.5-flash | `None` -> `new model`
+- **models.*** | google/gemini-2.5-pro | `None` -> `new model`
+- **models.*** | openai/o3-pro | `None` -> `new model`
+- **models.*** | google/gemini-2.5-pro-preview | `None` -> `new model`
+- **models.*** | deepseek/deepseek-r1-0528 | `None` -> `new model`
+- **models.*** | anthropic/claude-opus-4 | `None` -> `new model`
+- **models.*** | anthropic/claude-sonnet-4 | `None` -> `new model`
+- **models.*** | google/gemma-3n-e4b-it | `None` -> `new model`
+- **models.*** | mistralai/mistral-medium-3 | `None` -> `new model`
+- **models.*** | google/gemini-2.5-pro-preview-05-06 | `None` -> `new model`
+- **models.*** | arcee-ai/virtuoso-large | `None` -> `new model`
+- **models.*** | arcee-ai/coder-large | `None` -> `new model`
+- **models.*** | meta-llama/llama-guard-4-12b | `None` -> `new model`
+- **models.*** | qwen/qwen3-30b-a3b | `None` -> `new model`
+- **models.*** | qwen/qwen3-8b | `None` -> `new model`
+- **models.*** | qwen/qwen3-14b | `None` -> `new model`
+- **models.*** | qwen/qwen3-32b | `None` -> `new model`
+- **models.*** | qwen/qwen3-235b-a22b | `None` -> `new model`
+- **models.*** | openai/o4-mini-high | `None` -> `new model`
+- **models.*** | openai/o3 | `None` -> `new model`
+- **models.*** | openai/o4-mini | `None` -> `new model`
+- **models.*** | openai/gpt-4.1 | `None` -> `new model`
+- **models.*** | openai/gpt-4.1-mini | `None` -> `new model`
+- **models.*** | openai/gpt-4.1-nano | `None` -> `new model`
+- **models.*** | meta-llama/llama-4-maverick | `None` -> `new model`
+- **models.*** | meta-llama/llama-4-scout | `None` -> `new model`
+- **models.*** | deepseek/deepseek-chat-v3-0324 | `None` -> `new model`
+- **models.*** | openai/o1-pro | `None` -> `new model`
+- **models.*** | mistralai/mistral-small-3.1-24b-instruct | `None` -> `new model`
+- **models.*** | google/gemma-3-4b-it | `None` -> `new model`
+- **models.*** | google/gemma-3-12b-it | `None` -> `new model`
+- **models.*** | cohere/command-a | `None` -> `new model`
+- **models.*** | openai/gpt-4o-mini-search-preview | `None` -> `new model`
+- **models.*** | openai/gpt-4o-search-preview | `None` -> `new model`
+- **models.*** | rekaai/reka-flash-3 | `None` -> `new model`
+- **models.*** | google/gemma-3-27b-it | `None` -> `new model`
+- **models.*** | thedrummer/skyfall-36b-v2 | `None` -> `new model`
+- **models.*** | perplexity/sonar-reasoning-pro | `None` -> `new model`
+- **models.*** | perplexity/sonar-pro | `None` -> `new model`
+- **models.*** | perplexity/sonar-deep-research | `None` -> `new model`
+- **models.*** | mistralai/mistral-saba | `None` -> `new model`
+- **models.*** | openai/o3-mini-high | `None` -> `new model`
+- **models.*** | aion-labs/aion-1.0 | `None` -> `new model`
+- **models.*** | aion-labs/aion-1.0-mini | `None` -> `new model`
+- **models.*** | aion-labs/aion-rp-llama-3.1-8b | `None` -> `new model`
+- **models.*** | qwen/qwen2.5-vl-72b-instruct | `None` -> `new model`
+- **models.*** | qwen/qwen-plus | `None` -> `new model`
+- **models.*** | openai/o3-mini | `None` -> `new model`
+- **models.*** | mistralai/mistral-small-24b-instruct-2501 | `None` -> `new model`
+- **models.*** | perplexity/sonar | `None` -> `new model`
+- **models.*** | deepseek/deepseek-r1-distill-llama-70b | `None` -> `new model`
+- **models.*** | deepseek/deepseek-r1 | `None` -> `new model`
+- **models.*** | minimax/minimax-01 | `None` -> `new model`
+- **models.*** | microsoft/phi-4 | `None` -> `new model`
+- **models.*** | sao10k/l3.1-70b-hanami-x1 | `None` -> `new model`
+- **models.*** | deepseek/deepseek-chat | `None` -> `new model`
+- **models.*** | sao10k/l3.3-euryale-70b | `None` -> `new model`
+- **models.*** | openai/o1 | `None` -> `new model`
+- **models.*** | cohere/command-r7b-12-2024 | `None` -> `new model`
+- **models.*** | meta-llama/llama-3.3-70b-instruct:free | `None` -> `new model`
+- **models.*** | meta-llama/llama-3.3-70b-instruct | `None` -> `new model`
+- **models.*** | amazon/nova-lite-v1 | `None` -> `new model`
+- **models.*** | amazon/nova-micro-v1 | `None` -> `new model`
+- **models.*** | amazon/nova-pro-v1 | `None` -> `new model`
+- **models.*** | openai/gpt-4o-2024-11-20 | `None` -> `new model`
+- **models.*** | mistralai/mistral-large-2407 | `None` -> `new model`
+- **models.*** | qwen/qwen-2.5-coder-32b-instruct | `None` -> `new model`
+- **models.*** | thedrummer/unslopnemo-12b | `None` -> `new model`
+- **models.*** | anthracite-org/magnum-v4-72b | `None` -> `new model`
+- **models.*** | qwen/qwen-2.5-7b-instruct | `None` -> `new model`
+- **models.*** | inflection/inflection-3-productivity | `None` -> `new model`
+- **models.*** | inflection/inflection-3-pi | `None` -> `new model`
+- **models.*** | thedrummer/rocinante-12b | `None` -> `new model`
+- **models.*** | meta-llama/llama-3.2-3b-instruct:free | `None` -> `new model`
+- **models.*** | meta-llama/llama-3.2-3b-instruct | `None` -> `new model`
+- **models.*** | meta-llama/llama-3.2-1b-instruct | `None` -> `new model`
+- **models.*** | meta-llama/llama-3.2-11b-vision-instruct | `None` -> `new model`
+- **models.*** | qwen/qwen-2.5-72b-instruct | `None` -> `new model`
+- **models.*** | cohere/command-r-08-2024 | `None` -> `new model`
+- **models.*** | cohere/command-r-plus-08-2024 | `None` -> `new model`
+- **models.*** | sao10k/l3.1-euryale-70b | `None` -> `new model`
+- **models.*** | nousresearch/hermes-3-llama-3.1-70b | `None` -> `new model`
+- **models.*** | nousresearch/hermes-3-llama-3.1-405b:free | `None` -> `new model`
+- **models.*** | nousresearch/hermes-3-llama-3.1-405b | `None` -> `new model`
+- **models.*** | sao10k/l3-lunaris-8b | `None` -> `new model`
+- **models.*** | openai/gpt-4o-2024-08-06 | `None` -> `new model`
+- **models.*** | meta-llama/llama-3.1-8b-instruct | `None` -> `new model`
+- **models.*** | meta-llama/llama-3.1-70b-instruct | `None` -> `new model`
+- **models.*** | mistralai/mistral-nemo | `None` -> `new model`
+- **models.*** | openai/gpt-4o-mini | `None` -> `new model`
+- **models.*** | openai/gpt-4o-mini-2024-07-18 | `None` -> `new model`
+- **models.*** | google/gemma-2-27b-it | `None` -> `new model`
+- **models.*** | openai/gpt-4o | `None` -> `new model`
+- **models.*** | openai/gpt-4o-2024-05-13 | `None` -> `new model`
+- **models.*** | meta-llama/llama-3-8b-instruct | `None` -> `new model`
+- **models.*** | mistralai/mixtral-8x22b-instruct | `None` -> `new model`
+- **models.*** | microsoft/wizardlm-2-8x22b | `None` -> `new model`
+- **models.*** | openai/gpt-4-turbo | `None` -> `new model`
+- **models.*** | anthropic/claude-3-haiku | `None` -> `new model`
+- **models.*** | mistralai/mistral-large | `None` -> `new model`
+- **models.*** | openai/gpt-3.5-turbo-0613 | `None` -> `new model`
+- **models.*** | openai/gpt-4-turbo-preview | `None` -> `new model`
+- **models.*** | openrouter/auto | `None` -> `new model`
+- **models.*** | openai/gpt-3.5-turbo-instruct | `None` -> `new model`
+- **models.*** | openai/gpt-3.5-turbo-16k | `None` -> `new model`
+- **models.*** | mancer/weaver | `None` -> `new model`
+- **models.*** | undi95/remm-slerp-l2-13b | `None` -> `new model`
+- **models.*** | gryphe/mythomax-l2-13b | `None` -> `new model`
+- **models.*** | openai/gpt-4 | `None` -> `new model`
+- **models.*** | openai/gpt-3.5-turbo | `None` -> `new model`
+- **models.*** | anthropic/claude-opus-4-8 | `None` -> `new model`
+- **models.*** | anthropic/claude-haiku-4-5-20251001 | `None` -> `new model`
+- **models.model_name** | anthropic/claude-fable-5 | `Anthropic: Claude Fable 5` -> `claude-fable-5`
+- **models.capabilities** | anthropic/claude-fable-5 | `{"text": true, "code": true, "reasoning": false, "vision": true, "image_gen": false, "audio": false, "audio_gen": false, "video": false, "tool_use": false, "structured_output": false, "streaming": false, "batch": false, "fine_tuning": false, "embedding": false}` -> `{"text": true, "code": true, "reasoning": false, "vision": false, "tool_use": true, "streaming": true}`
+- **models.urls** | anthropic/claude-fable-5 | `{"official": "https://openrouter.ai/models/claude-fable-5"}` -> `{"official": "https://platform.claude.com/docs/en/about-claude/models", "pricing": "https://www.anthropic.com/pricing"}`
+- **models.tags** | anthropic/claude-fable-5 | `["multimodal", "coding"]` -> `["anthropic", "claude"]`
+- **models.model_name** | anthropic/claude-sonnet-5 | `Anthropic: Claude Sonnet 5` -> `claude-sonnet-5`
+- **models.capabilities** | anthropic/claude-sonnet-5 | `{"text": true, "code": true, "reasoning": false, "vision": true, "image_gen": false, "audio": false, "audio_gen": false, "video": false, "tool_use": false, "structured_output": false, "streaming": false, "batch": false, "fine_tuning": false, "embedding": false}` -> `{"text": true, "code": true, "reasoning": false, "vision": false, "tool_use": true, "streaming": true}`
+- **models.urls** | anthropic/claude-sonnet-5 | `{"official": "https://openrouter.ai/models/claude-sonnet-5"}` -> `{"official": "https://platform.claude.com/docs/en/about-claude/models", "pricing": "https://www.anthropic.com/pricing"}`
+- **models.tags** | anthropic/claude-sonnet-5 | `["multimodal", "coding"]` -> `["anthropic", "claude"]`
+
+## 2026-07-06 - collect
+
+- **pricing.input_price_per_1m** | z-ai/glm-5.2 | `0.728` -> `0.6859999999999999`
+- **pricing.output_price_per_1m** | z-ai/glm-5.2 | `2.288` -> `2.156`
+- **pricing.input_price_per_1m** | openai/gpt-5.2 | `1.75` -> `3.5`
+- **pricing.output_price_per_1m** | openai/gpt-5.2 | `14.0` -> `28.0`
+- **pricing.input_price_per_1m** | openai/gpt-5.1 | `1.25` -> `2.5`
+- **pricing.output_price_per_1m** | openai/gpt-5.1 | `10.0` -> `20.0`
+- **pricing.input_price_per_1m** | openai/gpt-5 | `1.25` -> `2.5`
+- **pricing.output_price_per_1m** | openai/gpt-5 | `10.0` -> `20.0`
+- **pricing.input_price_per_1m** | openai/gpt-5-mini | `0.25` -> `0.45`
+- **pricing.output_price_per_1m** | openai/gpt-5-mini | `2.0` -> `3.6`
+- **pricing.input_price_per_1m** | openai/gpt-5-nano | `0.049999999999999996` -> `0.05`
+- **pricing.output_price_per_1m** | openai/gpt-5-nano | `0.39999999999999997` -> `0.4`
+- **pricing.input_price_per_1m** | openai/gpt-4.1 | `2.0` -> `3.5`
+- **pricing.output_price_per_1m** | openai/gpt-4.1 | `8.0` -> `14.0`
+- **pricing.input_price_per_1m** | openai/gpt-4.1-mini | `0.39999999999999997` -> `0.7`
+- **pricing.output_price_per_1m** | openai/gpt-4.1-mini | `1.5999999999999999` -> `2.8`
+- **pricing.input_price_per_1m** | openai/gpt-4.1-nano | `0.09999999999999999` -> `0.2`
+- **pricing.output_price_per_1m** | openai/gpt-4.1-nano | `0.39999999999999997` -> `0.8`
+- **pricing.input_price_per_1m** | openai/gpt-4o | `2.5` -> `4.25`
+- **pricing.output_price_per_1m** | openai/gpt-4o | `10.0` -> `17.0`
+- **pricing.input_price_per_1m** | openai/gpt-4o-2024-05-13 | `5.0` -> `8.75`
+- **pricing.output_price_per_1m** | openai/gpt-4o-2024-05-13 | `15.0` -> `26.25`
+- **pricing.input_price_per_1m** | openai/gpt-4o-mini | `0.15` -> `0.25`
+- **pricing.output_price_per_1m** | openai/gpt-4o-mini | `0.6` -> `1.0`
+- **pricing.input_price_per_1m** | openai/o4-mini | `1.1` -> `2.0`
+- **pricing.output_price_per_1m** | openai/o4-mini | `4.4` -> `8.0`
+- **pricing.input_price_per_1m** | openai/gpt-5.3-codex | `1.75` -> `3.5`
+- **pricing.output_price_per_1m** | openai/gpt-5.3-codex | `14.0` -> `28.0`
+- **pricing.input_price_per_1m** | openai/gpt-5.2-codex | `1.75` -> `3.5`
+- **pricing.output_price_per_1m** | openai/gpt-5.2-codex | `14.0` -> `28.0`
+- **pricing.input_price_per_1m** | openai/gpt-5.1-codex-max | `1.25` -> `2.5`
+- **pricing.output_price_per_1m** | openai/gpt-5.1-codex-max | `10.0` -> `20.0`
+- **pricing.input_price_per_1m** | openai/gpt-5.1-codex | `1.25` -> `2.5`
+- **pricing.output_price_per_1m** | openai/gpt-5.1-codex | `10.0` -> `20.0`
+- **pricing.input_price_per_1m** | openai/gpt-5-codex | `1.25` -> `2.5`
+- **pricing.output_price_per_1m** | openai/gpt-5-codex | `10.0` -> `20.0`
+- **pricing.input_price_per_1m** | openai/gpt-audio | `2.5` -> `32.0`
+- **pricing.output_price_per_1m** | openai/gpt-audio | `10.0` -> `64.0`
+- **pricing.input_price_per_1m** | openai/gpt-audio-mini | `0.6` -> `10.0`
+- **pricing.output_price_per_1m** | openai/gpt-audio-mini | `2.4` -> `20.0`
+- **pricing.input_price_per_1m** | openai/gpt-4o-2024-08-06 | `2.5` -> `3.75`
+- **pricing.output_price_per_1m** | openai/gpt-4o-2024-08-06 | `10.0` -> `15.0`
+- **pricing.input_price_per_1m** | openai/gpt-4o-mini-2024-07-18 | `0.15` -> `0.3`
+- **pricing.output_price_per_1m** | openai/gpt-4o-mini-2024-07-18 | `0.6` -> `1.2`
+- **pricing.input_price_per_1m** | openai/gpt-3.5-turbo-0613 | `1.0` -> `1.5`
+- **pricing.input_price_per_1m** | anthropic/claude-sonnet-5 | `2.0` -> `3.0`
+- **pricing.output_price_per_1m** | anthropic/claude-sonnet-5 | `10.0` -> `15.0`
