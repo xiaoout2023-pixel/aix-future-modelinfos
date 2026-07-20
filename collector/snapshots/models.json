@@ -14,7 +14,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199009+00:00"
+    "last_updated": "2026-07-20T05:33:20.237520+00:00"
   },
   "poolside/laguna-xs-2.1": {
     "model_id": "poolside/laguna-xs-2.1",
@@ -31,7 +31,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199011+00:00"
+    "last_updated": "2026-07-20T05:33:20.237518+00:00"
   },
   "anthropic/claude-sonnet-5": {
     "model_id": "anthropic/claude-sonnet-5",
@@ -48,7 +48,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:31:04.536995+00:00"
+    "last_updated": "2026-07-20T05:33:24.308186+00:00"
   },
   "google/gemini-3.1-flash-lite-image": {
     "model_id": "google/gemini-3.1-flash-lite-image",
@@ -56,7 +56,7 @@
     "provider": "google",
     "provider_type": "closed",
     "context_length": 65536,
-    "max_output_tokens": 66000,
+    "max_output_tokens": 65536,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/gemini-3.1-flash-lite-image\"}",
     "tags": "[\"multimodal\", \"coding\"]",
@@ -65,7 +65,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199014+00:00"
+    "last_updated": "2026-07-20T05:33:20.237524+00:00"
   },
   "sakana/fugu-ultra": {
     "model_id": "sakana/fugu-ultra",
@@ -82,7 +82,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199017+00:00"
+    "last_updated": "2026-07-20T05:33:20.237528+00:00"
   },
   "google/gemini-3.1-flash-image": {
     "model_id": "google/gemini-3.1-flash-image",
@@ -99,7 +99,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199019+00:00"
+    "last_updated": "2026-07-20T05:33:20.237530+00:00"
   },
   "google/gemini-3-pro-image": {
     "model_id": "google/gemini-3-pro-image",
@@ -116,7 +116,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199021+00:00"
+    "last_updated": "2026-07-20T05:33:20.237532+00:00"
   },
   "cohere/north-mini-code:free": {
     "model_id": "cohere/north-mini-code:free",
@@ -133,7 +133,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199023+00:00"
+    "last_updated": "2026-07-20T05:33:20.237534+00:00"
   },
   "z-ai/glm-5.2": {
     "model_id": "z-ai/glm-5.2",
@@ -141,7 +141,7 @@
     "provider": "z-ai",
     "provider_type": "closed",
     "context_length": 1048576,
-    "max_output_tokens": 1048576,
+    "max_output_tokens": 131072,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/glm-5.2\"}",
     "tags": "[\"coding\"]",
@@ -150,7 +150,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199025+00:00"
+    "last_updated": "2026-07-20T05:33:20.237537+00:00"
   },
   "openrouter/fusion": {
     "model_id": "openrouter/fusion",
@@ -167,7 +167,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199026+00:00"
+    "last_updated": "2026-07-20T05:33:20.237539+00:00"
   },
   "moonshotai/kimi-k2.7-code": {
     "model_id": "moonshotai/kimi-k2.7-code",
@@ -184,7 +184,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199028+00:00"
+    "last_updated": "2026-07-20T05:33:20.237541+00:00"
   },
   "~anthropic/claude-fable-latest": {
     "model_id": "~anthropic/claude-fable-latest",
@@ -201,7 +201,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199030+00:00"
+    "last_updated": "2026-07-20T05:33:20.237543+00:00"
   },
   "anthropic/claude-fable-5": {
     "model_id": "anthropic/claude-fable-5",
@@ -218,7 +218,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:31:04.536981+00:00"
+    "last_updated": "2026-07-20T05:33:24.308172+00:00"
   },
   "nex-agi/nex-n2-pro": {
     "model_id": "nex-agi/nex-n2-pro",
@@ -235,7 +235,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199033+00:00"
+    "last_updated": "2026-07-20T05:33:20.237547+00:00"
   },
   "nvidia/nemotron-3.5-content-safety:free": {
     "model_id": "nvidia/nemotron-3.5-content-safety:free",
@@ -252,7 +252,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199035+00:00"
+    "last_updated": "2026-07-20T05:33:20.237549+00:00"
   },
   "nvidia/nemotron-3-ultra-550b-a55b:free": {
     "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -269,7 +269,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199037+00:00"
+    "last_updated": "2026-07-20T05:33:20.237553+00:00"
   },
   "nvidia/nemotron-3-ultra-550b-a55b": {
     "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
@@ -277,7 +277,7 @@
     "provider": "nvidia",
     "provider_type": "closed",
     "context_length": 1000000,
-    "max_output_tokens": 16384,
+    "max_output_tokens": null,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/nemotron-3-ultra-550b-a55b\"}",
     "tags": "[\"coding\"]",
@@ -286,7 +286,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199039+00:00"
+    "last_updated": "2026-07-20T05:33:20.237551+00:00"
   },
   "qwen/qwen3.7-plus": {
     "model_id": "qwen/qwen3.7-plus",
@@ -303,7 +303,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199041+00:00"
+    "last_updated": "2026-07-20T05:33:20.237555+00:00"
   },
   "minimax/minimax-m3": {
     "model_id": "minimax/minimax-m3",
@@ -311,7 +311,7 @@
     "provider": "minimax",
     "provider_type": "closed",
     "context_length": 1048576,
-    "max_output_tokens": 131072,
+    "max_output_tokens": 512000,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/minimax-m3\"}",
     "tags": "[\"multimodal\", \"coding\"]",
@@ -320,7 +320,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199042+00:00"
+    "last_updated": "2026-07-20T05:33:20.237557+00:00"
   },
   "stepfun/step-3.7-flash": {
     "model_id": "stepfun/step-3.7-flash",
@@ -337,7 +337,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199044+00:00"
+    "last_updated": "2026-07-20T05:33:20.237559+00:00"
   },
   "anthropic/claude-opus-4.8-fast": {
     "model_id": "anthropic/claude-opus-4.8-fast",
@@ -354,7 +354,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199046+00:00"
+    "last_updated": "2026-07-20T05:33:20.237561+00:00"
   },
   "anthropic/claude-opus-4.8": {
     "model_id": "anthropic/claude-opus-4.8",
@@ -371,7 +371,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199048+00:00"
+    "last_updated": "2026-07-20T05:33:20.237563+00:00"
   },
   "qwen/qwen3.7-max": {
     "model_id": "qwen/qwen3.7-max",
@@ -388,7 +388,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199049+00:00"
+    "last_updated": "2026-07-20T05:33:20.237565+00:00"
   },
   "x-ai/grok-build-0.1": {
     "model_id": "x-ai/grok-build-0.1",
@@ -405,7 +405,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199051+00:00"
+    "last_updated": "2026-07-20T05:33:20.237567+00:00"
   },
   "google/gemini-3.5-flash": {
     "model_id": "google/gemini-3.5-flash",
@@ -422,7 +422,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199053+00:00"
+    "last_updated": "2026-07-20T05:33:20.237569+00:00"
   },
   "anthropic/claude-opus-4.7-fast": {
     "model_id": "anthropic/claude-opus-4.7-fast",
@@ -439,7 +439,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199055+00:00"
+    "last_updated": "2026-07-20T05:33:20.237572+00:00"
   },
   "perceptron/perceptron-mk1": {
     "model_id": "perceptron/perceptron-mk1",
@@ -456,7 +456,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199056+00:00"
+    "last_updated": "2026-07-20T05:33:20.237574+00:00"
   },
   "inclusionai/ring-2.6-1t": {
     "model_id": "inclusionai/ring-2.6-1t",
@@ -473,7 +473,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199058+00:00"
+    "last_updated": "2026-07-20T05:33:20.237576+00:00"
   },
   "google/gemini-3.1-flash-lite": {
     "model_id": "google/gemini-3.1-flash-lite",
@@ -490,7 +490,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199060+00:00"
+    "last_updated": "2026-07-20T05:33:20.237578+00:00"
   },
   "openai/gpt-chat-latest": {
     "model_id": "openai/gpt-chat-latest",
@@ -507,7 +507,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199062+00:00"
+    "last_updated": "2026-07-20T05:33:20.237580+00:00"
   },
   "x-ai/grok-4.3": {
     "model_id": "x-ai/grok-4.3",
@@ -524,7 +524,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199064+00:00"
+    "last_updated": "2026-07-20T05:33:20.237582+00:00"
   },
   "ibm-granite/granite-4.1-8b": {
     "model_id": "ibm-granite/granite-4.1-8b",
@@ -541,7 +541,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199065+00:00"
+    "last_updated": "2026-07-20T05:33:20.237584+00:00"
   },
   "mistralai/mistral-medium-3-5": {
     "model_id": "mistralai/mistral-medium-3-5",
@@ -558,7 +558,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199067+00:00"
+    "last_updated": "2026-07-20T05:33:20.237586+00:00"
   },
   "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free": {
     "model_id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
@@ -575,7 +575,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199069+00:00"
+    "last_updated": "2026-07-20T05:33:20.237588+00:00"
   },
   "poolside/laguna-xs.2:free": {
     "model_id": "poolside/laguna-xs.2:free",
@@ -626,7 +626,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199070+00:00"
+    "last_updated": "2026-07-20T05:33:20.237592+00:00"
   },
   "poolside/laguna-m.1": {
     "model_id": "poolside/laguna-m.1",
@@ -643,7 +643,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199072+00:00"
+    "last_updated": "2026-07-20T05:33:20.237590+00:00"
   },
   "~anthropic/claude-haiku-latest": {
     "model_id": "~anthropic/claude-haiku-latest",
@@ -660,7 +660,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199074+00:00"
+    "last_updated": "2026-07-20T05:33:20.237593+00:00"
   },
   "~openai/gpt-mini-latest": {
     "model_id": "~openai/gpt-mini-latest",
@@ -677,7 +677,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199075+00:00"
+    "last_updated": "2026-07-20T05:33:20.237595+00:00"
   },
   "~google/gemini-pro-latest": {
     "model_id": "~google/gemini-pro-latest",
@@ -694,15 +694,15 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199077+00:00"
+    "last_updated": "2026-07-20T05:33:20.237597+00:00"
   },
   "~moonshotai/kimi-latest": {
     "model_id": "~moonshotai/kimi-latest",
     "model_name": "MoonshotAI Kimi Latest",
     "provider": "~moonshotai",
     "provider_type": "closed",
-    "context_length": 262144,
-    "max_output_tokens": 262144,
+    "context_length": 1048576,
+    "max_output_tokens": null,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/kimi-latest\"}",
     "tags": "[\"multimodal\", \"coding\"]",
@@ -711,7 +711,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199079+00:00"
+    "last_updated": "2026-07-20T05:33:20.237599+00:00"
   },
   "~google/gemini-flash-latest": {
     "model_id": "~google/gemini-flash-latest",
@@ -728,7 +728,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199080+00:00"
+    "last_updated": "2026-07-20T05:33:20.237601+00:00"
   },
   "~anthropic/claude-sonnet-latest": {
     "model_id": "~anthropic/claude-sonnet-latest",
@@ -745,7 +745,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199082+00:00"
+    "last_updated": "2026-07-20T05:33:20.237603+00:00"
   },
   "~openai/gpt-latest": {
     "model_id": "~openai/gpt-latest",
@@ -762,7 +762,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199084+00:00"
+    "last_updated": "2026-07-20T05:33:20.237605+00:00"
   },
   "qwen/qwen3.5-plus-20260420": {
     "model_id": "qwen/qwen3.5-plus-20260420",
@@ -779,7 +779,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199085+00:00"
+    "last_updated": "2026-07-20T05:33:20.237608+00:00"
   },
   "qwen/qwen3.6-flash": {
     "model_id": "qwen/qwen3.6-flash",
@@ -796,7 +796,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199087+00:00"
+    "last_updated": "2026-07-20T05:33:20.237610+00:00"
   },
   "qwen/qwen3.6-35b-a3b": {
     "model_id": "qwen/qwen3.6-35b-a3b",
@@ -813,7 +813,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199089+00:00"
+    "last_updated": "2026-07-20T05:33:20.237612+00:00"
   },
   "qwen/qwen3.6-max-preview": {
     "model_id": "qwen/qwen3.6-max-preview",
@@ -830,7 +830,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199090+00:00"
+    "last_updated": "2026-07-20T05:33:20.237613+00:00"
   },
   "qwen/qwen3.6-27b": {
     "model_id": "qwen/qwen3.6-27b",
@@ -838,7 +838,7 @@
     "provider": "qwen",
     "provider_type": "closed",
     "context_length": 262144,
-    "max_output_tokens": 262140,
+    "max_output_tokens": 65536,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/qwen3.6-27b\"}",
     "tags": "[\"multimodal\", \"coding\"]",
@@ -847,7 +847,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199092+00:00"
+    "last_updated": "2026-07-20T05:33:20.237615+00:00"
   },
   "openai/gpt-5.5-pro": {
     "model_id": "openai/gpt-5.5-pro",
@@ -864,7 +864,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199094+00:00"
+    "last_updated": "2026-07-20T05:33:20.237617+00:00"
   },
   "openai/gpt-5.5": {
     "model_id": "openai/gpt-5.5",
@@ -881,7 +881,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199096+00:00"
+    "last_updated": "2026-07-20T05:33:20.237619+00:00"
   },
   "deepseek/deepseek-v4-pro": {
     "model_id": "deepseek/deepseek-v4-pro",
@@ -898,7 +898,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199097+00:00"
+    "last_updated": "2026-07-20T05:33:20.237621+00:00"
   },
   "deepseek/deepseek-v4-flash": {
     "model_id": "deepseek/deepseek-v4-flash",
@@ -906,7 +906,7 @@
     "provider": "deepseek",
     "provider_type": "closed",
     "context_length": 1048576,
-    "max_output_tokens": 384000,
+    "max_output_tokens": null,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/deepseek-v4-flash\"}",
     "tags": "[\"coding\"]",
@@ -915,7 +915,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199099+00:00"
+    "last_updated": "2026-07-20T05:33:20.237623+00:00"
   },
   "inclusionai/ling-2.6-1t": {
     "model_id": "inclusionai/ling-2.6-1t",
@@ -932,7 +932,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199101+00:00"
+    "last_updated": "2026-07-20T05:33:20.237625+00:00"
   },
   "tencent/hy3-preview": {
     "model_id": "tencent/hy3-preview",
@@ -949,7 +949,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199102+00:00"
+    "last_updated": "2026-07-20T05:33:20.237627+00:00"
   },
   "xiaomi/mimo-v2.5-pro": {
     "model_id": "xiaomi/mimo-v2.5-pro",
@@ -966,7 +966,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199104+00:00"
+    "last_updated": "2026-07-20T05:33:20.237629+00:00"
   },
   "xiaomi/mimo-v2.5": {
     "model_id": "xiaomi/mimo-v2.5",
@@ -974,7 +974,7 @@
     "provider": "xiaomi",
     "provider_type": "closed",
     "context_length": 1048576,
-    "max_output_tokens": null,
+    "max_output_tokens": 131072,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/mimo-v2.5\"}",
     "tags": "[\"multimodal\", \"coding\"]",
@@ -983,7 +983,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199105+00:00"
+    "last_updated": "2026-07-20T05:33:20.237631+00:00"
   },
   "openai/gpt-5.4-image-2": {
     "model_id": "openai/gpt-5.4-image-2",
@@ -1000,7 +1000,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199107+00:00"
+    "last_updated": "2026-07-20T05:33:20.237633+00:00"
   },
   "inclusionai/ling-2.6-flash": {
     "model_id": "inclusionai/ling-2.6-flash",
@@ -1017,7 +1017,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199109+00:00"
+    "last_updated": "2026-07-20T05:33:20.237635+00:00"
   },
   "~anthropic/claude-opus-latest": {
     "model_id": "~anthropic/claude-opus-latest",
@@ -1034,7 +1034,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199110+00:00"
+    "last_updated": "2026-07-20T05:33:20.237636+00:00"
   },
   "openrouter/pareto-code": {
     "model_id": "openrouter/pareto-code",
@@ -1051,7 +1051,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199112+00:00"
+    "last_updated": "2026-07-20T05:33:20.237638+00:00"
   },
   "moonshotai/kimi-k2.6": {
     "model_id": "moonshotai/kimi-k2.6",
@@ -1068,7 +1068,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199113+00:00"
+    "last_updated": "2026-07-20T05:33:20.237640+00:00"
   },
   "anthropic/claude-opus-4.7": {
     "model_id": "anthropic/claude-opus-4.7",
@@ -1085,7 +1085,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199115+00:00"
+    "last_updated": "2026-07-20T05:33:20.237642+00:00"
   },
   "z-ai/glm-5.1": {
     "model_id": "z-ai/glm-5.1",
@@ -1102,7 +1102,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199117+00:00"
+    "last_updated": "2026-07-20T05:33:20.237644+00:00"
   },
   "google/gemma-4-26b-a4b-it:free": {
     "model_id": "google/gemma-4-26b-a4b-it:free",
@@ -1119,7 +1119,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199118+00:00"
+    "last_updated": "2026-07-20T05:33:20.237648+00:00"
   },
   "google/gemma-4-26b-a4b-it": {
     "model_id": "google/gemma-4-26b-a4b-it",
@@ -1127,7 +1127,7 @@
     "provider": "google",
     "provider_type": "closed",
     "context_length": 262144,
-    "max_output_tokens": null,
+    "max_output_tokens": 16384,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/gemma-4-26b-a4b-it\"}",
     "tags": "[\"multimodal\", \"coding\"]",
@@ -1136,7 +1136,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199120+00:00"
+    "last_updated": "2026-07-20T05:33:20.237646+00:00"
   },
   "google/gemma-4-31b-it:free": {
     "model_id": "google/gemma-4-31b-it:free",
@@ -1144,7 +1144,7 @@
     "provider": "google",
     "provider_type": "closed",
     "context_length": 262144,
-    "max_output_tokens": 8192,
+    "max_output_tokens": 32768,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/gemma-4-31b-it:free\"}",
     "tags": "[\"multimodal\", \"coding\"]",
@@ -1153,7 +1153,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199121+00:00"
+    "last_updated": "2026-07-20T05:33:20.237651+00:00"
   },
   "google/gemma-4-31b-it": {
     "model_id": "google/gemma-4-31b-it",
@@ -1170,7 +1170,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199123+00:00"
+    "last_updated": "2026-07-20T05:33:20.237650+00:00"
   },
   "qwen/qwen3.6-plus": {
     "model_id": "qwen/qwen3.6-plus",
@@ -1187,7 +1187,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199125+00:00"
+    "last_updated": "2026-07-20T05:33:20.237653+00:00"
   },
   "z-ai/glm-5v-turbo": {
     "model_id": "z-ai/glm-5v-turbo",
@@ -1204,7 +1204,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199126+00:00"
+    "last_updated": "2026-07-20T05:33:20.237655+00:00"
   },
   "arcee-ai/trinity-large-thinking": {
     "model_id": "arcee-ai/trinity-large-thinking",
@@ -1221,7 +1221,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199128+00:00"
+    "last_updated": "2026-07-20T05:33:20.237657+00:00"
   },
   "x-ai/grok-4.20-multi-agent": {
     "model_id": "x-ai/grok-4.20-multi-agent",
@@ -1238,7 +1238,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199130+00:00"
+    "last_updated": "2026-07-20T05:33:20.237659+00:00"
   },
   "x-ai/grok-4.20": {
     "model_id": "x-ai/grok-4.20",
@@ -1255,7 +1255,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199131+00:00"
+    "last_updated": "2026-07-20T05:33:20.237661+00:00"
   },
   "google/lyria-3-pro-preview": {
     "model_id": "google/lyria-3-pro-preview",
@@ -1272,7 +1272,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199133+00:00"
+    "last_updated": "2026-07-20T05:33:20.237662+00:00"
   },
   "google/lyria-3-clip-preview": {
     "model_id": "google/lyria-3-clip-preview",
@@ -1289,7 +1289,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199135+00:00"
+    "last_updated": "2026-07-20T05:33:20.237664+00:00"
   },
   "kwaipilot/kat-coder-pro-v2": {
     "model_id": "kwaipilot/kat-coder-pro-v2",
@@ -1306,7 +1306,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199136+00:00"
+    "last_updated": "2026-07-20T05:33:20.237666+00:00"
   },
   "rekaai/reka-edge": {
     "model_id": "rekaai/reka-edge",
@@ -1323,7 +1323,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199138+00:00"
+    "last_updated": "2026-07-20T05:33:20.237668+00:00"
   },
   "minimax/minimax-m2.7": {
     "model_id": "minimax/minimax-m2.7",
@@ -1331,7 +1331,7 @@
     "provider": "minimax",
     "provider_type": "closed",
     "context_length": 204800,
-    "max_output_tokens": 196608,
+    "max_output_tokens": 131072,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/minimax-m2.7\"}",
     "tags": "[\"coding\"]",
@@ -1340,7 +1340,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199140+00:00"
+    "last_updated": "2026-07-20T05:33:20.237670+00:00"
   },
   "openai/gpt-5.4-nano": {
     "model_id": "openai/gpt-5.4-nano",
@@ -1357,7 +1357,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199141+00:00"
+    "last_updated": "2026-07-20T05:33:20.237671+00:00"
   },
   "openai/gpt-5.4-mini": {
     "model_id": "openai/gpt-5.4-mini",
@@ -1374,7 +1374,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199143+00:00"
+    "last_updated": "2026-07-20T05:33:20.237673+00:00"
   },
   "mistralai/mistral-small-2603": {
     "model_id": "mistralai/mistral-small-2603",
@@ -1391,14 +1391,14 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199145+00:00"
+    "last_updated": "2026-07-20T05:33:20.237675+00:00"
   },
   "z-ai/glm-5-turbo": {
     "model_id": "z-ai/glm-5-turbo",
     "model_name": "Z.ai: GLM 5 Turbo",
     "provider": "z-ai",
     "provider_type": "closed",
-    "context_length": 262144,
+    "context_length": 202752,
     "max_output_tokens": 131072,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/glm-5-turbo\"}",
@@ -1408,7 +1408,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199146+00:00"
+    "last_updated": "2026-07-20T05:33:20.237677+00:00"
   },
   "nvidia/nemotron-3-super-120b-a12b:free": {
     "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
@@ -1425,7 +1425,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199148+00:00"
+    "last_updated": "2026-07-20T05:33:20.237680+00:00"
   },
   "nvidia/nemotron-3-super-120b-a12b": {
     "model_id": "nvidia/nemotron-3-super-120b-a12b",
@@ -1433,7 +1433,7 @@
     "provider": "nvidia",
     "provider_type": "closed",
     "context_length": 1000000,
-    "max_output_tokens": null,
+    "max_output_tokens": 16384,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/nemotron-3-super-120b-a12b\"}",
     "tags": "[\"coding\"]",
@@ -1442,7 +1442,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199149+00:00"
+    "last_updated": "2026-07-20T05:33:20.237679+00:00"
   },
   "bytedance-seed/seed-2.0-lite": {
     "model_id": "bytedance-seed/seed-2.0-lite",
@@ -1459,7 +1459,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199151+00:00"
+    "last_updated": "2026-07-20T05:33:20.237682+00:00"
   },
   "qwen/qwen3.5-9b": {
     "model_id": "qwen/qwen3.5-9b",
@@ -1476,7 +1476,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199153+00:00"
+    "last_updated": "2026-07-20T05:33:20.237687+00:00"
   },
   "openai/gpt-5.4-pro": {
     "model_id": "openai/gpt-5.4-pro",
@@ -1493,7 +1493,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199154+00:00"
+    "last_updated": "2026-07-20T05:33:20.237689+00:00"
   },
   "openai/gpt-5.4": {
     "model_id": "openai/gpt-5.4",
@@ -1510,7 +1510,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199156+00:00"
+    "last_updated": "2026-07-20T05:33:20.237691+00:00"
   },
   "inception/mercury-2": {
     "model_id": "inception/mercury-2",
@@ -1527,7 +1527,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199158+00:00"
+    "last_updated": "2026-07-20T05:33:20.237693+00:00"
   },
   "openai/gpt-5.3-chat": {
     "model_id": "openai/gpt-5.3-chat",
@@ -1544,7 +1544,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199159+00:00"
+    "last_updated": "2026-07-20T05:33:20.237695+00:00"
   },
   "google/gemini-3.1-flash-lite-preview": {
     "model_id": "google/gemini-3.1-flash-lite-preview",
@@ -1561,7 +1561,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199161+00:00"
+    "last_updated": "2026-07-20T05:33:20.237696+00:00"
   },
   "bytedance-seed/seed-2.0-mini": {
     "model_id": "bytedance-seed/seed-2.0-mini",
@@ -1578,7 +1578,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199163+00:00"
+    "last_updated": "2026-07-20T05:33:20.237698+00:00"
   },
   "google/gemini-3.1-flash-image-preview": {
     "model_id": "google/gemini-3.1-flash-image-preview",
@@ -1595,7 +1595,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199164+00:00"
+    "last_updated": "2026-07-20T05:33:20.237700+00:00"
   },
   "qwen/qwen3.5-35b-a3b": {
     "model_id": "qwen/qwen3.5-35b-a3b",
@@ -1603,7 +1603,7 @@
     "provider": "qwen",
     "provider_type": "closed",
     "context_length": 262144,
-    "max_output_tokens": 81920,
+    "max_output_tokens": 262144,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/qwen3.5-35b-a3b\"}",
     "tags": "[\"multimodal\", \"coding\"]",
@@ -1612,7 +1612,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199166+00:00"
+    "last_updated": "2026-07-20T05:33:20.237702+00:00"
   },
   "qwen/qwen3.5-27b": {
     "model_id": "qwen/qwen3.5-27b",
@@ -1620,7 +1620,7 @@
     "provider": "qwen",
     "provider_type": "closed",
     "context_length": 262144,
-    "max_output_tokens": 65536,
+    "max_output_tokens": 81920,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/qwen3.5-27b\"}",
     "tags": "[\"multimodal\", \"coding\"]",
@@ -1629,7 +1629,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199168+00:00"
+    "last_updated": "2026-07-20T05:33:20.237704+00:00"
   },
   "qwen/qwen3.5-122b-a10b": {
     "model_id": "qwen/qwen3.5-122b-a10b",
@@ -1637,7 +1637,7 @@
     "provider": "qwen",
     "provider_type": "closed",
     "context_length": 262144,
-    "max_output_tokens": 262144,
+    "max_output_tokens": 65536,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/qwen3.5-122b-a10b\"}",
     "tags": "[\"multimodal\", \"coding\"]",
@@ -1646,7 +1646,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199169+00:00"
+    "last_updated": "2026-07-20T05:33:20.237706+00:00"
   },
   "qwen/qwen3.5-flash-02-23": {
     "model_id": "qwen/qwen3.5-flash-02-23",
@@ -1663,7 +1663,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199171+00:00"
+    "last_updated": "2026-07-20T05:33:20.237707+00:00"
   },
   "liquid/lfm-2-24b-a2b": {
     "model_id": "liquid/lfm-2-24b-a2b",
@@ -1697,7 +1697,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199172+00:00"
+    "last_updated": "2026-07-20T05:33:20.237709+00:00"
   },
   "openai/gpt-5.3-codex": {
     "model_id": "openai/gpt-5.3-codex",
@@ -1714,7 +1714,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199174+00:00"
+    "last_updated": "2026-07-20T05:33:20.237711+00:00"
   },
   "aion-labs/aion-2.0": {
     "model_id": "aion-labs/aion-2.0",
@@ -1731,7 +1731,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199176+00:00"
+    "last_updated": "2026-07-20T05:33:20.237713+00:00"
   },
   "google/gemini-3.1-pro-preview": {
     "model_id": "google/gemini-3.1-pro-preview",
@@ -1748,7 +1748,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199177+00:00"
+    "last_updated": "2026-07-20T05:33:20.237715+00:00"
   },
   "anthropic/claude-sonnet-4.6": {
     "model_id": "anthropic/claude-sonnet-4.6",
@@ -1765,7 +1765,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199179+00:00"
+    "last_updated": "2026-07-20T05:33:20.237716+00:00"
   },
   "qwen/qwen3.5-plus-02-15": {
     "model_id": "qwen/qwen3.5-plus-02-15",
@@ -1782,15 +1782,15 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199181+00:00"
+    "last_updated": "2026-07-20T05:33:20.237718+00:00"
   },
   "qwen/qwen3.5-397b-a17b": {
     "model_id": "qwen/qwen3.5-397b-a17b",
     "model_name": "Qwen: Qwen3.5 397B A17B",
     "provider": "qwen",
     "provider_type": "closed",
-    "context_length": 256000,
-    "max_output_tokens": null,
+    "context_length": 262144,
+    "max_output_tokens": 65536,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/qwen3.5-397b-a17b\"}",
     "tags": "[\"multimodal\", \"coding\"]",
@@ -1799,7 +1799,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199182+00:00"
+    "last_updated": "2026-07-20T05:33:20.237720+00:00"
   },
   "minimax/minimax-m2.5": {
     "model_id": "minimax/minimax-m2.5",
@@ -1816,15 +1816,15 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199184+00:00"
+    "last_updated": "2026-07-20T05:33:20.237722+00:00"
   },
   "z-ai/glm-5": {
     "model_id": "z-ai/glm-5",
     "model_name": "Z.ai: GLM 5",
     "provider": "z-ai",
     "provider_type": "closed",
-    "context_length": 202752,
-    "max_output_tokens": null,
+    "context_length": 204800,
+    "max_output_tokens": 131072,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/glm-5\"}",
     "tags": "[\"coding\"]",
@@ -1833,7 +1833,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199185+00:00"
+    "last_updated": "2026-07-20T05:33:20.237724+00:00"
   },
   "qwen/qwen3-max-thinking": {
     "model_id": "qwen/qwen3-max-thinking",
@@ -1850,7 +1850,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199187+00:00"
+    "last_updated": "2026-07-20T05:33:20.237726+00:00"
   },
   "anthropic/claude-opus-4.6": {
     "model_id": "anthropic/claude-opus-4.6",
@@ -1867,7 +1867,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199189+00:00"
+    "last_updated": "2026-07-20T05:33:20.237728+00:00"
   },
   "qwen/qwen3-coder-next": {
     "model_id": "qwen/qwen3-coder-next",
@@ -1884,7 +1884,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199190+00:00"
+    "last_updated": "2026-07-20T05:33:20.237730+00:00"
   },
   "openrouter/free": {
     "model_id": "openrouter/free",
@@ -1901,7 +1901,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199192+00:00"
+    "last_updated": "2026-07-20T05:33:20.237731+00:00"
   },
   "stepfun/step-3.5-flash": {
     "model_id": "stepfun/step-3.5-flash",
@@ -1918,7 +1918,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199194+00:00"
+    "last_updated": "2026-07-20T05:33:20.237734+00:00"
   },
   "moonshotai/kimi-k2.5": {
     "model_id": "moonshotai/kimi-k2.5",
@@ -1926,7 +1926,7 @@
     "provider": "moonshotai",
     "provider_type": "closed",
     "context_length": 262144,
-    "max_output_tokens": null,
+    "max_output_tokens": 262144,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/kimi-k2.5\"}",
     "tags": "[\"multimodal\", \"coding\"]",
@@ -1935,7 +1935,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199195+00:00"
+    "last_updated": "2026-07-20T05:33:20.237735+00:00"
   },
   "upstage/solar-pro-3": {
     "model_id": "upstage/solar-pro-3",
@@ -1952,7 +1952,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199197+00:00"
+    "last_updated": "2026-07-20T05:33:20.237737+00:00"
   },
   "minimax/minimax-m2-her": {
     "model_id": "minimax/minimax-m2-her",
@@ -1969,7 +1969,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199199+00:00"
+    "last_updated": "2026-07-20T05:33:20.237739+00:00"
   },
   "writer/palmyra-x5": {
     "model_id": "writer/palmyra-x5",
@@ -1986,7 +1986,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199200+00:00"
+    "last_updated": "2026-07-20T05:33:20.237741+00:00"
   },
   "liquid/lfm-2.5-1.2b-thinking:free": {
     "model_id": "liquid/lfm-2.5-1.2b-thinking:free",
@@ -2037,7 +2037,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199205+00:00"
+    "last_updated": "2026-07-20T05:33:20.237743+00:00"
   },
   "openai/gpt-audio-mini": {
     "model_id": "openai/gpt-audio-mini",
@@ -2054,15 +2054,15 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199207+00:00"
+    "last_updated": "2026-07-20T05:33:20.237745+00:00"
   },
   "z-ai/glm-4.7-flash": {
     "model_id": "z-ai/glm-4.7-flash",
     "model_name": "Z.ai: GLM 4.7 Flash",
     "provider": "z-ai",
     "provider_type": "closed",
-    "context_length": 202752,
-    "max_output_tokens": 16384,
+    "context_length": 200000,
+    "max_output_tokens": 131072,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/glm-4.7-flash\"}",
     "tags": "[\"coding\"]",
@@ -2071,7 +2071,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199208+00:00"
+    "last_updated": "2026-07-20T05:33:20.237746+00:00"
   },
   "openai/gpt-5.2-codex": {
     "model_id": "openai/gpt-5.2-codex",
@@ -2088,7 +2088,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199210+00:00"
+    "last_updated": "2026-07-20T05:33:20.237748+00:00"
   },
   "bytedance-seed/seed-1.6-flash": {
     "model_id": "bytedance-seed/seed-1.6-flash",
@@ -2105,7 +2105,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199212+00:00"
+    "last_updated": "2026-07-20T05:33:20.237750+00:00"
   },
   "bytedance-seed/seed-1.6": {
     "model_id": "bytedance-seed/seed-1.6",
@@ -2122,7 +2122,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199213+00:00"
+    "last_updated": "2026-07-20T05:33:20.237752+00:00"
   },
   "minimax/minimax-m2.1": {
     "model_id": "minimax/minimax-m2.1",
@@ -2139,7 +2139,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199215+00:00"
+    "last_updated": "2026-07-20T05:33:20.237754+00:00"
   },
   "z-ai/glm-4.7": {
     "model_id": "z-ai/glm-4.7",
@@ -2156,7 +2156,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199217+00:00"
+    "last_updated": "2026-07-20T05:33:20.237755+00:00"
   },
   "google/gemini-3-flash-preview": {
     "model_id": "google/gemini-3-flash-preview",
@@ -2173,7 +2173,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199218+00:00"
+    "last_updated": "2026-07-20T05:33:20.237757+00:00"
   },
   "nvidia/nemotron-3-nano-30b-a3b:free": {
     "model_id": "nvidia/nemotron-3-nano-30b-a3b:free",
@@ -2190,7 +2190,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199220+00:00"
+    "last_updated": "2026-07-20T05:33:20.237761+00:00"
   },
   "nvidia/nemotron-3-nano-30b-a3b": {
     "model_id": "nvidia/nemotron-3-nano-30b-a3b",
@@ -2207,7 +2207,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199221+00:00"
+    "last_updated": "2026-07-20T05:33:20.237759+00:00"
   },
   "openai/gpt-5.2-chat": {
     "model_id": "openai/gpt-5.2-chat",
@@ -2224,7 +2224,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199223+00:00"
+    "last_updated": "2026-07-20T05:33:20.237763+00:00"
   },
   "openai/gpt-5.2-pro": {
     "model_id": "openai/gpt-5.2-pro",
@@ -2241,7 +2241,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199225+00:00"
+    "last_updated": "2026-07-20T05:33:20.237765+00:00"
   },
   "openai/gpt-5.2": {
     "model_id": "openai/gpt-5.2",
@@ -2258,7 +2258,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199227+00:00"
+    "last_updated": "2026-07-20T05:33:20.237766+00:00"
   },
   "mistralai/devstral-2512": {
     "model_id": "mistralai/devstral-2512",
@@ -2275,7 +2275,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199229+00:00"
+    "last_updated": "2026-07-20T05:33:20.237768+00:00"
   },
   "relace/relace-search": {
     "model_id": "relace/relace-search",
@@ -2292,7 +2292,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199230+00:00"
+    "last_updated": "2026-07-20T05:33:20.237770+00:00"
   },
   "z-ai/glm-4.6v": {
     "model_id": "z-ai/glm-4.6v",
@@ -2309,7 +2309,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199232+00:00"
+    "last_updated": "2026-07-20T05:33:20.237772+00:00"
   },
   "openrouter/bodybuilder": {
     "model_id": "openrouter/bodybuilder",
@@ -2326,7 +2326,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199233+00:00"
+    "last_updated": "2026-07-20T05:33:20.237774+00:00"
   },
   "openai/gpt-5.1-codex-max": {
     "model_id": "openai/gpt-5.1-codex-max",
@@ -2343,7 +2343,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199235+00:00"
+    "last_updated": "2026-07-20T05:33:20.237776+00:00"
   },
   "amazon/nova-2-lite-v1": {
     "model_id": "amazon/nova-2-lite-v1",
@@ -2360,7 +2360,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199237+00:00"
+    "last_updated": "2026-07-20T05:33:20.237777+00:00"
   },
   "mistralai/ministral-14b-2512": {
     "model_id": "mistralai/ministral-14b-2512",
@@ -2377,7 +2377,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199238+00:00"
+    "last_updated": "2026-07-20T05:33:20.237779+00:00"
   },
   "mistralai/ministral-8b-2512": {
     "model_id": "mistralai/ministral-8b-2512",
@@ -2394,7 +2394,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199240+00:00"
+    "last_updated": "2026-07-20T05:33:20.237781+00:00"
   },
   "mistralai/ministral-3b-2512": {
     "model_id": "mistralai/ministral-3b-2512",
@@ -2411,7 +2411,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199241+00:00"
+    "last_updated": "2026-07-20T05:33:20.237783+00:00"
   },
   "mistralai/mistral-large-2512": {
     "model_id": "mistralai/mistral-large-2512",
@@ -2428,7 +2428,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199243+00:00"
+    "last_updated": "2026-07-20T05:33:20.237785+00:00"
   },
   "arcee-ai/trinity-mini": {
     "model_id": "arcee-ai/trinity-mini",
@@ -2452,8 +2452,8 @@
     "model_name": "DeepSeek: DeepSeek V3.2",
     "provider": "deepseek",
     "provider_type": "closed",
-    "context_length": 131072,
-    "max_output_tokens": 64000,
+    "context_length": 163840,
+    "max_output_tokens": 65536,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/deepseek-v3.2\"}",
     "tags": "[\"coding\"]",
@@ -2462,7 +2462,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199245+00:00"
+    "last_updated": "2026-07-20T05:33:20.237786+00:00"
   },
   "anthropic/claude-opus-4.5": {
     "model_id": "anthropic/claude-opus-4.5",
@@ -2479,7 +2479,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199246+00:00"
+    "last_updated": "2026-07-20T05:33:20.237788+00:00"
   },
   "allenai/olmo-3-32b-think": {
     "model_id": "allenai/olmo-3-32b-think",
@@ -2496,7 +2496,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199248+00:00"
+    "last_updated": "2026-07-20T05:33:20.237790+00:00"
   },
   "google/gemini-3-pro-image-preview": {
     "model_id": "google/gemini-3-pro-image-preview",
@@ -2513,7 +2513,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199249+00:00"
+    "last_updated": "2026-07-20T05:33:20.237792+00:00"
   },
   "deepcogito/cogito-v2.1-671b": {
     "model_id": "deepcogito/cogito-v2.1-671b",
@@ -2530,7 +2530,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199251+00:00"
+    "last_updated": "2026-07-20T05:33:20.237794+00:00"
   },
   "openai/gpt-5.1": {
     "model_id": "openai/gpt-5.1",
@@ -2547,7 +2547,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199253+00:00"
+    "last_updated": "2026-07-20T05:33:20.237796+00:00"
   },
   "openai/gpt-5.1-chat": {
     "model_id": "openai/gpt-5.1-chat",
@@ -2555,7 +2555,7 @@
     "provider": "openai",
     "provider_type": "closed",
     "context_length": 128000,
-    "max_output_tokens": 32000,
+    "max_output_tokens": 16384,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/gpt-5.1-chat\"}",
     "tags": "[\"multimodal\", \"coding\"]",
@@ -2564,7 +2564,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199254+00:00"
+    "last_updated": "2026-07-20T05:33:20.237798+00:00"
   },
   "openai/gpt-5.1-codex": {
     "model_id": "openai/gpt-5.1-codex",
@@ -2581,7 +2581,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199256+00:00"
+    "last_updated": "2026-07-20T05:33:20.237800+00:00"
   },
   "openai/gpt-5.1-codex-mini": {
     "model_id": "openai/gpt-5.1-codex-mini",
@@ -2598,7 +2598,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199258+00:00"
+    "last_updated": "2026-07-20T05:33:20.237802+00:00"
   },
   "moonshotai/kimi-k2-thinking": {
     "model_id": "moonshotai/kimi-k2-thinking",
@@ -2615,7 +2615,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199259+00:00"
+    "last_updated": "2026-07-20T05:33:20.237804+00:00"
   },
   "amazon/nova-premier-v1": {
     "model_id": "amazon/nova-premier-v1",
@@ -2632,7 +2632,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199261+00:00"
+    "last_updated": "2026-07-20T05:33:20.237805+00:00"
   },
   "perplexity/sonar-pro-search": {
     "model_id": "perplexity/sonar-pro-search",
@@ -2649,7 +2649,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199262+00:00"
+    "last_updated": "2026-07-20T05:33:20.237807+00:00"
   },
   "mistralai/voxtral-small-24b-2507": {
     "model_id": "mistralai/voxtral-small-24b-2507",
@@ -2666,7 +2666,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199264+00:00"
+    "last_updated": "2026-07-20T05:33:20.237810+00:00"
   },
   "openai/gpt-oss-safeguard-20b": {
     "model_id": "openai/gpt-oss-safeguard-20b",
@@ -2683,7 +2683,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199266+00:00"
+    "last_updated": "2026-07-20T05:33:20.237812+00:00"
   },
   "nvidia/nemotron-nano-12b-v2-vl:free": {
     "model_id": "nvidia/nemotron-nano-12b-v2-vl:free",
@@ -2700,7 +2700,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199267+00:00"
+    "last_updated": "2026-07-20T05:33:20.237814+00:00"
   },
   "minimax/minimax-m2": {
     "model_id": "minimax/minimax-m2",
@@ -2717,7 +2717,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199269+00:00"
+    "last_updated": "2026-07-20T05:33:20.237816+00:00"
   },
   "qwen/qwen3-vl-32b-instruct": {
     "model_id": "qwen/qwen3-vl-32b-instruct",
@@ -2734,7 +2734,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199270+00:00"
+    "last_updated": "2026-07-20T05:33:20.237818+00:00"
   },
   "ibm-granite/granite-4.0-h-micro": {
     "model_id": "ibm-granite/granite-4.0-h-micro",
@@ -2751,7 +2751,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199272+00:00"
+    "last_updated": "2026-07-20T05:33:20.237820+00:00"
   },
   "openai/gpt-5-image-mini": {
     "model_id": "openai/gpt-5-image-mini",
@@ -2768,7 +2768,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199273+00:00"
+    "last_updated": "2026-07-20T05:33:20.237821+00:00"
   },
   "anthropic/claude-haiku-4.5": {
     "model_id": "anthropic/claude-haiku-4.5",
@@ -2785,7 +2785,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199275+00:00"
+    "last_updated": "2026-07-20T05:33:20.237823+00:00"
   },
   "qwen/qwen3-vl-8b-thinking": {
     "model_id": "qwen/qwen3-vl-8b-thinking",
@@ -2802,7 +2802,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199277+00:00"
+    "last_updated": "2026-07-20T05:33:20.237825+00:00"
   },
   "qwen/qwen3-vl-8b-instruct": {
     "model_id": "qwen/qwen3-vl-8b-instruct",
@@ -2819,7 +2819,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199278+00:00"
+    "last_updated": "2026-07-20T05:33:20.237827+00:00"
   },
   "openai/gpt-5-image": {
     "model_id": "openai/gpt-5-image",
@@ -2836,7 +2836,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199280+00:00"
+    "last_updated": "2026-07-20T05:33:20.237829+00:00"
   },
   "openai/o3-deep-research": {
     "model_id": "openai/o3-deep-research",
@@ -2853,7 +2853,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199281+00:00"
+    "last_updated": "2026-07-20T05:33:20.237831+00:00"
   },
   "openai/o4-mini-deep-research": {
     "model_id": "openai/o4-mini-deep-research",
@@ -2870,7 +2870,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199283+00:00"
+    "last_updated": "2026-07-20T05:33:20.237832+00:00"
   },
   "nvidia/llama-3.3-nemotron-super-49b-v1.5": {
     "model_id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
@@ -2895,7 +2895,7 @@
     "provider": "google",
     "provider_type": "closed",
     "context_length": 32768,
-    "max_output_tokens": 32768,
+    "max_output_tokens": 8192,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/gemini-2.5-flash-image\"}",
     "tags": "[\"multimodal\", \"coding\"]",
@@ -2904,7 +2904,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199286+00:00"
+    "last_updated": "2026-07-20T05:33:20.237834+00:00"
   },
   "qwen/qwen3-vl-30b-a3b-thinking": {
     "model_id": "qwen/qwen3-vl-30b-a3b-thinking",
@@ -2921,7 +2921,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199288+00:00"
+    "last_updated": "2026-07-20T05:33:20.237836+00:00"
   },
   "qwen/qwen3-vl-30b-a3b-instruct": {
     "model_id": "qwen/qwen3-vl-30b-a3b-instruct",
@@ -2938,7 +2938,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199289+00:00"
+    "last_updated": "2026-07-20T05:33:20.237838+00:00"
   },
   "openai/gpt-5-pro": {
     "model_id": "openai/gpt-5-pro",
@@ -2955,15 +2955,15 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199291+00:00"
+    "last_updated": "2026-07-20T05:33:20.237840+00:00"
   },
   "z-ai/glm-4.6": {
     "model_id": "z-ai/glm-4.6",
     "model_name": "Z.ai: GLM 4.6",
     "provider": "z-ai",
     "provider_type": "closed",
-    "context_length": 200000,
-    "max_output_tokens": 16384,
+    "context_length": 202752,
+    "max_output_tokens": 131072,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/glm-4.6\"}",
     "tags": "[\"coding\"]",
@@ -2972,7 +2972,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199292+00:00"
+    "last_updated": "2026-07-20T05:33:20.237842+00:00"
   },
   "anthropic/claude-sonnet-4.5": {
     "model_id": "anthropic/claude-sonnet-4.5",
@@ -2989,7 +2989,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199294+00:00"
+    "last_updated": "2026-07-20T05:33:20.237843+00:00"
   },
   "deepseek/deepseek-v3.2-exp": {
     "model_id": "deepseek/deepseek-v3.2-exp",
@@ -3006,7 +3006,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199296+00:00"
+    "last_updated": "2026-07-20T05:33:20.237845+00:00"
   },
   "thedrummer/cydonia-24b-v4.1": {
     "model_id": "thedrummer/cydonia-24b-v4.1",
@@ -3023,7 +3023,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199297+00:00"
+    "last_updated": "2026-07-20T05:33:20.237847+00:00"
   },
   "relace/relace-apply-3": {
     "model_id": "relace/relace-apply-3",
@@ -3040,7 +3040,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199299+00:00"
+    "last_updated": "2026-07-20T05:33:20.237849+00:00"
   },
   "google/gemini-2.5-flash-lite-preview-09-2025": {
     "model_id": "google/gemini-2.5-flash-lite-preview-09-2025",
@@ -3074,15 +3074,15 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199300+00:00"
+    "last_updated": "2026-07-20T05:33:20.237851+00:00"
   },
   "qwen/qwen3-vl-235b-a22b-instruct": {
     "model_id": "qwen/qwen3-vl-235b-a22b-instruct",
     "model_name": "Qwen: Qwen3 VL 235B A22B Instruct",
     "provider": "qwen",
     "provider_type": "closed",
-    "context_length": 262144,
-    "max_output_tokens": 16384,
+    "context_length": 131072,
+    "max_output_tokens": 32768,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/qwen3-vl-235b-a22b-instruct\"}",
     "tags": "[\"multimodal\", \"coding\"]",
@@ -3091,7 +3091,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199302+00:00"
+    "last_updated": "2026-07-20T05:33:20.237852+00:00"
   },
   "qwen/qwen3-max": {
     "model_id": "qwen/qwen3-max",
@@ -3108,7 +3108,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199304+00:00"
+    "last_updated": "2026-07-20T05:33:20.237854+00:00"
   },
   "qwen/qwen3-coder-plus": {
     "model_id": "qwen/qwen3-coder-plus",
@@ -3125,7 +3125,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199305+00:00"
+    "last_updated": "2026-07-20T05:33:20.237856+00:00"
   },
   "openai/gpt-5-codex": {
     "model_id": "openai/gpt-5-codex",
@@ -3142,14 +3142,14 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199307+00:00"
+    "last_updated": "2026-07-20T05:33:20.237858+00:00"
   },
   "deepseek/deepseek-v3.1-terminus": {
     "model_id": "deepseek/deepseek-v3.1-terminus",
     "model_name": "DeepSeek: DeepSeek V3.1 Terminus",
     "provider": "deepseek",
     "provider_type": "closed",
-    "context_length": 163840,
+    "context_length": 131072,
     "max_output_tokens": 32768,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/deepseek-v3.1-terminus\"}",
@@ -3159,7 +3159,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199308+00:00"
+    "last_updated": "2026-07-20T05:33:20.237860+00:00"
   },
   "qwen/qwen3-coder-flash": {
     "model_id": "qwen/qwen3-coder-flash",
@@ -3176,7 +3176,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199310+00:00"
+    "last_updated": "2026-07-20T05:33:20.237862+00:00"
   },
   "qwen/qwen3-next-80b-a3b-thinking": {
     "model_id": "qwen/qwen3-next-80b-a3b-thinking",
@@ -3193,7 +3193,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199311+00:00"
+    "last_updated": "2026-07-20T05:33:20.237863+00:00"
   },
   "qwen/qwen3-next-80b-a3b-instruct:free": {
     "model_id": "qwen/qwen3-next-80b-a3b-instruct:free",
@@ -3218,7 +3218,7 @@
     "provider": "qwen",
     "provider_type": "closed",
     "context_length": 262144,
-    "max_output_tokens": 16384,
+    "max_output_tokens": 262144,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/qwen3-next-80b-a3b-instruct\"}",
     "tags": "[\"coding\"]",
@@ -3227,7 +3227,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199315+00:00"
+    "last_updated": "2026-07-20T05:33:20.237865+00:00"
   },
   "qwen/qwen-plus-2025-07-28:thinking": {
     "model_id": "qwen/qwen-plus-2025-07-28:thinking",
@@ -3244,7 +3244,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199316+00:00"
+    "last_updated": "2026-07-20T05:33:20.237869+00:00"
   },
   "qwen/qwen-plus-2025-07-28": {
     "model_id": "qwen/qwen-plus-2025-07-28",
@@ -3261,7 +3261,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199318+00:00"
+    "last_updated": "2026-07-20T05:33:20.237867+00:00"
   },
   "nvidia/nemotron-nano-9b-v2:free": {
     "model_id": "nvidia/nemotron-nano-9b-v2:free",
@@ -3278,7 +3278,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199320+00:00"
+    "last_updated": "2026-07-20T05:33:20.237871+00:00"
   },
   "moonshotai/kimi-k2-0905": {
     "model_id": "moonshotai/kimi-k2-0905",
@@ -3295,7 +3295,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199321+00:00"
+    "last_updated": "2026-07-20T05:33:20.237873+00:00"
   },
   "qwen/qwen3-30b-a3b-thinking-2507": {
     "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
@@ -3312,7 +3312,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199323+00:00"
+    "last_updated": "2026-07-20T05:33:20.237875+00:00"
   },
   "nousresearch/hermes-4-70b": {
     "model_id": "nousresearch/hermes-4-70b",
@@ -3329,7 +3329,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199325+00:00"
+    "last_updated": "2026-07-20T05:33:20.237877+00:00"
   },
   "nousresearch/hermes-4-405b": {
     "model_id": "nousresearch/hermes-4-405b",
@@ -3346,7 +3346,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199326+00:00"
+    "last_updated": "2026-07-20T05:33:20.237878+00:00"
   },
   "deepseek/deepseek-chat-v3.1": {
     "model_id": "deepseek/deepseek-chat-v3.1",
@@ -3363,7 +3363,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199328+00:00"
+    "last_updated": "2026-07-20T05:33:20.237880+00:00"
   },
   "mistralai/mistral-medium-3.1": {
     "model_id": "mistralai/mistral-medium-3.1",
@@ -3380,7 +3380,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199329+00:00"
+    "last_updated": "2026-07-20T05:33:20.237882+00:00"
   },
   "z-ai/glm-4.5v": {
     "model_id": "z-ai/glm-4.5v",
@@ -3397,7 +3397,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199331+00:00"
+    "last_updated": "2026-07-20T05:33:20.237884+00:00"
   },
   "ai21/jamba-large-1.7": {
     "model_id": "ai21/jamba-large-1.7",
@@ -3414,7 +3414,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199333+00:00"
+    "last_updated": "2026-07-20T05:33:20.237886+00:00"
   },
   "openai/gpt-5-chat": {
     "model_id": "openai/gpt-5-chat",
@@ -3431,7 +3431,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199334+00:00"
+    "last_updated": "2026-07-20T05:33:20.237887+00:00"
   },
   "openai/gpt-5": {
     "model_id": "openai/gpt-5",
@@ -3448,7 +3448,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199336+00:00"
+    "last_updated": "2026-07-20T05:33:20.237889+00:00"
   },
   "openai/gpt-5-mini": {
     "model_id": "openai/gpt-5-mini",
@@ -3465,7 +3465,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199337+00:00"
+    "last_updated": "2026-07-20T05:33:20.237891+00:00"
   },
   "openai/gpt-5-nano": {
     "model_id": "openai/gpt-5-nano",
@@ -3473,7 +3473,7 @@
     "provider": "openai",
     "provider_type": "closed",
     "context_length": 400000,
-    "max_output_tokens": null,
+    "max_output_tokens": 128000,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/gpt-5-nano\"}",
     "tags": "[\"multimodal\", \"coding\"]",
@@ -3482,7 +3482,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199339+00:00"
+    "last_updated": "2026-07-20T05:33:20.237893+00:00"
   },
   "openai/gpt-oss-120b:free": {
     "model_id": "openai/gpt-oss-120b:free",
@@ -3507,7 +3507,7 @@
     "provider": "openai",
     "provider_type": "closed",
     "context_length": 131072,
-    "max_output_tokens": null,
+    "max_output_tokens": 131072,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/gpt-oss-120b\"}",
     "tags": "[\"coding\"]",
@@ -3516,7 +3516,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199342+00:00"
+    "last_updated": "2026-07-20T05:33:20.237895+00:00"
   },
   "openai/gpt-oss-20b:free": {
     "model_id": "openai/gpt-oss-20b:free",
@@ -3533,7 +3533,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199344+00:00"
+    "last_updated": "2026-07-20T05:33:20.237898+00:00"
   },
   "openai/gpt-oss-20b": {
     "model_id": "openai/gpt-oss-20b",
@@ -3541,7 +3541,7 @@
     "provider": "openai",
     "provider_type": "closed",
     "context_length": 131072,
-    "max_output_tokens": null,
+    "max_output_tokens": 131072,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/gpt-oss-20b\"}",
     "tags": "[\"coding\"]",
@@ -3550,7 +3550,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199345+00:00"
+    "last_updated": "2026-07-20T05:33:20.237897+00:00"
   },
   "anthropic/claude-opus-4.1": {
     "model_id": "anthropic/claude-opus-4.1",
@@ -3567,7 +3567,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199347+00:00"
+    "last_updated": "2026-07-20T05:33:20.237900+00:00"
   },
   "mistralai/codestral-2508": {
     "model_id": "mistralai/codestral-2508",
@@ -3584,7 +3584,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199349+00:00"
+    "last_updated": "2026-07-20T05:33:20.237902+00:00"
   },
   "qwen/qwen3-coder-30b-a3b-instruct": {
     "model_id": "qwen/qwen3-coder-30b-a3b-instruct",
@@ -3601,15 +3601,15 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199350+00:00"
+    "last_updated": "2026-07-20T05:33:20.237904+00:00"
   },
   "qwen/qwen3-30b-a3b-instruct-2507": {
     "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
     "model_name": "Qwen: Qwen3 30B A3B Instruct 2507",
     "provider": "qwen",
     "provider_type": "closed",
-    "context_length": 131072,
-    "max_output_tokens": 32000,
+    "context_length": 262144,
+    "max_output_tokens": null,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/qwen3-30b-a3b-instruct-2507\"}",
     "tags": "[\"coding\"]",
@@ -3618,7 +3618,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199352+00:00"
+    "last_updated": "2026-07-20T05:33:20.237906+00:00"
   },
   "z-ai/glm-4.5": {
     "model_id": "z-ai/glm-4.5",
@@ -3635,7 +3635,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199353+00:00"
+    "last_updated": "2026-07-20T05:33:20.237908+00:00"
   },
   "z-ai/glm-4.5-air": {
     "model_id": "z-ai/glm-4.5-air",
@@ -3652,7 +3652,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199355+00:00"
+    "last_updated": "2026-07-20T05:33:20.237910+00:00"
   },
   "qwen/qwen3-235b-a22b-thinking-2507": {
     "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
@@ -3660,7 +3660,7 @@
     "provider": "qwen",
     "provider_type": "closed",
     "context_length": 262144,
-    "max_output_tokens": null,
+    "max_output_tokens": 32768,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/qwen3-235b-a22b-thinking-2507\"}",
     "tags": "[\"coding\"]",
@@ -3669,7 +3669,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199357+00:00"
+    "last_updated": "2026-07-20T05:33:20.237912+00:00"
   },
   "qwen/qwen3-coder:free": {
     "model_id": "qwen/qwen3-coder:free",
@@ -3703,7 +3703,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199360+00:00"
+    "last_updated": "2026-07-20T05:33:20.237913+00:00"
   },
   "bytedance/ui-tars-1.5-7b": {
     "model_id": "bytedance/ui-tars-1.5-7b",
@@ -3720,7 +3720,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199361+00:00"
+    "last_updated": "2026-07-20T05:33:20.237915+00:00"
   },
   "google/gemini-2.5-flash-lite": {
     "model_id": "google/gemini-2.5-flash-lite",
@@ -3737,7 +3737,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199363+00:00"
+    "last_updated": "2026-07-20T05:33:20.237917+00:00"
   },
   "qwen/qwen3-235b-a22b-2507": {
     "model_id": "qwen/qwen3-235b-a22b-2507",
@@ -3754,7 +3754,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199364+00:00"
+    "last_updated": "2026-07-20T05:33:20.237919+00:00"
   },
   "switchpoint/router": {
     "model_id": "switchpoint/router",
@@ -3788,7 +3788,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199366+00:00"
+    "last_updated": "2026-07-20T05:33:20.237921+00:00"
   },
   "cognitivecomputations/dolphin-mistral-24b-venice-edition:free": {
     "model_id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
@@ -3822,7 +3822,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199371+00:00"
+    "last_updated": "2026-07-20T05:33:20.237924+00:00"
   },
   "morph/morph-v3-large": {
     "model_id": "morph/morph-v3-large",
@@ -3839,7 +3839,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199372+00:00"
+    "last_updated": "2026-07-20T05:33:20.237926+00:00"
   },
   "morph/morph-v3-fast": {
     "model_id": "morph/morph-v3-fast",
@@ -3856,7 +3856,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199374+00:00"
+    "last_updated": "2026-07-20T05:33:20.237928+00:00"
   },
   "baidu/ernie-4.5-vl-424b-a47b": {
     "model_id": "baidu/ernie-4.5-vl-424b-a47b",
@@ -3873,15 +3873,15 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199376+00:00"
+    "last_updated": "2026-07-20T05:33:20.237930+00:00"
   },
   "mistralai/mistral-small-3.2-24b-instruct": {
     "model_id": "mistralai/mistral-small-3.2-24b-instruct",
     "model_name": "Mistral: Mistral Small 3.2 24B",
     "provider": "mistralai",
     "provider_type": "closed",
-    "context_length": 128000,
-    "max_output_tokens": 16384,
+    "context_length": 131072,
+    "max_output_tokens": null,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/mistral-small-3.2-24b-instruct\"}",
     "tags": "[\"multimodal\", \"coding\"]",
@@ -3890,7 +3890,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199377+00:00"
+    "last_updated": "2026-07-20T05:33:20.237932+00:00"
   },
   "minimax/minimax-m1": {
     "model_id": "minimax/minimax-m1",
@@ -3907,7 +3907,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199379+00:00"
+    "last_updated": "2026-07-20T05:33:20.237934+00:00"
   },
   "google/gemini-2.5-flash": {
     "model_id": "google/gemini-2.5-flash",
@@ -3924,7 +3924,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199380+00:00"
+    "last_updated": "2026-07-20T05:33:20.237935+00:00"
   },
   "google/gemini-2.5-pro": {
     "model_id": "google/gemini-2.5-pro",
@@ -3941,7 +3941,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199382+00:00"
+    "last_updated": "2026-07-20T05:33:20.237937+00:00"
   },
   "openai/o3-pro": {
     "model_id": "openai/o3-pro",
@@ -3958,7 +3958,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199384+00:00"
+    "last_updated": "2026-07-20T05:33:20.237939+00:00"
   },
   "google/gemini-2.5-pro-preview": {
     "model_id": "google/gemini-2.5-pro-preview",
@@ -3975,7 +3975,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199385+00:00"
+    "last_updated": "2026-07-20T05:33:20.237941+00:00"
   },
   "deepseek/deepseek-r1-0528": {
     "model_id": "deepseek/deepseek-r1-0528",
@@ -3992,7 +3992,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199387+00:00"
+    "last_updated": "2026-07-20T05:33:20.237943+00:00"
   },
   "anthropic/claude-opus-4": {
     "model_id": "anthropic/claude-opus-4",
@@ -4009,7 +4009,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199388+00:00"
+    "last_updated": "2026-07-20T05:33:20.237945+00:00"
   },
   "anthropic/claude-sonnet-4": {
     "model_id": "anthropic/claude-sonnet-4",
@@ -4026,7 +4026,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199390+00:00"
+    "last_updated": "2026-07-20T05:33:20.237947+00:00"
   },
   "google/gemma-3n-e4b-it": {
     "model_id": "google/gemma-3n-e4b-it",
@@ -4043,7 +4043,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199392+00:00"
+    "last_updated": "2026-07-20T05:33:20.237949+00:00"
   },
   "mistralai/mistral-medium-3": {
     "model_id": "mistralai/mistral-medium-3",
@@ -4060,7 +4060,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199393+00:00"
+    "last_updated": "2026-07-20T05:33:20.237951+00:00"
   },
   "google/gemini-2.5-pro-preview-05-06": {
     "model_id": "google/gemini-2.5-pro-preview-05-06",
@@ -4077,7 +4077,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199395+00:00"
+    "last_updated": "2026-07-20T05:33:20.237953+00:00"
   },
   "arcee-ai/virtuoso-large": {
     "model_id": "arcee-ai/virtuoso-large",
@@ -4094,7 +4094,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199397+00:00"
+    "last_updated": "2026-07-20T05:33:20.237954+00:00"
   },
   "arcee-ai/coder-large": {
     "model_id": "arcee-ai/coder-large",
@@ -4128,7 +4128,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199400+00:00"
+    "last_updated": "2026-07-20T05:33:20.237956+00:00"
   },
   "qwen/qwen3-30b-a3b": {
     "model_id": "qwen/qwen3-30b-a3b",
@@ -4136,7 +4136,7 @@
     "provider": "qwen",
     "provider_type": "closed",
     "context_length": 131072,
-    "max_output_tokens": 16384,
+    "max_output_tokens": 8192,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/qwen3-30b-a3b\"}",
     "tags": "[\"coding\"]",
@@ -4145,7 +4145,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199401+00:00"
+    "last_updated": "2026-07-20T05:33:20.237958+00:00"
   },
   "qwen/qwen3-8b": {
     "model_id": "qwen/qwen3-8b",
@@ -4162,7 +4162,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199403+00:00"
+    "last_updated": "2026-07-20T05:33:20.237960+00:00"
   },
   "qwen/qwen3-14b": {
     "model_id": "qwen/qwen3-14b",
@@ -4170,7 +4170,7 @@
     "provider": "qwen",
     "provider_type": "closed",
     "context_length": 131702,
-    "max_output_tokens": 40960,
+    "max_output_tokens": 16384,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/qwen3-14b\"}",
     "tags": "[\"coding\"]",
@@ -4179,7 +4179,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199405+00:00"
+    "last_updated": "2026-07-20T05:33:20.237962+00:00"
   },
   "qwen/qwen3-32b": {
     "model_id": "qwen/qwen3-32b",
@@ -4196,7 +4196,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199406+00:00"
+    "last_updated": "2026-07-20T05:33:20.237964+00:00"
   },
   "qwen/qwen3-235b-a22b": {
     "model_id": "qwen/qwen3-235b-a22b",
@@ -4213,7 +4213,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199408+00:00"
+    "last_updated": "2026-07-20T05:33:20.237966+00:00"
   },
   "openai/o4-mini-high": {
     "model_id": "openai/o4-mini-high",
@@ -4230,7 +4230,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199410+00:00"
+    "last_updated": "2026-07-20T05:33:20.237968+00:00"
   },
   "openai/o3": {
     "model_id": "openai/o3",
@@ -4247,7 +4247,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199411+00:00"
+    "last_updated": "2026-07-20T05:33:20.237969+00:00"
   },
   "openai/o4-mini": {
     "model_id": "openai/o4-mini",
@@ -4264,7 +4264,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199413+00:00"
+    "last_updated": "2026-07-20T05:33:20.237971+00:00"
   },
   "openai/gpt-4.1": {
     "model_id": "openai/gpt-4.1",
@@ -4272,7 +4272,7 @@
     "provider": "openai",
     "provider_type": "closed",
     "context_length": 1047576,
-    "max_output_tokens": null,
+    "max_output_tokens": 32768,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/gpt-4.1\"}",
     "tags": "[\"multimodal\", \"coding\"]",
@@ -4281,7 +4281,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199414+00:00"
+    "last_updated": "2026-07-20T05:33:20.237973+00:00"
   },
   "openai/gpt-4.1-mini": {
     "model_id": "openai/gpt-4.1-mini",
@@ -4298,7 +4298,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199416+00:00"
+    "last_updated": "2026-07-20T05:33:20.237975+00:00"
   },
   "openai/gpt-4.1-nano": {
     "model_id": "openai/gpt-4.1-nano",
@@ -4315,7 +4315,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199418+00:00"
+    "last_updated": "2026-07-20T05:33:20.237977+00:00"
   },
   "meta-llama/llama-4-maverick": {
     "model_id": "meta-llama/llama-4-maverick",
@@ -4332,7 +4332,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199419+00:00"
+    "last_updated": "2026-07-20T05:33:20.237979+00:00"
   },
   "meta-llama/llama-4-scout": {
     "model_id": "meta-llama/llama-4-scout",
@@ -4349,7 +4349,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199421+00:00"
+    "last_updated": "2026-07-20T05:33:20.237980+00:00"
   },
   "deepseek/deepseek-chat-v3-0324": {
     "model_id": "deepseek/deepseek-chat-v3-0324",
@@ -4357,7 +4357,7 @@
     "provider": "deepseek",
     "provider_type": "closed",
     "context_length": 163840,
-    "max_output_tokens": 16384,
+    "max_output_tokens": 65536,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/deepseek-chat-v3-0324\"}",
     "tags": "[\"coding\"]",
@@ -4366,7 +4366,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199422+00:00"
+    "last_updated": "2026-07-20T05:33:20.237983+00:00"
   },
   "openai/o1-pro": {
     "model_id": "openai/o1-pro",
@@ -4383,7 +4383,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199424+00:00"
+    "last_updated": "2026-07-20T05:33:20.237985+00:00"
   },
   "mistralai/mistral-small-3.1-24b-instruct": {
     "model_id": "mistralai/mistral-small-3.1-24b-instruct",
@@ -4400,7 +4400,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199425+00:00"
+    "last_updated": "2026-07-20T05:33:20.237986+00:00"
   },
   "google/gemma-3-4b-it": {
     "model_id": "google/gemma-3-4b-it",
@@ -4417,7 +4417,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199427+00:00"
+    "last_updated": "2026-07-20T05:33:20.237988+00:00"
   },
   "google/gemma-3-12b-it": {
     "model_id": "google/gemma-3-12b-it",
@@ -4434,7 +4434,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199429+00:00"
+    "last_updated": "2026-07-20T05:33:20.237990+00:00"
   },
   "cohere/command-a": {
     "model_id": "cohere/command-a",
@@ -4451,7 +4451,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199430+00:00"
+    "last_updated": "2026-07-20T05:33:20.237992+00:00"
   },
   "openai/gpt-4o-mini-search-preview": {
     "model_id": "openai/gpt-4o-mini-search-preview",
@@ -4468,7 +4468,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199432+00:00"
+    "last_updated": "2026-07-20T05:33:20.237994+00:00"
   },
   "openai/gpt-4o-search-preview": {
     "model_id": "openai/gpt-4o-search-preview",
@@ -4485,7 +4485,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199433+00:00"
+    "last_updated": "2026-07-20T05:33:20.237996+00:00"
   },
   "rekaai/reka-flash-3": {
     "model_id": "rekaai/reka-flash-3",
@@ -4502,7 +4502,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199435+00:00"
+    "last_updated": "2026-07-20T05:33:20.237997+00:00"
   },
   "google/gemma-3-27b-it": {
     "model_id": "google/gemma-3-27b-it",
@@ -4510,7 +4510,7 @@
     "provider": "google",
     "provider_type": "closed",
     "context_length": 131072,
-    "max_output_tokens": 16384,
+    "max_output_tokens": null,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/gemma-3-27b-it\"}",
     "tags": "[\"multimodal\", \"coding\"]",
@@ -4519,7 +4519,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199437+00:00"
+    "last_updated": "2026-07-20T05:33:20.237999+00:00"
   },
   "thedrummer/skyfall-36b-v2": {
     "model_id": "thedrummer/skyfall-36b-v2",
@@ -4536,7 +4536,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199438+00:00"
+    "last_updated": "2026-07-20T05:33:20.238001+00:00"
   },
   "perplexity/sonar-reasoning-pro": {
     "model_id": "perplexity/sonar-reasoning-pro",
@@ -4553,7 +4553,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199440+00:00"
+    "last_updated": "2026-07-20T05:33:20.238003+00:00"
   },
   "perplexity/sonar-pro": {
     "model_id": "perplexity/sonar-pro",
@@ -4570,7 +4570,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199442+00:00"
+    "last_updated": "2026-07-20T05:33:20.238005+00:00"
   },
   "perplexity/sonar-deep-research": {
     "model_id": "perplexity/sonar-deep-research",
@@ -4587,7 +4587,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199443+00:00"
+    "last_updated": "2026-07-20T05:33:20.238007+00:00"
   },
   "mistralai/mistral-saba": {
     "model_id": "mistralai/mistral-saba",
@@ -4604,7 +4604,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199445+00:00"
+    "last_updated": "2026-07-20T05:33:20.238009+00:00"
   },
   "openai/o3-mini-high": {
     "model_id": "openai/o3-mini-high",
@@ -4621,7 +4621,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199446+00:00"
+    "last_updated": "2026-07-20T05:33:20.238011+00:00"
   },
   "aion-labs/aion-1.0": {
     "model_id": "aion-labs/aion-1.0",
@@ -4672,7 +4672,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199448+00:00"
+    "last_updated": "2026-07-20T05:33:20.238012+00:00"
   },
   "qwen/qwen2.5-vl-72b-instruct": {
     "model_id": "qwen/qwen2.5-vl-72b-instruct",
@@ -4680,7 +4680,7 @@
     "provider": "qwen",
     "provider_type": "closed",
     "context_length": 131072,
-    "max_output_tokens": null,
+    "max_output_tokens": 128000,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/qwen2.5-vl-72b-instruct\"}",
     "tags": "[\"multimodal\", \"coding\"]",
@@ -4689,7 +4689,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199449+00:00"
+    "last_updated": "2026-07-20T05:33:20.238014+00:00"
   },
   "qwen/qwen-plus": {
     "model_id": "qwen/qwen-plus",
@@ -4706,7 +4706,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199451+00:00"
+    "last_updated": "2026-07-20T05:33:20.238016+00:00"
   },
   "openai/o3-mini": {
     "model_id": "openai/o3-mini",
@@ -4723,7 +4723,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199453+00:00"
+    "last_updated": "2026-07-20T05:33:20.238018+00:00"
   },
   "mistralai/mistral-small-24b-instruct-2501": {
     "model_id": "mistralai/mistral-small-24b-instruct-2501",
@@ -4740,7 +4740,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199454+00:00"
+    "last_updated": "2026-07-20T05:33:20.238020+00:00"
   },
   "perplexity/sonar": {
     "model_id": "perplexity/sonar",
@@ -4757,7 +4757,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199456+00:00"
+    "last_updated": "2026-07-20T05:33:20.238022+00:00"
   },
   "deepseek/deepseek-r1-distill-llama-70b": {
     "model_id": "deepseek/deepseek-r1-distill-llama-70b",
@@ -4774,7 +4774,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199457+00:00"
+    "last_updated": "2026-07-20T05:33:20.238024+00:00"
   },
   "deepseek/deepseek-r1": {
     "model_id": "deepseek/deepseek-r1",
@@ -4791,7 +4791,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199459+00:00"
+    "last_updated": "2026-07-20T05:33:20.238025+00:00"
   },
   "minimax/minimax-01": {
     "model_id": "minimax/minimax-01",
@@ -4808,7 +4808,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199460+00:00"
+    "last_updated": "2026-07-20T05:33:20.238027+00:00"
   },
   "microsoft/phi-4": {
     "model_id": "microsoft/phi-4",
@@ -4825,7 +4825,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199462+00:00"
+    "last_updated": "2026-07-20T05:33:20.238029+00:00"
   },
   "sao10k/l3.1-70b-hanami-x1": {
     "model_id": "sao10k/l3.1-70b-hanami-x1",
@@ -4859,7 +4859,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199465+00:00"
+    "last_updated": "2026-07-20T05:33:20.238031+00:00"
   },
   "sao10k/l3.3-euryale-70b": {
     "model_id": "sao10k/l3.3-euryale-70b",
@@ -4876,7 +4876,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199467+00:00"
+    "last_updated": "2026-07-20T05:33:20.238033+00:00"
   },
   "openai/o1": {
     "model_id": "openai/o1",
@@ -4893,7 +4893,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199468+00:00"
+    "last_updated": "2026-07-20T05:33:20.238034+00:00"
   },
   "cohere/command-r7b-12-2024": {
     "model_id": "cohere/command-r7b-12-2024",
@@ -4910,7 +4910,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199470+00:00"
+    "last_updated": "2026-07-20T05:33:20.238036+00:00"
   },
   "meta-llama/llama-3.3-70b-instruct:free": {
     "model_id": "meta-llama/llama-3.3-70b-instruct:free",
@@ -4935,7 +4935,7 @@
     "provider": "meta-llama",
     "provider_type": "closed",
     "context_length": 131072,
-    "max_output_tokens": 16384,
+    "max_output_tokens": 128000,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/llama-3.3-70b-instruct\"}",
     "tags": "[\"coding\"]",
@@ -4944,7 +4944,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199473+00:00"
+    "last_updated": "2026-07-20T05:33:20.238038+00:00"
   },
   "amazon/nova-lite-v1": {
     "model_id": "amazon/nova-lite-v1",
@@ -4961,7 +4961,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199475+00:00"
+    "last_updated": "2026-07-20T05:33:20.238040+00:00"
   },
   "amazon/nova-micro-v1": {
     "model_id": "amazon/nova-micro-v1",
@@ -4978,7 +4978,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199476+00:00"
+    "last_updated": "2026-07-20T05:33:20.238042+00:00"
   },
   "amazon/nova-pro-v1": {
     "model_id": "amazon/nova-pro-v1",
@@ -4995,7 +4995,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199478+00:00"
+    "last_updated": "2026-07-20T05:33:20.238044+00:00"
   },
   "openai/gpt-4o-2024-11-20": {
     "model_id": "openai/gpt-4o-2024-11-20",
@@ -5012,7 +5012,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199480+00:00"
+    "last_updated": "2026-07-20T05:33:20.238046+00:00"
   },
   "mistralai/mistral-large-2407": {
     "model_id": "mistralai/mistral-large-2407",
@@ -5029,7 +5029,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199481+00:00"
+    "last_updated": "2026-07-20T05:33:20.238048+00:00"
   },
   "qwen/qwen-2.5-coder-32b-instruct": {
     "model_id": "qwen/qwen-2.5-coder-32b-instruct",
@@ -5046,7 +5046,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199483+00:00"
+    "last_updated": "2026-07-20T05:33:20.238050+00:00"
   },
   "thedrummer/unslopnemo-12b": {
     "model_id": "thedrummer/unslopnemo-12b",
@@ -5063,7 +5063,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199485+00:00"
+    "last_updated": "2026-07-20T05:33:20.238051+00:00"
   },
   "anthracite-org/magnum-v4-72b": {
     "model_id": "anthracite-org/magnum-v4-72b",
@@ -5080,7 +5080,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199486+00:00"
+    "last_updated": "2026-07-20T05:33:20.238053+00:00"
   },
   "qwen/qwen-2.5-7b-instruct": {
     "model_id": "qwen/qwen-2.5-7b-instruct",
@@ -5097,7 +5097,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199488+00:00"
+    "last_updated": "2026-07-20T05:33:20.238055+00:00"
   },
   "inflection/inflection-3-productivity": {
     "model_id": "inflection/inflection-3-productivity",
@@ -5114,7 +5114,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199507+00:00"
+    "last_updated": "2026-07-20T05:33:20.238059+00:00"
   },
   "inflection/inflection-3-pi": {
     "model_id": "inflection/inflection-3-pi",
@@ -5131,7 +5131,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199510+00:00"
+    "last_updated": "2026-07-20T05:33:20.238057+00:00"
   },
   "thedrummer/rocinante-12b": {
     "model_id": "thedrummer/rocinante-12b",
@@ -5148,7 +5148,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199526+00:00"
+    "last_updated": "2026-07-20T05:33:20.238060+00:00"
   },
   "meta-llama/llama-3.2-3b-instruct:free": {
     "model_id": "meta-llama/llama-3.2-3b-instruct:free",
@@ -5173,7 +5173,7 @@
     "provider": "meta-llama",
     "provider_type": "closed",
     "context_length": 131072,
-    "max_output_tokens": 131072,
+    "max_output_tokens": 80000,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/llama-3.2-3b-instruct\"}",
     "tags": "[\"coding\"]",
@@ -5182,7 +5182,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199535+00:00"
+    "last_updated": "2026-07-20T05:33:20.238064+00:00"
   },
   "meta-llama/llama-3.2-1b-instruct": {
     "model_id": "meta-llama/llama-3.2-1b-instruct",
@@ -5199,7 +5199,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199530+00:00"
+    "last_updated": "2026-07-20T05:33:20.238062+00:00"
   },
   "meta-llama/llama-3.2-11b-vision-instruct": {
     "model_id": "meta-llama/llama-3.2-11b-vision-instruct",
@@ -5233,7 +5233,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199536+00:00"
+    "last_updated": "2026-07-20T05:33:20.238066+00:00"
   },
   "cohere/command-r-08-2024": {
     "model_id": "cohere/command-r-08-2024",
@@ -5250,7 +5250,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199538+00:00"
+    "last_updated": "2026-07-20T05:33:20.238068+00:00"
   },
   "cohere/command-r-plus-08-2024": {
     "model_id": "cohere/command-r-plus-08-2024",
@@ -5267,7 +5267,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199540+00:00"
+    "last_updated": "2026-07-20T05:33:20.238069+00:00"
   },
   "sao10k/l3.1-euryale-70b": {
     "model_id": "sao10k/l3.1-euryale-70b",
@@ -5284,7 +5284,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199541+00:00"
+    "last_updated": "2026-07-20T05:33:20.238071+00:00"
   },
   "nousresearch/hermes-3-llama-3.1-70b": {
     "model_id": "nousresearch/hermes-3-llama-3.1-70b",
@@ -5301,7 +5301,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199543+00:00"
+    "last_updated": "2026-07-20T05:33:20.238073+00:00"
   },
   "nousresearch/hermes-3-llama-3.1-405b:free": {
     "model_id": "nousresearch/hermes-3-llama-3.1-405b:free",
@@ -5335,7 +5335,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199546+00:00"
+    "last_updated": "2026-07-20T05:33:20.238075+00:00"
   },
   "sao10k/l3-lunaris-8b": {
     "model_id": "sao10k/l3-lunaris-8b",
@@ -5352,7 +5352,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199548+00:00"
+    "last_updated": "2026-07-20T05:33:20.238077+00:00"
   },
   "openai/gpt-4o-2024-08-06": {
     "model_id": "openai/gpt-4o-2024-08-06",
@@ -5369,7 +5369,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199549+00:00"
+    "last_updated": "2026-07-20T05:33:20.238079+00:00"
   },
   "meta-llama/llama-3.1-8b-instruct": {
     "model_id": "meta-llama/llama-3.1-8b-instruct",
@@ -5377,7 +5377,7 @@
     "provider": "meta-llama",
     "provider_type": "closed",
     "context_length": 131072,
-    "max_output_tokens": 16384,
+    "max_output_tokens": 131072,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/llama-3.1-8b-instruct\"}",
     "tags": "[\"coding\"]",
@@ -5386,7 +5386,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199551+00:00"
+    "last_updated": "2026-07-20T05:33:20.238082+00:00"
   },
   "meta-llama/llama-3.1-70b-instruct": {
     "model_id": "meta-llama/llama-3.1-70b-instruct",
@@ -5403,7 +5403,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199553+00:00"
+    "last_updated": "2026-07-20T05:33:20.238080+00:00"
   },
   "mistralai/mistral-nemo": {
     "model_id": "mistralai/mistral-nemo",
@@ -5411,7 +5411,7 @@
     "provider": "mistralai",
     "provider_type": "closed",
     "context_length": 131072,
-    "max_output_tokens": null,
+    "max_output_tokens": 16384,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/mistral-nemo\"}",
     "tags": "[\"coding\"]",
@@ -5420,7 +5420,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199554+00:00"
+    "last_updated": "2026-07-20T05:33:20.238084+00:00"
   },
   "openai/gpt-4o-mini": {
     "model_id": "openai/gpt-4o-mini",
@@ -5437,7 +5437,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199557+00:00"
+    "last_updated": "2026-07-20T05:33:20.238086+00:00"
   },
   "openai/gpt-4o-mini-2024-07-18": {
     "model_id": "openai/gpt-4o-mini-2024-07-18",
@@ -5454,7 +5454,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199556+00:00"
+    "last_updated": "2026-07-20T05:33:20.238088+00:00"
   },
   "google/gemma-2-27b-it": {
     "model_id": "google/gemma-2-27b-it",
@@ -5471,7 +5471,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199559+00:00"
+    "last_updated": "2026-07-20T05:33:20.238090+00:00"
   },
   "openai/gpt-4o": {
     "model_id": "openai/gpt-4o",
@@ -5488,7 +5488,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199562+00:00"
+    "last_updated": "2026-07-20T05:33:20.238091+00:00"
   },
   "openai/gpt-4o-2024-05-13": {
     "model_id": "openai/gpt-4o-2024-05-13",
@@ -5505,7 +5505,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199561+00:00"
+    "last_updated": "2026-07-20T05:33:20.238094+00:00"
   },
   "meta-llama/llama-3-8b-instruct": {
     "model_id": "meta-llama/llama-3-8b-instruct",
@@ -5539,7 +5539,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199564+00:00"
+    "last_updated": "2026-07-20T05:33:20.238095+00:00"
   },
   "microsoft/wizardlm-2-8x22b": {
     "model_id": "microsoft/wizardlm-2-8x22b",
@@ -5556,7 +5556,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199566+00:00"
+    "last_updated": "2026-07-20T05:33:20.238097+00:00"
   },
   "openai/gpt-4-turbo": {
     "model_id": "openai/gpt-4-turbo",
@@ -5573,7 +5573,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199567+00:00"
+    "last_updated": "2026-07-20T05:33:20.238099+00:00"
   },
   "anthropic/claude-3-haiku": {
     "model_id": "anthropic/claude-3-haiku",
@@ -5590,7 +5590,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199569+00:00"
+    "last_updated": "2026-07-20T05:33:20.238101+00:00"
   },
   "mistralai/mistral-large": {
     "model_id": "mistralai/mistral-large",
@@ -5607,7 +5607,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199570+00:00"
+    "last_updated": "2026-07-20T05:33:20.238103+00:00"
   },
   "openai/gpt-3.5-turbo-0613": {
     "model_id": "openai/gpt-3.5-turbo-0613",
@@ -5624,7 +5624,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199572+00:00"
+    "last_updated": "2026-07-20T05:33:20.238105+00:00"
   },
   "openai/gpt-4-turbo-preview": {
     "model_id": "openai/gpt-4-turbo-preview",
@@ -5641,7 +5641,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199574+00:00"
+    "last_updated": "2026-07-20T05:33:20.238106+00:00"
   },
   "openrouter/auto": {
     "model_id": "openrouter/auto",
@@ -5658,7 +5658,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199575+00:00"
+    "last_updated": "2026-07-20T05:33:20.238108+00:00"
   },
   "openai/gpt-3.5-turbo-instruct": {
     "model_id": "openai/gpt-3.5-turbo-instruct",
@@ -5675,7 +5675,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199577+00:00"
+    "last_updated": "2026-07-20T05:33:20.238110+00:00"
   },
   "openai/gpt-3.5-turbo-16k": {
     "model_id": "openai/gpt-3.5-turbo-16k",
@@ -5692,7 +5692,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199578+00:00"
+    "last_updated": "2026-07-20T05:33:20.238112+00:00"
   },
   "mancer/weaver": {
     "model_id": "mancer/weaver",
@@ -5709,7 +5709,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199580+00:00"
+    "last_updated": "2026-07-20T05:33:20.238114+00:00"
   },
   "undi95/remm-slerp-l2-13b": {
     "model_id": "undi95/remm-slerp-l2-13b",
@@ -5726,7 +5726,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199582+00:00"
+    "last_updated": "2026-07-20T05:33:20.238116+00:00"
   },
   "gryphe/mythomax-l2-13b": {
     "model_id": "gryphe/mythomax-l2-13b",
@@ -5743,7 +5743,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199583+00:00"
+    "last_updated": "2026-07-20T05:33:20.238118+00:00"
   },
   "openai/gpt-4": {
     "model_id": "openai/gpt-4",
@@ -5760,7 +5760,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199585+00:00"
+    "last_updated": "2026-07-20T05:33:20.238121+00:00"
   },
   "openai/gpt-3.5-turbo": {
     "model_id": "openai/gpt-3.5-turbo",
@@ -5777,7 +5777,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199587+00:00"
+    "last_updated": "2026-07-20T05:33:20.238120+00:00"
   },
   "anthropic/claude-opus-4-8": {
     "model_id": "anthropic/claude-opus-4-8",
@@ -5794,7 +5794,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:31:04.536991+00:00"
+    "last_updated": "2026-07-20T05:33:24.308183+00:00"
   },
   "anthropic/claude-haiku-4-5-20251001": {
     "model_id": "anthropic/claude-haiku-4-5-20251001",
@@ -5811,7 +5811,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:31:04.536997+00:00"
+    "last_updated": "2026-07-20T05:33:24.308188+00:00"
   },
   "openai/gpt-5.6-luna-pro": {
     "model_id": "openai/gpt-5.6-luna-pro",
@@ -5828,7 +5828,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.198975+00:00"
+    "last_updated": "2026-07-20T05:33:20.237494+00:00"
   },
   "openai/gpt-5.6-luna": {
     "model_id": "openai/gpt-5.6-luna",
@@ -5845,7 +5845,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.198987+00:00"
+    "last_updated": "2026-07-20T05:33:20.237496+00:00"
   },
   "openai/gpt-5.6-terra-pro": {
     "model_id": "openai/gpt-5.6-terra-pro",
@@ -5862,7 +5862,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.198990+00:00"
+    "last_updated": "2026-07-20T05:33:20.237498+00:00"
   },
   "openai/gpt-5.6-terra": {
     "model_id": "openai/gpt-5.6-terra",
@@ -5879,7 +5879,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.198992+00:00"
+    "last_updated": "2026-07-20T05:33:20.237500+00:00"
   },
   "openai/gpt-5.6-sol-pro": {
     "model_id": "openai/gpt-5.6-sol-pro",
@@ -5896,7 +5896,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.198994+00:00"
+    "last_updated": "2026-07-20T05:33:20.237502+00:00"
   },
   "openai/gpt-5.6-sol": {
     "model_id": "openai/gpt-5.6-sol",
@@ -5913,7 +5913,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.198996+00:00"
+    "last_updated": "2026-07-20T05:33:20.237504+00:00"
   },
   "x-ai/grok-4.5": {
     "model_id": "x-ai/grok-4.5",
@@ -5930,7 +5930,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.198998+00:00"
+    "last_updated": "2026-07-20T05:33:20.237506+00:00"
   },
   "~x-ai/grok-latest": {
     "model_id": "~x-ai/grok-latest",
@@ -5947,7 +5947,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.198999+00:00"
+    "last_updated": "2026-07-20T05:33:20.237508+00:00"
   },
   "aion-labs/aion-3.0-mini": {
     "model_id": "aion-labs/aion-3.0-mini",
@@ -5964,7 +5964,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199001+00:00"
+    "last_updated": "2026-07-20T05:33:20.237510+00:00"
   },
   "aion-labs/aion-3.0": {
     "model_id": "aion-labs/aion-3.0",
@@ -5981,7 +5981,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199003+00:00"
+    "last_updated": "2026-07-20T05:33:20.237512+00:00"
   },
   "tencent/hy3:free": {
     "model_id": "tencent/hy3:free",
@@ -5998,7 +5998,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199005+00:00"
+    "last_updated": "2026-07-20T05:33:20.237516+00:00"
   },
   "tencent/hy3": {
     "model_id": "tencent/hy3",
@@ -6006,7 +6006,7 @@
     "provider": "tencent",
     "provider_type": "closed",
     "context_length": 262144,
-    "max_output_tokens": null,
+    "max_output_tokens": 131072,
     "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
     "urls": "{\"official\": \"https://openrouter.ai/models/hy3\"}",
     "tags": "[\"coding\"]",
@@ -6015,7 +6015,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199007+00:00"
+    "last_updated": "2026-07-20T05:33:20.237514+00:00"
   },
   "nex-agi/nex-n2-mini": {
     "model_id": "nex-agi/nex-n2-mini",
@@ -6032,7 +6032,7 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199016+00:00"
+    "last_updated": "2026-07-20T05:33:20.237526+00:00"
   },
   "cognitivecomputations/dolphin-mistral-24b-venice-edition": {
     "model_id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
@@ -6049,6 +6049,108 @@
     "regions": "[]",
     "private_deployment": 0,
     "openai_compatible": 0,
-    "last_updated": "2026-07-13T05:30:58.199369+00:00"
+    "last_updated": "2026-07-20T05:33:20.237923+00:00"
+  },
+  "thinkingmachines/inkling": {
+    "model_id": "thinkingmachines/inkling",
+    "model_name": "Thinking Machines: Inkling",
+    "provider": "thinkingmachines",
+    "provider_type": "closed",
+    "context_length": 1048576,
+    "max_output_tokens": null,
+    "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
+    "urls": "{\"official\": \"https://openrouter.ai/models/inkling\"}",
+    "tags": "[\"multimodal\", \"coding\"]",
+    "aliases": "[\"thinkingmachines/inkling\"]",
+    "status": "active",
+    "regions": "[]",
+    "private_deployment": 0,
+    "openai_compatible": 0,
+    "last_updated": "2026-07-20T05:33:20.237465+00:00"
+  },
+  "openrouter/auto-beta": {
+    "model_id": "openrouter/auto-beta",
+    "model_name": "Auto Router (Beta)",
+    "provider": "openrouter",
+    "provider_type": "closed",
+    "context_length": 2000000,
+    "max_output_tokens": null,
+    "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
+    "urls": "{\"official\": \"https://openrouter.ai/models/auto-beta\"}",
+    "tags": "[\"multimodal\", \"coding\"]",
+    "aliases": "[\"openrouter/auto-beta\"]",
+    "status": "active",
+    "regions": "[]",
+    "private_deployment": 0,
+    "openai_compatible": 0,
+    "last_updated": "2026-07-20T05:33:20.237480+00:00"
+  },
+  "moonshotai/kimi-k3": {
+    "model_id": "moonshotai/kimi-k3",
+    "model_name": "MoonshotAI: Kimi K3",
+    "provider": "moonshotai",
+    "provider_type": "closed",
+    "context_length": 1048576,
+    "max_output_tokens": null,
+    "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
+    "urls": "{\"official\": \"https://openrouter.ai/models/kimi-k3\"}",
+    "tags": "[\"multimodal\", \"coding\"]",
+    "aliases": "[\"moonshotai/kimi-k3\"]",
+    "status": "active",
+    "regions": "[]",
+    "private_deployment": 0,
+    "openai_compatible": 0,
+    "last_updated": "2026-07-20T05:33:20.237485+00:00"
+  },
+  "meta/muse-spark-1.1": {
+    "model_id": "meta/muse-spark-1.1",
+    "model_name": "Meta: Muse Spark 1.1",
+    "provider": "meta",
+    "provider_type": "closed",
+    "context_length": 1048576,
+    "max_output_tokens": null,
+    "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": true, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
+    "urls": "{\"official\": \"https://openrouter.ai/models/muse-spark-1.1\"}",
+    "tags": "[\"multimodal\", \"coding\"]",
+    "aliases": "[\"meta/muse-spark-1.1\"]",
+    "status": "active",
+    "regions": "[]",
+    "private_deployment": 0,
+    "openai_compatible": 0,
+    "last_updated": "2026-07-20T05:33:20.237487+00:00"
+  },
+  "kwaipilot/kat-coder-air-v2.5": {
+    "model_id": "kwaipilot/kat-coder-air-v2.5",
+    "model_name": "Kwaipilot: KAT-Coder-Air V2.5",
+    "provider": "kwaipilot",
+    "provider_type": "closed",
+    "context_length": 256000,
+    "max_output_tokens": 80000,
+    "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
+    "urls": "{\"official\": \"https://openrouter.ai/models/kat-coder-air-v2.5\"}",
+    "tags": "[\"coding\"]",
+    "aliases": "[\"kwaipilot/kat-coder-air-v2.5\"]",
+    "status": "active",
+    "regions": "[]",
+    "private_deployment": 0,
+    "openai_compatible": 0,
+    "last_updated": "2026-07-20T05:33:20.237490+00:00"
+  },
+  "kwaipilot/kat-coder-pro-v2.5": {
+    "model_id": "kwaipilot/kat-coder-pro-v2.5",
+    "model_name": "Kwaipilot: KAT-Coder-Pro V2.5",
+    "provider": "kwaipilot",
+    "provider_type": "closed",
+    "context_length": 256000,
+    "max_output_tokens": 80000,
+    "capabilities": "{\"text\": true, \"code\": true, \"reasoning\": false, \"vision\": false, \"image_gen\": false, \"audio\": false, \"audio_gen\": false, \"video\": false, \"tool_use\": false, \"structured_output\": false, \"streaming\": false, \"batch\": false, \"fine_tuning\": false, \"embedding\": false}",
+    "urls": "{\"official\": \"https://openrouter.ai/models/kat-coder-pro-v2.5\"}",
+    "tags": "[\"coding\"]",
+    "aliases": "[\"kwaipilot/kat-coder-pro-v2.5\"]",
+    "status": "active",
+    "regions": "[]",
+    "private_deployment": 0,
+    "openai_compatible": 0,
+    "last_updated": "2026-07-20T05:33:20.237491+00:00"
   }
 }
