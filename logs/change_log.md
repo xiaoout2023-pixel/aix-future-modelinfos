@@ -14221,3 +14221,112 @@
 - **pricing.input_price_per_1m** | openai/gpt-3.5-turbo-0613 | `1.0` -> `1.5`
 - **pricing.input_price_per_1m** | anthropic/claude-sonnet-5 | `2.0` -> `3.0`
 - **pricing.output_price_per_1m** | anthropic/claude-sonnet-5 | `10.0` -> `15.0`
+
+## 2026-08-03 - collect
+
+- **models.*** | ~deepseek/deepseek-v4-flash-latest | `None` -> `new model`
+- **models.*** | deepseek/deepseek-v4-flash-0731 | `None` -> `new model`
+- **models.*** | thinkingmachines/inkling-small | `None` -> `new model`
+- **models.*** | qwen/qwen3.7-flash | `None` -> `new model`
+- **models.model_name** | anthropic/claude-opus-5 | `claude-opus-5` -> `Claude Opus 5`
+- **models.capabilities** | anthropic/claude-opus-5 | `{"text": true, "code": true, "reasoning": false, "vision": false, "tool_use": true, "streaming": true}` -> `{"text": true, "code": true, "reasoning": false, "vision": true, "image_gen": false, "audio": false, "audio_gen": false, "video": false, "tool_use": false, "structured_output": false, "streaming": false, "batch": false, "fine_tuning": false, "embedding": false}`
+- **models.urls** | anthropic/claude-opus-5 | `{"official": "https://platform.claude.com/docs/en/about-claude/models", "pricing": "https://www.anthropic.com/pricing"}` -> `{"official": "https://openrouter.ai/models/claude-opus-5"}`
+- **models.tags** | anthropic/claude-opus-5 | `["anthropic", "claude"]` -> `["multimodal", "coding"]`
+- **models.aliases** | anthropic/claude-opus-5 | `[]` -> `["anthropic/claude-opus-5"]`
+- **models.model_name** | anthropic/claude-sonnet-5 | `claude-sonnet-5` -> `Anthropic: Claude Sonnet 5`
+- **models.capabilities** | anthropic/claude-sonnet-5 | `{"text": true, "code": true, "reasoning": false, "vision": false, "tool_use": true, "streaming": true}` -> `{"text": true, "code": true, "reasoning": false, "vision": true, "image_gen": false, "audio": false, "audio_gen": false, "video": false, "tool_use": false, "structured_output": false, "streaming": false, "batch": false, "fine_tuning": false, "embedding": false}`
+- **models.urls** | anthropic/claude-sonnet-5 | `{"official": "https://platform.claude.com/docs/en/about-claude/models", "pricing": "https://www.anthropic.com/pricing"}` -> `{"official": "https://openrouter.ai/models/claude-sonnet-5"}`
+- **models.tags** | anthropic/claude-sonnet-5 | `["anthropic", "claude"]` -> `["multimodal", "coding"]`
+- **models.aliases** | anthropic/claude-sonnet-5 | `[]` -> `["anthropic/claude-sonnet-5"]`
+- **models.max_output_tokens** | google/gemini-3.1-flash-lite-image | `66000` -> `65536`
+- **models.max_output_tokens** | z-ai/glm-5.2 | `131072` -> `262144`
+- **models.model_name** | anthropic/claude-fable-5 | `claude-fable-5` -> `Anthropic: Claude Fable 5`
+- **models.capabilities** | anthropic/claude-fable-5 | `{"text": true, "code": true, "reasoning": false, "vision": false, "tool_use": true, "streaming": true}` -> `{"text": true, "code": true, "reasoning": false, "vision": true, "image_gen": false, "audio": false, "audio_gen": false, "video": false, "tool_use": false, "structured_output": false, "streaming": false, "batch": false, "fine_tuning": false, "embedding": false}`
+- **models.urls** | anthropic/claude-fable-5 | `{"official": "https://platform.claude.com/docs/en/about-claude/models", "pricing": "https://www.anthropic.com/pricing"}` -> `{"official": "https://openrouter.ai/models/claude-fable-5"}`
+- **models.tags** | anthropic/claude-fable-5 | `["anthropic", "claude"]` -> `["multimodal", "coding"]`
+- **models.aliases** | anthropic/claude-fable-5 | `[]` -> `["anthropic/claude-fable-5"]`
+- **models.max_output_tokens** | nvidia/nemotron-3-ultra-550b-a55b | `16384` -> `None`
+- **models.max_output_tokens** | qwen/qwen3.7-plus | `65536` -> `131072`
+- **models.max_output_tokens** | qwen/qwen3.7-max | `65536` -> `131072`
+- **models.max_output_tokens** | ~moonshotai/kimi-latest | `None` -> `1048576`
+- **models.max_output_tokens** | google/gemma-4-26b-a4b-it | `262144` -> `16384`
+- **models.max_output_tokens** | qwen/qwen3-max-thinking | `32768` -> `65536`
+- **models.max_output_tokens** | nvidia/nemotron-3-nano-30b-a3b | `228000` -> `262144`
+- **models.max_output_tokens** | qwen/qwen3-vl-30b-a3b-instruct | `16384` -> `32768`
+- **models.max_output_tokens** | qwen/qwen3-max | `32768` -> `65536`
+- **models.max_output_tokens** | qwen/qwen3-coder-30b-a3b-instruct | `32768` -> `262144`
+- **models.max_output_tokens** | qwen/qwen3-235b-a22b-thinking-2507 | `32768` -> `None`
+- **models.max_output_tokens** | qwen/qwen3-235b-a22b-2507 | `16384` -> `32768`
+- **models.max_output_tokens** | mistralai/mistral-small-3.2-24b-instruct | `None` -> `16384`
+- **models.context_length** | thedrummer/unslopnemo-12b | `32768` -> `1024000`
+- **models.max_output_tokens** | thedrummer/unslopnemo-12b | `32768` -> `1024000`
+- **models.model_name** | anthropic/claude-fable-5 | `Anthropic: Claude Fable 5` -> `claude-fable-5`
+- **models.capabilities** | anthropic/claude-fable-5 | `{"text": true, "code": true, "reasoning": false, "vision": true, "image_gen": false, "audio": false, "audio_gen": false, "video": false, "tool_use": false, "structured_output": false, "streaming": false, "batch": false, "fine_tuning": false, "embedding": false}` -> `{"text": true, "code": true, "reasoning": false, "vision": false, "tool_use": true, "streaming": true}`
+- **models.urls** | anthropic/claude-fable-5 | `{"official": "https://openrouter.ai/models/claude-fable-5"}` -> `{"official": "https://platform.claude.com/docs/en/about-claude/models", "pricing": "https://www.anthropic.com/pricing"}`
+- **models.tags** | anthropic/claude-fable-5 | `["multimodal", "coding"]` -> `["anthropic", "claude"]`
+- **models.model_name** | anthropic/claude-opus-5 | `Claude Opus 5` -> `claude-opus-5`
+- **models.capabilities** | anthropic/claude-opus-5 | `{"text": true, "code": true, "reasoning": false, "vision": true, "image_gen": false, "audio": false, "audio_gen": false, "video": false, "tool_use": false, "structured_output": false, "streaming": false, "batch": false, "fine_tuning": false, "embedding": false}` -> `{"text": true, "code": true, "reasoning": false, "vision": false, "tool_use": true, "streaming": true}`
+- **models.urls** | anthropic/claude-opus-5 | `{"official": "https://openrouter.ai/models/claude-opus-5"}` -> `{"official": "https://platform.claude.com/docs/en/about-claude/models", "pricing": "https://www.anthropic.com/pricing"}`
+- **models.tags** | anthropic/claude-opus-5 | `["multimodal", "coding"]` -> `["anthropic", "claude"]`
+- **models.model_name** | anthropic/claude-sonnet-5 | `Anthropic: Claude Sonnet 5` -> `claude-sonnet-5`
+- **models.capabilities** | anthropic/claude-sonnet-5 | `{"text": true, "code": true, "reasoning": false, "vision": true, "image_gen": false, "audio": false, "audio_gen": false, "video": false, "tool_use": false, "structured_output": false, "streaming": false, "batch": false, "fine_tuning": false, "embedding": false}` -> `{"text": true, "code": true, "reasoning": false, "vision": false, "tool_use": true, "streaming": true}`
+- **models.urls** | anthropic/claude-sonnet-5 | `{"official": "https://openrouter.ai/models/claude-sonnet-5"}` -> `{"official": "https://platform.claude.com/docs/en/about-claude/models", "pricing": "https://www.anthropic.com/pricing"}`
+- **models.tags** | anthropic/claude-sonnet-5 | `["multimodal", "coding"]` -> `["anthropic", "claude"]`
+
+## 2026-08-03 - collect
+
+- **pricing.output_price_per_1m** | openai/gpt-5.6-luna-pro | `0.6000000000000001` -> `0.6`
+- **pricing.output_price_per_1m** | openai/gpt-5.6-luna | `0.6000000000000001` -> `0.6`
+- **pricing.input_price_per_1m** | openai/gpt-5.6-terra-pro | `1.0000000000000002` -> `1.0`
+- **pricing.input_price_per_1m** | openai/gpt-5.6-terra | `1.0000000000000002` -> `1.0`
+- **pricing.input_price_per_1m** | z-ai/glm-5.2 | `0.2842` -> `1.19`
+- **pricing.output_price_per_1m** | z-ai/glm-5.2 | `0.8932` -> `3.74`
+- **pricing.input_price_per_1m** | qwen/qwen3.5-122b-a10b | `0.26` -> `0.39999999999999997`
+- **pricing.output_price_per_1m** | qwen/qwen3.5-122b-a10b | `2.08` -> `3.1999999999999997`
+- **pricing.input_price_per_1m** | qwen/qwen3-vl-235b-a22b-thinking | `0.39999999999999997` -> `0.98`
+- **pricing.output_price_per_1m** | qwen/qwen3-vl-235b-a22b-thinking | `4.0` -> `3.95`
+- **pricing.input_price_per_1m** | qwen/qwen3-235b-a22b-2507 | `0.09` -> `0.14950000000000002`
+- **pricing.output_price_per_1m** | qwen/qwen3-235b-a22b-2507 | `0.55` -> `0.5980000000000001`
+- **pricing.input_price_per_1m** | openai/gpt-5.2 | `1.75` -> `3.5`
+- **pricing.output_price_per_1m** | openai/gpt-5.2 | `14.0` -> `28.0`
+- **pricing.input_price_per_1m** | openai/gpt-5.1 | `1.25` -> `2.5`
+- **pricing.output_price_per_1m** | openai/gpt-5.1 | `10.0` -> `20.0`
+- **pricing.input_price_per_1m** | openai/gpt-5 | `1.25` -> `2.5`
+- **pricing.output_price_per_1m** | openai/gpt-5 | `10.0` -> `20.0`
+- **pricing.input_price_per_1m** | openai/gpt-5-mini | `0.25` -> `0.45`
+- **pricing.output_price_per_1m** | openai/gpt-5-mini | `2.0` -> `3.6`
+- **pricing.input_price_per_1m** | openai/gpt-5-nano | `0.049999999999999996` -> `0.05`
+- **pricing.output_price_per_1m** | openai/gpt-5-nano | `0.39999999999999997` -> `0.4`
+- **pricing.input_price_per_1m** | openai/gpt-4.1 | `2.0` -> `3.5`
+- **pricing.output_price_per_1m** | openai/gpt-4.1 | `8.0` -> `14.0`
+- **pricing.input_price_per_1m** | openai/gpt-4.1-mini | `0.39999999999999997` -> `0.7`
+- **pricing.output_price_per_1m** | openai/gpt-4.1-mini | `1.5999999999999999` -> `2.8`
+- **pricing.input_price_per_1m** | openai/gpt-4.1-nano | `0.09999999999999999` -> `0.2`
+- **pricing.output_price_per_1m** | openai/gpt-4.1-nano | `0.39999999999999997` -> `0.8`
+- **pricing.input_price_per_1m** | openai/gpt-4o | `2.5` -> `4.25`
+- **pricing.output_price_per_1m** | openai/gpt-4o | `10.0` -> `17.0`
+- **pricing.input_price_per_1m** | openai/gpt-4o-2024-05-13 | `5.0` -> `8.75`
+- **pricing.output_price_per_1m** | openai/gpt-4o-2024-05-13 | `15.0` -> `26.25`
+- **pricing.input_price_per_1m** | openai/gpt-4o-mini | `0.15` -> `0.25`
+- **pricing.output_price_per_1m** | openai/gpt-4o-mini | `0.6` -> `1.0`
+- **pricing.input_price_per_1m** | openai/o4-mini | `1.1` -> `2.0`
+- **pricing.output_price_per_1m** | openai/o4-mini | `4.4` -> `8.0`
+- **pricing.input_price_per_1m** | openai/gpt-5.3-codex | `1.75` -> `3.5`
+- **pricing.output_price_per_1m** | openai/gpt-5.3-codex | `14.0` -> `28.0`
+- **pricing.input_price_per_1m** | openai/gpt-5.2-codex | `1.75` -> `3.5`
+- **pricing.output_price_per_1m** | openai/gpt-5.2-codex | `14.0` -> `28.0`
+- **pricing.input_price_per_1m** | openai/gpt-5.1-codex-max | `1.25` -> `2.5`
+- **pricing.output_price_per_1m** | openai/gpt-5.1-codex-max | `10.0` -> `20.0`
+- **pricing.input_price_per_1m** | openai/gpt-5.1-codex | `1.25` -> `2.5`
+- **pricing.output_price_per_1m** | openai/gpt-5.1-codex | `10.0` -> `20.0`
+- **pricing.input_price_per_1m** | openai/gpt-audio | `2.5` -> `32.0`
+- **pricing.output_price_per_1m** | openai/gpt-audio | `10.0` -> `64.0`
+- **pricing.input_price_per_1m** | openai/gpt-audio-mini | `0.6` -> `10.0`
+- **pricing.output_price_per_1m** | openai/gpt-audio-mini | `2.4` -> `20.0`
+- **pricing.input_price_per_1m** | openai/gpt-4o-2024-08-06 | `2.5` -> `3.75`
+- **pricing.output_price_per_1m** | openai/gpt-4o-2024-08-06 | `10.0` -> `15.0`
+- **pricing.input_price_per_1m** | openai/gpt-4o-mini-2024-07-18 | `0.15` -> `0.3`
+- **pricing.output_price_per_1m** | openai/gpt-4o-mini-2024-07-18 | `0.6` -> `1.2`
+- **pricing.input_price_per_1m** | openai/gpt-3.5-turbo-0613 | `1.0` -> `1.5`
+- **pricing.input_price_per_1m** | anthropic/claude-sonnet-5 | `2.0` -> `3.0`
+- **pricing.output_price_per_1m** | anthropic/claude-sonnet-5 | `10.0` -> `15.0`
