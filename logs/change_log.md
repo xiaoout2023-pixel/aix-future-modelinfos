@@ -17137,3 +17137,112 @@
 - **pricing.input_price_per_1m** | openai/gpt-4o-mini-2024-07-18 | `0.15` -> `0.3`
 - **pricing.output_price_per_1m** | openai/gpt-4o-mini-2024-07-18 | `0.6` -> `1.2`
 - **pricing.input_price_per_1m** | openai/gpt-3.5-turbo-0613 | `1.0` -> `1.5`
+
+## 2026-09-07 - collect
+
+- **models.*** | openai/gpt-6-astra | `None` -> `new model`
+- **models.*** | openai/gpt-6-astra:batch | `None` -> `new model`
+- **models.*** | openai/gpt-6-astra-pro | `None` -> `new model`
+- **models.*** | openai/gpt-6-astra-pro:batch | `None` -> `new model`
+- **models.*** | inclusionai/ling-3.0-flash-sante:free | `None` -> `new model`
+- **models.*** | qwen/qwen3.8-max-0902 | `None` -> `new model`
+- **models.*** | meta/muse-spark-1.3-contributor | `None` -> `new model`
+- **models.*** | meta/muse-spark-1.3 | `None` -> `new model`
+- **models.*** | google/gemini-3.8-flash | `None` -> `new model`
+- **models.*** | google/gemini-3.8-flash:batch | `None` -> `new model`
+- **models.*** | anthropic/claude-fable-5.1 | `None` -> `new model`
+- **models.*** | anthropic/claude-fable-5.1:batch | `None` -> `new model`
+- **models.*** | inception/mercury-2.5-preview | `None` -> `new model`
+- **models.*** | ibm-granite/granite-4.2-8b | `None` -> `new model`
+- **models.*** | inclusionai/ling-3.0-flash-fin | `None` -> `new model`
+- **models.*** | ~z-ai/glm-flash-latest | `None` -> `new model`
+- **models.*** | nvidia/nemotron-3.5-content-safety | `None` -> `new model`
+- **models.*** | x-ai/grok-4.3:batch | `None` -> `new model`
+- **models.model_name** | inclusionai/ling-3.0-flash-fin:free | `Ling 3.0 Flash Fin (free)` -> `inclusionAI: Ling 3.0 Flash Fin (free)`
+- **models.max_output_tokens** | ~z-ai/glm-latest | `131072` -> `235929`
+- **models.max_output_tokens** | z-ai/glm-5.3 | `131072` -> `943718`
+- **models.max_output_tokens** | meta/muse-glimmer-30b | `16384` -> `117964`
+- **models.max_output_tokens** | deepseek/deepseek-v4-flash-0731 | `943718` -> `131072`
+- **models.model_name** | inclusionai/ling-3.0-flash | `Ling-3.0-flash` -> `inclusionAI: Ling 3.0 Flash`
+- **models.max_output_tokens** | kwaipilot/kat-coder-pro-v2.5 | `80000` -> `235929`
+- **models.max_output_tokens** | z-ai/glm-5.2 | `262144` -> `131072`
+- **models.max_output_tokens** | nvidia/nemotron-3-ultra-550b-a55b | `16384` -> `32768`
+- **models.context_length** | mistralai/mistral-medium-3-5:batch | `262144` -> `32768`
+- **models.max_output_tokens** | mistralai/mistral-medium-3-5:batch | `209715` -> `26214`
+- **models.max_output_tokens** | qwen/qwen3.6-27b | `235929` -> `65536`
+- **models.max_output_tokens** | deepseek/deepseek-v4-pro | `393216` -> `384000`
+- **models.max_output_tokens** | kwaipilot/kat-coder-pro-v2 | `80000` -> `144000`
+- **models.max_output_tokens** | qwen/qwen3.5-35b-a3b | `235929` -> `16384`
+- **models.max_output_tokens** | nvidia/nemotron-3-nano-30b-a3b | `228000` -> `235929`
+- **models.max_output_tokens** | qwen/qwen3-next-80b-a3b-thinking | `32768` -> `235929`
+- **models.max_output_tokens** | qwen/qwen3-next-80b-a3b-instruct | `16384` -> `235929`
+- **models.max_output_tokens** | qwen/qwen3-235b-a22b-2507 | `235929` -> `16384`
+- **models.max_output_tokens** | meta-llama/llama-4-scout | `8192` -> `16384`
+- **models.max_output_tokens** | qwen/qwen2.5-vl-72b-instruct | `28800` -> `115200`
+- **models.max_output_tokens** | deepseek/deepseek-chat | `16000` -> `16384`
+- **models.max_output_tokens** | meta-llama/llama-3.3-70b-instruct | `115200` -> `16384`
+- **models.max_output_tokens** | thedrummer/unslopnemo-12b | `26214` -> `819200`
+- **models.max_output_tokens** | undi95/remm-slerp-l2-13b | `4096` -> `5529`
+- **models.*** | anthropic/claude-fable-5.1for-demanding-reasoning-and-long-horizon-agentic-work | `None` -> `new model`
+
+## 2026-09-07 - collect
+
+- **pricing.input_price_per_1m** | ~z-ai/glm-flash-latest | `0.075` -> `0.07125000000000001`
+- **pricing.output_price_per_1m** | ~z-ai/glm-flash-latest | `0.25` -> `0.2375`
+- **pricing.input_price_per_1m** | deepseek/deepseek-v4-flash-vision-exp | `0.22` -> `0.44`
+- **pricing.output_price_per_1m** | deepseek/deepseek-v4-flash-vision-exp | `0.66` -> `1.32`
+- **pricing.input_price_per_1m** | deepseek/deepseek-v4-pro-0813 | `1.12068` -> `1.1154`
+- **pricing.output_price_per_1m** | deepseek/deepseek-v4-pro-0813 | `3.36204` -> `3.3461999999999996`
+- **pricing.input_price_per_1m** | ~deepseek/deepseek-v4-flash-latest | `0.045` -> `0.049999999999999996`
+- **pricing.output_price_per_1m** | ~deepseek/deepseek-v4-flash-latest | `0.09` -> `0.16`
+- **pricing.input_price_per_1m** | deepseek/deepseek-v4-flash-0731 | `0.049980000000000004` -> `0.14`
+- **pricing.output_price_per_1m** | deepseek/deepseek-v4-flash-0731 | `0.09996000000000001` -> `0.28`
+- **pricing.input_price_per_1m** | deepseek/deepseek-v4-pro | `0.687648` -> `1.04226`
+- **pricing.output_price_per_1m** | deepseek/deepseek-v4-pro | `1.375296` -> `2.08452`
+- **pricing.input_price_per_1m** | deepseek/deepseek-v4-flash | `0.08078` -> `0.088606`
+- **pricing.output_price_per_1m** | deepseek/deepseek-v4-flash | `0.16156` -> `0.177212`
+- **pricing.input_price_per_1m** | qwen/qwen3.5-397b-a17b | `0.55` -> `0.39`
+- **pricing.output_price_per_1m** | qwen/qwen3.5-397b-a17b | `3.5` -> `2.34`
+- **pricing.input_price_per_1m** | z-ai/glm-4.6 | `0.55` -> `0.43`
+- **pricing.output_price_per_1m** | z-ai/glm-4.6 | `2.2` -> `1.75`
+- **pricing.input_price_per_1m** | openai/gpt-5.2 | `1.75` -> `3.5`
+- **pricing.output_price_per_1m** | openai/gpt-5.2 | `14.0` -> `28.0`
+- **pricing.input_price_per_1m** | openai/gpt-5.1 | `1.25` -> `2.5`
+- **pricing.output_price_per_1m** | openai/gpt-5.1 | `10.0` -> `20.0`
+- **pricing.input_price_per_1m** | openai/gpt-5 | `1.25` -> `2.5`
+- **pricing.output_price_per_1m** | openai/gpt-5 | `10.0` -> `20.0`
+- **pricing.input_price_per_1m** | openai/gpt-5-mini | `0.25` -> `0.45`
+- **pricing.output_price_per_1m** | openai/gpt-5-mini | `2.0` -> `3.6`
+- **pricing.input_price_per_1m** | openai/gpt-5-nano | `0.049999999999999996` -> `0.05`
+- **pricing.output_price_per_1m** | openai/gpt-5-nano | `0.39999999999999997` -> `0.4`
+- **pricing.input_price_per_1m** | openai/gpt-4.1 | `2.0` -> `3.5`
+- **pricing.output_price_per_1m** | openai/gpt-4.1 | `8.0` -> `14.0`
+- **pricing.input_price_per_1m** | openai/gpt-4.1-mini | `0.39999999999999997` -> `0.7`
+- **pricing.output_price_per_1m** | openai/gpt-4.1-mini | `1.5999999999999999` -> `2.8`
+- **pricing.input_price_per_1m** | openai/gpt-4.1-nano | `0.09999999999999999` -> `0.2`
+- **pricing.output_price_per_1m** | openai/gpt-4.1-nano | `0.39999999999999997` -> `0.8`
+- **pricing.input_price_per_1m** | openai/gpt-4o | `2.5` -> `4.25`
+- **pricing.output_price_per_1m** | openai/gpt-4o | `10.0` -> `17.0`
+- **pricing.input_price_per_1m** | openai/gpt-4o-2024-05-13 | `5.0` -> `8.75`
+- **pricing.output_price_per_1m** | openai/gpt-4o-2024-05-13 | `15.0` -> `26.25`
+- **pricing.input_price_per_1m** | openai/gpt-4o-mini | `0.15` -> `0.25`
+- **pricing.output_price_per_1m** | openai/gpt-4o-mini | `0.6` -> `1.0`
+- **pricing.input_price_per_1m** | openai/o4-mini | `1.1` -> `2.0`
+- **pricing.output_price_per_1m** | openai/o4-mini | `4.4` -> `8.0`
+- **pricing.input_price_per_1m** | openai/gpt-5.3-codex | `1.75` -> `3.5`
+- **pricing.output_price_per_1m** | openai/gpt-5.3-codex | `14.0` -> `28.0`
+- **pricing.input_price_per_1m** | openai/gpt-5.2-codex | `1.75` -> `3.5`
+- **pricing.output_price_per_1m** | openai/gpt-5.2-codex | `14.0` -> `28.0`
+- **pricing.input_price_per_1m** | openai/gpt-5.1-codex-max | `1.25` -> `2.5`
+- **pricing.output_price_per_1m** | openai/gpt-5.1-codex-max | `10.0` -> `20.0`
+- **pricing.input_price_per_1m** | openai/gpt-5.1-codex | `1.25` -> `2.5`
+- **pricing.output_price_per_1m** | openai/gpt-5.1-codex | `10.0` -> `20.0`
+- **pricing.input_price_per_1m** | openai/gpt-audio | `2.5` -> `32.0`
+- **pricing.output_price_per_1m** | openai/gpt-audio | `10.0` -> `64.0`
+- **pricing.input_price_per_1m** | openai/gpt-audio-mini | `0.6` -> `10.0`
+- **pricing.output_price_per_1m** | openai/gpt-audio-mini | `2.4` -> `20.0`
+- **pricing.input_price_per_1m** | openai/gpt-4o-2024-08-06 | `2.5` -> `3.75`
+- **pricing.output_price_per_1m** | openai/gpt-4o-2024-08-06 | `10.0` -> `15.0`
+- **pricing.input_price_per_1m** | openai/gpt-4o-mini-2024-07-18 | `0.15` -> `0.3`
+- **pricing.output_price_per_1m** | openai/gpt-4o-mini-2024-07-18 | `0.6` -> `1.2`
+- **pricing.input_price_per_1m** | openai/gpt-3.5-turbo-0613 | `1.0` -> `1.5`
