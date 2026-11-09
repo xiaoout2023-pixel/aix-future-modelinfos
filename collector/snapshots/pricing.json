@@ -999929,7 +999929,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689610+00:00"
+    "last_verified": "2026-11-09T18:09:31.526562+00:00"
   },
   "liquid/lfm-3-1.7b:free/openrouter/global/2026-11-09": {
     "pricing_id": "liquid/lfm-3-1.7b:free/openrouter/global/2026-11-09",
@@ -999945,7 +999945,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689642+00:00"
+    "last_verified": "2026-11-09T18:09:31.526600+00:00"
   },
   "google/gemini-omni-1.2-flash/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-omni-1.2-flash/openrouter/global/2026-11-09",
@@ -999961,7 +999961,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689645+00:00"
+    "last_verified": "2026-11-09T18:09:31.526604+00:00"
   },
   "google/gemini-omni-1.1-flash/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-omni-1.1-flash/openrouter/global/2026-11-09",
@@ -999977,7 +999977,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689647+00:00"
+    "last_verified": "2026-11-09T18:09:31.526609+00:00"
   },
   "ricursiveai/ripple-65b-preview/openrouter/global/2026-11-09": {
     "pricing_id": "ricursiveai/ripple-65b-preview/openrouter/global/2026-11-09",
@@ -999993,7 +999993,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689666+00:00"
+    "last_verified": "2026-11-09T18:09:31.526612+00:00"
   },
   "tencent/hy4/openrouter/global/2026-11-09": {
     "pricing_id": "tencent/hy4/openrouter/global/2026-11-09",
@@ -1000009,7 +1000009,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689667+00:00"
+    "last_verified": "2026-11-09T18:09:31.526614+00:00"
   },
   "stealth/crouton-alpha/openrouter/global/2026-11-09": {
     "pricing_id": "stealth/crouton-alpha/openrouter/global/2026-11-09",
@@ -1000025,7 +1000025,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689668+00:00"
+    "last_verified": "2026-11-09T18:09:31.526617+00:00"
   },
   "z-ai/glm-5.3-flashx-legal/openrouter/global/2026-11-09": {
     "pricing_id": "z-ai/glm-5.3-flashx-legal/openrouter/global/2026-11-09",
@@ -1000041,7 +1000041,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689670+00:00"
+    "last_verified": "2026-11-09T18:09:31.526618+00:00"
   },
   "particle-ai/particle-1/openrouter/global/2026-11-09": {
     "pricing_id": "particle-ai/particle-1/openrouter/global/2026-11-09",
@@ -1000057,7 +1000057,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689671+00:00"
+    "last_verified": "2026-11-09T18:09:31.526620+00:00"
   },
   "openai/gpt-6.1-terra-pro/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-6.1-terra-pro/openrouter/global/2026-11-09",
@@ -1000073,7 +1000073,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689672+00:00"
+    "last_verified": "2026-11-09T18:09:31.526622+00:00"
   },
   "openai/gpt-6.1-terra-pro:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-6.1-terra-pro:batch/openrouter/global/2026-11-09",
@@ -1000089,7 +1000089,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689674+00:00"
+    "last_verified": "2026-11-09T18:09:31.526624+00:00"
   },
   "openai/gpt-6.1-terra/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-6.1-terra/openrouter/global/2026-11-09",
@@ -1000105,7 +1000105,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689676+00:00"
+    "last_verified": "2026-11-09T18:09:31.526628+00:00"
   },
   "openai/gpt-6.1-terra:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-6.1-terra:batch/openrouter/global/2026-11-09",
@@ -1000121,7 +1000121,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689677+00:00"
+    "last_verified": "2026-11-09T18:09:31.526630+00:00"
   },
   "moonshotai/kimi-k3.1-pro/openrouter/global/2026-11-09": {
     "pricing_id": "moonshotai/kimi-k3.1-pro/openrouter/global/2026-11-09",
@@ -1000137,7 +1000137,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689678+00:00"
+    "last_verified": "2026-11-09T18:09:31.526631+00:00"
   },
   "recursive/flint-v1.0:free/openrouter/global/2026-11-09": {
     "pricing_id": "recursive/flint-v1.0:free/openrouter/global/2026-11-09",
@@ -1000153,7 +1000153,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689683+00:00"
+    "last_verified": "2026-11-09T18:09:31.526633+00:00"
   },
   "minimax/minimax-m3.1-flash/openrouter/global/2026-11-09": {
     "pricing_id": "minimax/minimax-m3.1-flash/openrouter/global/2026-11-09",
@@ -1000162,14 +1000162,14 @@
     "market_name": "openrouter",
     "region": "global",
     "valid_from": "2026-11-09",
-    "input_price_per_1m": 0.15,
-    "output_price_per_1m": 0.6,
+    "input_price_per_1m": 0.075,
+    "output_price_per_1m": 0.3,
     "price_per_image": null,
     "source": "https://openrouter.ai/api/v1/models/minimax/minimax-m3.1-flash",
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689684+00:00"
+    "last_verified": "2026-11-09T18:09:31.526635+00:00"
   },
   "deepseek/deepseek-v4.1-flash-1017/openrouter/global/2026-11-09": {
     "pricing_id": "deepseek/deepseek-v4.1-flash-1017/openrouter/global/2026-11-09",
@@ -1000185,7 +1000185,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689685+00:00"
+    "last_verified": "2026-11-09T18:09:31.526637+00:00"
   },
   "deepseek/deepseek-v4.1-flash-1017:batch/openrouter/global/2026-11-09": {
     "pricing_id": "deepseek/deepseek-v4.1-flash-1017:batch/openrouter/global/2026-11-09",
@@ -1000201,7 +1000201,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689687+00:00"
+    "last_verified": "2026-11-09T18:09:31.526639+00:00"
   },
   "elorian/glimpse/openrouter/global/2026-11-09": {
     "pricing_id": "elorian/glimpse/openrouter/global/2026-11-09",
@@ -1000217,7 +1000217,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689688+00:00"
+    "last_verified": "2026-11-09T18:09:31.526641+00:00"
   },
   "xingchen-agi/xing4.0-29b-a4b:free/openrouter/global/2026-11-09": {
     "pricing_id": "xingchen-agi/xing4.0-29b-a4b:free/openrouter/global/2026-11-09",
@@ -1000233,7 +1000233,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689689+00:00"
+    "last_verified": "2026-11-09T18:09:31.526643+00:00"
   },
   "reflection/beam-1.0-501b-a23b/openrouter/global/2026-11-09": {
     "pricing_id": "reflection/beam-1.0-501b-a23b/openrouter/global/2026-11-09",
@@ -1000249,7 +1000249,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689690+00:00"
+    "last_verified": "2026-11-09T18:09:31.526645+00:00"
   },
   "prism-ml/ternary-bonsai-2-9b/openrouter/global/2026-11-09": {
     "pricing_id": "prism-ml/ternary-bonsai-2-9b/openrouter/global/2026-11-09",
@@ -1000265,7 +1000265,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689691+00:00"
+    "last_verified": "2026-11-09T18:09:31.526647+00:00"
   },
   "moondream/moondream3-preview/openrouter/global/2026-11-09": {
     "pricing_id": "moondream/moondream3-preview/openrouter/global/2026-11-09",
@@ -1000281,7 +1000281,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689692+00:00"
+    "last_verified": "2026-11-09T18:09:31.526649+00:00"
   },
   "moondream/moondream3.1-9b-a2b/openrouter/global/2026-11-09": {
     "pricing_id": "moondream/moondream3.1-9b-a2b/openrouter/global/2026-11-09",
@@ -1000297,7 +1000297,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689693+00:00"
+    "last_verified": "2026-11-09T18:09:31.526651+00:00"
   },
   "meta/muse-spark-open/openrouter/global/2026-11-09": {
     "pricing_id": "meta/muse-spark-open/openrouter/global/2026-11-09",
@@ -1000313,7 +1000313,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689696+00:00"
+    "last_verified": "2026-11-09T18:09:31.526653+00:00"
   },
   "nvidia/nemotron-3.5-super-vl/openrouter/global/2026-11-09": {
     "pricing_id": "nvidia/nemotron-3.5-super-vl/openrouter/global/2026-11-09",
@@ -1000329,7 +1000329,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689697+00:00"
+    "last_verified": "2026-11-09T18:09:31.526654+00:00"
   },
   "nvidia/nemotron-3.5-super-vl:free/openrouter/global/2026-11-09": {
     "pricing_id": "nvidia/nemotron-3.5-super-vl:free/openrouter/global/2026-11-09",
@@ -1000345,7 +1000345,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689698+00:00"
+    "last_verified": "2026-11-09T18:09:31.526656+00:00"
   },
   "unbiased/pareto-26.10/openrouter/global/2026-11-09": {
     "pricing_id": "unbiased/pareto-26.10/openrouter/global/2026-11-09",
@@ -1000361,7 +1000361,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689701+00:00"
+    "last_verified": "2026-11-09T18:09:31.526658+00:00"
   },
   "~unbiased/pareto-latest/openrouter/global/2026-11-09": {
     "pricing_id": "~unbiased/pareto-latest/openrouter/global/2026-11-09",
@@ -1000377,7 +1000377,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689702+00:00"
+    "last_verified": "2026-11-09T18:09:31.526660+00:00"
   },
   "unbiased/pareto-26.9/openrouter/global/2026-11-09": {
     "pricing_id": "unbiased/pareto-26.9/openrouter/global/2026-11-09",
@@ -1000393,7 +1000393,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689704+00:00"
+    "last_verified": "2026-11-09T18:09:31.526664+00:00"
   },
   "liquid/lfm-2.5-24b-a2b/openrouter/global/2026-11-09": {
     "pricing_id": "liquid/lfm-2.5-24b-a2b/openrouter/global/2026-11-09",
@@ -1000409,7 +1000409,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689705+00:00"
+    "last_verified": "2026-11-09T18:09:31.526665+00:00"
   },
   "google/gemini-4-argon/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-4-argon/openrouter/global/2026-11-09",
@@ -1000425,7 +1000425,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689706+00:00"
+    "last_verified": "2026-11-09T18:09:31.526667+00:00"
   },
   "google/gemini-4-argon:batch/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-4-argon:batch/openrouter/global/2026-11-09",
@@ -1000441,7 +1000441,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689707+00:00"
+    "last_verified": "2026-11-09T18:09:31.526669+00:00"
   },
   "scaledown/summarize/openrouter/global/2026-11-09": {
     "pricing_id": "scaledown/summarize/openrouter/global/2026-11-09",
@@ -1000457,7 +1000457,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689708+00:00"
+    "last_verified": "2026-11-09T18:09:31.526671+00:00"
   },
   "scaledown/extract/openrouter/global/2026-11-09": {
     "pricing_id": "scaledown/extract/openrouter/global/2026-11-09",
@@ -1000473,7 +1000473,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689711+00:00"
+    "last_verified": "2026-11-09T18:09:31.526673+00:00"
   },
   "meta/muse-wonder/openrouter/global/2026-11-09": {
     "pricing_id": "meta/muse-wonder/openrouter/global/2026-11-09",
@@ -1000489,7 +1000489,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689712+00:00"
+    "last_verified": "2026-11-09T18:09:31.526675+00:00"
   },
   "stepfun/step-5-preview/openrouter/global/2026-11-09": {
     "pricing_id": "stepfun/step-5-preview/openrouter/global/2026-11-09",
@@ -1000505,7 +1000505,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689714+00:00"
+    "last_verified": "2026-11-09T18:09:31.526677+00:00"
   },
   "anthropic/claude-haiku-5.5/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-haiku-5.5/openrouter/global/2026-11-09",
@@ -1000521,7 +1000521,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689715+00:00"
+    "last_verified": "2026-11-09T18:09:31.526679+00:00"
   },
   "anthropic/claude-haiku-5.5:batch/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-haiku-5.5:batch/openrouter/global/2026-11-09",
@@ -1000537,7 +1000537,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689717+00:00"
+    "last_verified": "2026-11-09T18:09:31.526681+00:00"
   },
   "google/gemini-nano-banana-2.1/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-nano-banana-2.1/openrouter/global/2026-11-09",
@@ -1000553,7 +1000553,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689718+00:00"
+    "last_verified": "2026-11-09T18:09:31.526682+00:00"
   },
   "mistralai/mistral-large-4-0/openrouter/global/2026-11-09": {
     "pricing_id": "mistralai/mistral-large-4-0/openrouter/global/2026-11-09",
@@ -1000569,7 +1000569,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689719+00:00"
+    "last_verified": "2026-11-09T18:09:31.526684+00:00"
   },
   "inclusionai/ling-3.1-flash/openrouter/global/2026-11-09": {
     "pricing_id": "inclusionai/ling-3.1-flash/openrouter/global/2026-11-09",
@@ -1000585,7 +1000585,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689720+00:00"
+    "last_verified": "2026-11-09T18:09:31.526686+00:00"
   },
   "openai/gpt-6.1-sol-pro/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-6.1-sol-pro/openrouter/global/2026-11-09",
@@ -1000601,7 +1000601,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689722+00:00"
+    "last_verified": "2026-11-09T18:09:31.526688+00:00"
   },
   "openai/gpt-6.1-sol-pro:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-6.1-sol-pro:batch/openrouter/global/2026-11-09",
@@ -1000617,7 +1000617,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689723+00:00"
+    "last_verified": "2026-11-09T18:09:31.526690+00:00"
   },
   "openai/gpt-6.1-sol/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-6.1-sol/openrouter/global/2026-11-09",
@@ -1000633,7 +1000633,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689724+00:00"
+    "last_verified": "2026-11-09T18:09:31.526692+00:00"
   },
   "openai/gpt-6.1-sol:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-6.1-sol:batch/openrouter/global/2026-11-09",
@@ -1000649,7 +1000649,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689726+00:00"
+    "last_verified": "2026-11-09T18:09:31.526694+00:00"
   },
   "anthropic/claude-sonnet-5.5/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-sonnet-5.5/openrouter/global/2026-11-09",
@@ -1000665,7 +1000665,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689727+00:00"
+    "last_verified": "2026-11-09T18:09:31.526696+00:00"
   },
   "anthropic/claude-sonnet-5.5:batch/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-sonnet-5.5:batch/openrouter/global/2026-11-09",
@@ -1000681,7 +1000681,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689728+00:00"
+    "last_verified": "2026-11-09T18:09:31.526697+00:00"
   },
   "perceptron/perceptron-mk1.5/openrouter/global/2026-11-09": {
     "pricing_id": "perceptron/perceptron-mk1.5/openrouter/global/2026-11-09",
@@ -1000697,7 +1000697,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689729+00:00"
+    "last_verified": "2026-11-09T18:09:31.526699+00:00"
   },
   "fireworks/ember-1/openrouter/global/2026-11-09": {
     "pricing_id": "fireworks/ember-1/openrouter/global/2026-11-09",
@@ -1000713,7 +1000713,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689730+00:00"
+    "last_verified": "2026-11-09T18:09:31.526701+00:00"
   },
   "z-ai/glm-5.3-prime/openrouter/global/2026-11-09": {
     "pricing_id": "z-ai/glm-5.3-prime/openrouter/global/2026-11-09",
@@ -1000729,7 +1000729,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689731+00:00"
+    "last_verified": "2026-11-09T18:09:31.526703+00:00"
   },
   "qwen/qwen3.8-max-prime/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3.8-max-prime/openrouter/global/2026-11-09",
@@ -1000745,7 +1000745,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689732+00:00"
+    "last_verified": "2026-11-09T18:09:31.526704+00:00"
   },
   "aion-labs/aion-3.5-mini/openrouter/global/2026-11-09": {
     "pricing_id": "aion-labs/aion-3.5-mini/openrouter/global/2026-11-09",
@@ -1000761,7 +1000761,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689734+00:00"
+    "last_verified": "2026-11-09T18:09:31.526706+00:00"
   },
   "aion-labs/aion-3.5/openrouter/global/2026-11-09": {
     "pricing_id": "aion-labs/aion-3.5/openrouter/global/2026-11-09",
@@ -1000777,7 +1000777,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689735+00:00"
+    "last_verified": "2026-11-09T18:09:31.526708+00:00"
   },
   "upstage/solar-mini4/openrouter/global/2026-11-09": {
     "pricing_id": "upstage/solar-mini4/openrouter/global/2026-11-09",
@@ -1000793,7 +1000793,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689736+00:00"
+    "last_verified": "2026-11-09T18:09:31.526724+00:00"
   },
   "cohere/command-a-plus/openrouter/global/2026-11-09": {
     "pricing_id": "cohere/command-a-plus/openrouter/global/2026-11-09",
@@ -1000809,7 +1000809,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689737+00:00"
+    "last_verified": "2026-11-09T18:09:31.526726+00:00"
   },
   "openai/gpt-6-luna-pro/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-6-luna-pro/openrouter/global/2026-11-09",
@@ -1000825,7 +1000825,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689738+00:00"
+    "last_verified": "2026-11-09T18:09:31.526728+00:00"
   },
   "openai/gpt-6-luna-pro:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-6-luna-pro:batch/openrouter/global/2026-11-09",
@@ -1000841,7 +1000841,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689739+00:00"
+    "last_verified": "2026-11-09T18:09:31.526730+00:00"
   },
   "openai/gpt-6-luna/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-6-luna/openrouter/global/2026-11-09",
@@ -1000857,7 +1000857,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689740+00:00"
+    "last_verified": "2026-11-09T18:09:31.526732+00:00"
   },
   "openai/gpt-6-luna:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-6-luna:batch/openrouter/global/2026-11-09",
@@ -1000873,7 +1000873,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689741+00:00"
+    "last_verified": "2026-11-09T18:09:31.526733+00:00"
   },
   "openai/gpt-6-sol-pro/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-6-sol-pro/openrouter/global/2026-11-09",
@@ -1000889,7 +1000889,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689743+00:00"
+    "last_verified": "2026-11-09T18:09:31.526735+00:00"
   },
   "openai/gpt-6-sol-pro:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-6-sol-pro:batch/openrouter/global/2026-11-09",
@@ -1000905,7 +1000905,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689744+00:00"
+    "last_verified": "2026-11-09T18:09:31.526739+00:00"
   },
   "openai/gpt-6-sol/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-6-sol/openrouter/global/2026-11-09",
@@ -1000921,7 +1000921,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689745+00:00"
+    "last_verified": "2026-11-09T18:09:31.526741+00:00"
   },
   "openai/gpt-6-sol:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-6-sol:batch/openrouter/global/2026-11-09",
@@ -1000937,7 +1000937,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689746+00:00"
+    "last_verified": "2026-11-09T18:09:31.526743+00:00"
   },
   "anthropic/claude-opus-5.5/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-opus-5.5/openrouter/global/2026-11-09",
@@ -1000953,7 +1000953,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689748+00:00"
+    "last_verified": "2026-11-09T18:09:31.526745+00:00"
   },
   "anthropic/claude-opus-5.5:batch/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-opus-5.5:batch/openrouter/global/2026-11-09",
@@ -1000969,7 +1000969,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689749+00:00"
+    "last_verified": "2026-11-09T18:09:31.526747+00:00"
   },
   "xiaomi/mimo-v2.6-pro-ultraspeed/openrouter/global/2026-11-09": {
     "pricing_id": "xiaomi/mimo-v2.6-pro-ultraspeed/openrouter/global/2026-11-09",
@@ -1000985,7 +1000985,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689750+00:00"
+    "last_verified": "2026-11-09T18:09:31.526748+00:00"
   },
   "xiaomi/mimo-v2.6-flash/openrouter/global/2026-11-09": {
     "pricing_id": "xiaomi/mimo-v2.6-flash/openrouter/global/2026-11-09",
@@ -1001001,7 +1001001,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689751+00:00"
+    "last_verified": "2026-11-09T18:09:31.526750+00:00"
   },
   "xiaomi/mimo-v2.6-pro/openrouter/global/2026-11-09": {
     "pricing_id": "xiaomi/mimo-v2.6-pro/openrouter/global/2026-11-09",
@@ -1001017,7 +1001017,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689753+00:00"
+    "last_verified": "2026-11-09T18:09:31.526752+00:00"
   },
   "x-ai/grok-4.7/openrouter/global/2026-11-09": {
     "pricing_id": "x-ai/grok-4.7/openrouter/global/2026-11-09",
@@ -1001033,7 +1001033,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689754+00:00"
+    "last_verified": "2026-11-09T18:09:31.526754+00:00"
   },
   "x-ai/grok-4.7:batch/openrouter/global/2026-11-09": {
     "pricing_id": "x-ai/grok-4.7:batch/openrouter/global/2026-11-09",
@@ -1001049,7 +1001049,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689755+00:00"
+    "last_verified": "2026-11-09T18:09:31.526756+00:00"
   },
   "qwen/qwen3.8-omni-flash/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3.8-omni-flash/openrouter/global/2026-11-09",
@@ -1001065,7 +1001065,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689756+00:00"
+    "last_verified": "2026-11-09T18:09:31.526760+00:00"
   },
   "prism-ml/ternary-bonsai-2-27b/openrouter/global/2026-11-09": {
     "pricing_id": "prism-ml/ternary-bonsai-2-27b/openrouter/global/2026-11-09",
@@ -1001081,7 +1001081,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689757+00:00"
+    "last_verified": "2026-11-09T18:09:31.526762+00:00"
   },
   "z-ai/glm-5.3-flashx/openrouter/global/2026-11-09": {
     "pricing_id": "z-ai/glm-5.3-flashx/openrouter/global/2026-11-09",
@@ -1001097,7 +1001097,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689758+00:00"
+    "last_verified": "2026-11-09T18:09:31.526763+00:00"
   },
   "~deepseek/deepseek-pro-latest/openrouter/global/2026-11-09": {
     "pricing_id": "~deepseek/deepseek-pro-latest/openrouter/global/2026-11-09",
@@ -1001113,7 +1001113,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689759+00:00"
+    "last_verified": "2026-11-09T18:09:31.526765+00:00"
   },
   "~deepseek/deepseek-flash-latest/openrouter/global/2026-11-09": {
     "pricing_id": "~deepseek/deepseek-flash-latest/openrouter/global/2026-11-09",
@@ -1001129,7 +1001129,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689760+00:00"
+    "last_verified": "2026-11-09T18:09:31.526767+00:00"
   },
   "inference-net/schematron-v2-turbo/openrouter/global/2026-11-09": {
     "pricing_id": "inference-net/schematron-v2-turbo/openrouter/global/2026-11-09",
@@ -1001145,7 +1001145,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689761+00:00"
+    "last_verified": "2026-11-09T18:09:31.526769+00:00"
   },
   "inference-net/schematron-v2-small/openrouter/global/2026-11-09": {
     "pricing_id": "inference-net/schematron-v2-small/openrouter/global/2026-11-09",
@@ -1001161,7 +1001161,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689762+00:00"
+    "last_verified": "2026-11-09T18:09:31.526770+00:00"
   },
   "~openai/gpt-astra-latest/openrouter/global/2026-11-09": {
     "pricing_id": "~openai/gpt-astra-latest/openrouter/global/2026-11-09",
@@ -1001177,7 +1001177,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689763+00:00"
+    "last_verified": "2026-11-09T18:09:31.526772+00:00"
   },
   "~openai/gpt-sol-latest/openrouter/global/2026-11-09": {
     "pricing_id": "~openai/gpt-sol-latest/openrouter/global/2026-11-09",
@@ -1001193,7 +1001193,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689764+00:00"
+    "last_verified": "2026-11-09T18:09:31.526774+00:00"
   },
   "~openai/gpt-terra-latest/openrouter/global/2026-11-09": {
     "pricing_id": "~openai/gpt-terra-latest/openrouter/global/2026-11-09",
@@ -1001209,7 +1001209,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689765+00:00"
+    "last_verified": "2026-11-09T18:09:31.526776+00:00"
   },
   "~openai/gpt-luna-latest/openrouter/global/2026-11-09": {
     "pricing_id": "~openai/gpt-luna-latest/openrouter/global/2026-11-09",
@@ -1001225,7 +1001225,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689766+00:00"
+    "last_verified": "2026-11-09T18:09:31.526779+00:00"
   },
   "sakana/fugu-ultra-v2/openrouter/global/2026-11-09": {
     "pricing_id": "sakana/fugu-ultra-v2/openrouter/global/2026-11-09",
@@ -1001241,7 +1001241,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689767+00:00"
+    "last_verified": "2026-11-09T18:09:31.526781+00:00"
   },
   "sakana/fugu-max/openrouter/global/2026-11-09": {
     "pricing_id": "sakana/fugu-max/openrouter/global/2026-11-09",
@@ -1001257,7 +1001257,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689767+00:00"
+    "last_verified": "2026-11-09T18:09:31.526783+00:00"
   },
   "inclusionai/ling-3.0-flash-vl/openrouter/global/2026-11-09": {
     "pricing_id": "inclusionai/ling-3.0-flash-vl/openrouter/global/2026-11-09",
@@ -1001273,7 +1001273,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689770+00:00"
+    "last_verified": "2026-11-09T18:09:31.526785+00:00"
   },
   "deepseek/deepseek-v4.1-flash/openrouter/global/2026-11-09": {
     "pricing_id": "deepseek/deepseek-v4.1-flash/openrouter/global/2026-11-09",
@@ -1001289,7 +1001289,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689771+00:00"
+    "last_verified": "2026-11-09T18:09:31.526787+00:00"
   },
   "deepseek/deepseek-v4.1-flash:batch/openrouter/global/2026-11-09": {
     "pricing_id": "deepseek/deepseek-v4.1-flash:batch/openrouter/global/2026-11-09",
@@ -1001305,7 +1001305,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689772+00:00"
+    "last_verified": "2026-11-09T18:09:31.526788+00:00"
   },
   "nex-agi/nex-n2.5-mini/openrouter/global/2026-11-09": {
     "pricing_id": "nex-agi/nex-n2.5-mini/openrouter/global/2026-11-09",
@@ -1001321,7 +1001321,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689773+00:00"
+    "last_verified": "2026-11-09T18:09:31.526790+00:00"
   },
   "nex-agi/nex-n2.5-pro/openrouter/global/2026-11-09": {
     "pricing_id": "nex-agi/nex-n2.5-pro/openrouter/global/2026-11-09",
@@ -1001337,7 +1001337,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689774+00:00"
+    "last_verified": "2026-11-09T18:09:31.526792+00:00"
   },
   "openai/gpt-6-astra/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-6-astra/openrouter/global/2026-11-09",
@@ -1001353,7 +1001353,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689775+00:00"
+    "last_verified": "2026-11-09T18:09:31.526794+00:00"
   },
   "openai/gpt-6-astra:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-6-astra:batch/openrouter/global/2026-11-09",
@@ -1001369,7 +1001369,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689776+00:00"
+    "last_verified": "2026-11-09T18:09:31.526795+00:00"
   },
   "openai/gpt-6-astra-pro/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-6-astra-pro/openrouter/global/2026-11-09",
@@ -1001385,7 +1001385,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689777+00:00"
+    "last_verified": "2026-11-09T18:09:31.526799+00:00"
   },
   "openai/gpt-6-astra-pro:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-6-astra-pro:batch/openrouter/global/2026-11-09",
@@ -1001401,7 +1001401,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689778+00:00"
+    "last_verified": "2026-11-09T18:09:31.526801+00:00"
   },
   "qwen/qwen3.8-max-0902/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3.8-max-0902/openrouter/global/2026-11-09",
@@ -1001417,7 +1001417,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689779+00:00"
+    "last_verified": "2026-11-09T18:09:31.526804+00:00"
   },
   "meta/muse-spark-1.3-contributor/openrouter/global/2026-11-09": {
     "pricing_id": "meta/muse-spark-1.3-contributor/openrouter/global/2026-11-09",
@@ -1001433,7 +1001433,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689781+00:00"
+    "last_verified": "2026-11-09T18:09:31.526808+00:00"
   },
   "meta/muse-spark-1.3/openrouter/global/2026-11-09": {
     "pricing_id": "meta/muse-spark-1.3/openrouter/global/2026-11-09",
@@ -1001449,7 +1001449,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689782+00:00"
+    "last_verified": "2026-11-09T18:09:31.526810+00:00"
   },
   "google/gemini-3.8-flash/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-3.8-flash/openrouter/global/2026-11-09",
@@ -1001465,7 +1001465,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689783+00:00"
+    "last_verified": "2026-11-09T18:09:31.526812+00:00"
   },
   "google/gemini-3.8-flash:batch/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-3.8-flash:batch/openrouter/global/2026-11-09",
@@ -1001481,7 +1001481,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689784+00:00"
+    "last_verified": "2026-11-09T18:09:31.526814+00:00"
   },
   "anthropic/claude-fable-5.1/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-fable-5.1/openrouter/global/2026-11-09",
@@ -1001497,7 +1001497,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689785+00:00"
+    "last_verified": "2026-11-09T18:09:31.526816+00:00"
   },
   "anthropic/claude-fable-5.1:batch/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-fable-5.1:batch/openrouter/global/2026-11-09",
@@ -1001513,7 +1001513,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689786+00:00"
+    "last_verified": "2026-11-09T18:09:31.526818+00:00"
   },
   "ibm-granite/granite-4.2-8b/openrouter/global/2026-11-09": {
     "pricing_id": "ibm-granite/granite-4.2-8b/openrouter/global/2026-11-09",
@@ -1001529,7 +1001529,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689787+00:00"
+    "last_verified": "2026-11-09T18:09:31.526820+00:00"
   },
   "tencent/hy4-preview/openrouter/global/2026-11-09": {
     "pricing_id": "tencent/hy4-preview/openrouter/global/2026-11-09",
@@ -1001538,14 +1001538,14 @@
     "market_name": "openrouter",
     "region": "global",
     "valid_from": "2026-11-09",
-    "input_price_per_1m": 0.834,
-    "output_price_per_1m": 2.501,
+    "input_price_per_1m": 0.7505999999999999,
+    "output_price_per_1m": 2.2509,
     "price_per_image": null,
     "source": "https://openrouter.ai/api/v1/models/tencent/hy4-preview",
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689788+00:00"
+    "last_verified": "2026-11-09T18:09:31.526822+00:00"
   },
   "~z-ai/glm-flash-latest/openrouter/global/2026-11-09": {
     "pricing_id": "~z-ai/glm-flash-latest/openrouter/global/2026-11-09",
@@ -1001561,7 +1001561,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689789+00:00"
+    "last_verified": "2026-11-09T18:09:31.526824+00:00"
   },
   "qwen/qwen3.8-flash/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3.8-flash/openrouter/global/2026-11-09",
@@ -1001577,7 +1001577,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689790+00:00"
+    "last_verified": "2026-11-09T18:09:31.526825+00:00"
   },
   "z-ai/glm-5.3-flash/openrouter/global/2026-11-09": {
     "pricing_id": "z-ai/glm-5.3-flash/openrouter/global/2026-11-09",
@@ -1001593,7 +1001593,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689792+00:00"
+    "last_verified": "2026-11-09T18:09:31.526830+00:00"
   },
   "z-ai/glm-5.3-flash:batch/openrouter/global/2026-11-09": {
     "pricing_id": "z-ai/glm-5.3-flash:batch/openrouter/global/2026-11-09",
@@ -1001602,14 +1001602,14 @@
     "market_name": "openrouter",
     "region": "global",
     "valid_from": "2026-11-09",
-    "input_price_per_1m": 0.049999999999999996,
-    "output_price_per_1m": 0.18,
+    "input_price_per_1m": 0.043000000000000003,
+    "output_price_per_1m": 0.087,
     "price_per_image": null,
     "source": "https://openrouter.ai/api/v1/models/z-ai/glm-5.3-flash:batch",
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689793+00:00"
+    "last_verified": "2026-11-09T18:09:31.526831+00:00"
   },
   "meta/muse-spark-1.2-contributor/openrouter/global/2026-11-09": {
     "pricing_id": "meta/muse-spark-1.2-contributor/openrouter/global/2026-11-09",
@@ -1001625,7 +1001625,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689794+00:00"
+    "last_verified": "2026-11-09T18:09:31.526833+00:00"
   },
   "deepseek/deepseek-v4-flash-vision-exp/openrouter/global/2026-11-09": {
     "pricing_id": "deepseek/deepseek-v4-flash-vision-exp/openrouter/global/2026-11-09",
@@ -1001641,7 +1001641,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689795+00:00"
+    "last_verified": "2026-11-09T18:09:31.526835+00:00"
   },
   "tencent/hy-mt2-1.8b/openrouter/global/2026-11-09": {
     "pricing_id": "tencent/hy-mt2-1.8b/openrouter/global/2026-11-09",
@@ -1001657,7 +1001657,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689796+00:00"
+    "last_verified": "2026-11-09T18:09:31.526837+00:00"
   },
   "tencent/hy-mt2-30b-a3b/openrouter/global/2026-11-09": {
     "pricing_id": "tencent/hy-mt2-30b-a3b/openrouter/global/2026-11-09",
@@ -1001673,7 +1001673,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689797+00:00"
+    "last_verified": "2026-11-09T18:09:31.526838+00:00"
   },
   "~z-ai/glm-latest/openrouter/global/2026-11-09": {
     "pricing_id": "~z-ai/glm-latest/openrouter/global/2026-11-09",
@@ -1001689,7 +1001689,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689798+00:00"
+    "last_verified": "2026-11-09T18:09:31.526840+00:00"
   },
   "tencent/hy-mt2-7b/openrouter/global/2026-11-09": {
     "pricing_id": "tencent/hy-mt2-7b/openrouter/global/2026-11-09",
@@ -1001705,7 +1001705,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689799+00:00"
+    "last_verified": "2026-11-09T18:09:31.526842+00:00"
   },
   "z-ai/glm-5.3/openrouter/global/2026-11-09": {
     "pricing_id": "z-ai/glm-5.3/openrouter/global/2026-11-09",
@@ -1001721,7 +1001721,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689800+00:00"
+    "last_verified": "2026-11-09T18:09:31.526844+00:00"
   },
   "z-ai/glm-5.3:batch/openrouter/global/2026-11-09": {
     "pricing_id": "z-ai/glm-5.3:batch/openrouter/global/2026-11-09",
@@ -1001737,7 +1001737,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689801+00:00"
+    "last_verified": "2026-11-09T18:09:31.526845+00:00"
   },
   "qwen/qwen3.8-27b/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3.8-27b/openrouter/global/2026-11-09",
@@ -1001753,7 +1001753,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689803+00:00"
+    "last_verified": "2026-11-09T18:09:31.526847+00:00"
   },
   "qwen/qwen3.8-27b:batch/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3.8-27b:batch/openrouter/global/2026-11-09",
@@ -1001769,7 +1001769,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689806+00:00"
+    "last_verified": "2026-11-09T18:09:31.526849+00:00"
   },
   "dots-studio/dots-3-note-preview:free/openrouter/global/2026-11-09": {
     "pricing_id": "dots-studio/dots-3-note-preview:free/openrouter/global/2026-11-09",
@@ -1001785,7 +1001785,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689807+00:00"
+    "last_verified": "2026-11-09T18:09:31.526850+00:00"
   },
   "google/gemini-3.7-flash/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-3.7-flash/openrouter/global/2026-11-09",
@@ -1001801,7 +1001801,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689808+00:00"
+    "last_verified": "2026-11-09T18:09:31.526852+00:00"
   },
   "google/gemini-3.7-flash:batch/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-3.7-flash:batch/openrouter/global/2026-11-09",
@@ -1001817,7 +1001817,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689809+00:00"
+    "last_verified": "2026-11-09T18:09:31.526854+00:00"
   },
   "bytedance-seed/seed-2-1-turbo/openrouter/global/2026-11-09": {
     "pricing_id": "bytedance-seed/seed-2-1-turbo/openrouter/global/2026-11-09",
@@ -1001833,7 +1001833,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689810+00:00"
+    "last_verified": "2026-11-09T18:09:31.526856+00:00"
   },
   "qwen/qwen3.8-2.4t-a95b/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3.8-2.4t-a95b/openrouter/global/2026-11-09",
@@ -1001849,7 +1001849,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689811+00:00"
+    "last_verified": "2026-11-09T18:09:31.526858+00:00"
   },
   "bytedance-seed/seed-2.0-code/openrouter/global/2026-11-09": {
     "pricing_id": "bytedance-seed/seed-2.0-code/openrouter/global/2026-11-09",
@@ -1001865,7 +1001865,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689812+00:00"
+    "last_verified": "2026-11-09T18:09:31.526860+00:00"
   },
   "deepseek/deepseek-v4-pro-0813/openrouter/global/2026-11-09": {
     "pricing_id": "deepseek/deepseek-v4-pro-0813/openrouter/global/2026-11-09",
@@ -1001881,7 +1001881,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689813+00:00"
+    "last_verified": "2026-11-09T18:09:31.526862+00:00"
   },
   "x-ai/grok-4.6/openrouter/global/2026-11-09": {
     "pricing_id": "x-ai/grok-4.6/openrouter/global/2026-11-09",
@@ -1001897,7 +1001897,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689814+00:00"
+    "last_verified": "2026-11-09T18:09:31.526863+00:00"
   },
   "x-ai/grok-4.6:batch/openrouter/global/2026-11-09": {
     "pricing_id": "x-ai/grok-4.6:batch/openrouter/global/2026-11-09",
@@ -1001913,7 +1001913,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689815+00:00"
+    "last_verified": "2026-11-09T18:09:31.526865+00:00"
   },
   "liquid/lfm-2.5-2.6b/openrouter/global/2026-11-09": {
     "pricing_id": "liquid/lfm-2.5-2.6b/openrouter/global/2026-11-09",
@@ -1001929,7 +1001929,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689816+00:00"
+    "last_verified": "2026-11-09T18:09:31.526867+00:00"
   },
   "liquid/lfm-2.5-2.6b:free/openrouter/global/2026-11-09": {
     "pricing_id": "liquid/lfm-2.5-2.6b:free/openrouter/global/2026-11-09",
@@ -1001945,7 +1001945,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689817+00:00"
+    "last_verified": "2026-11-09T18:09:31.526868+00:00"
   },
   "nvidia/nemotron-3.5-lightning/openrouter/global/2026-11-09": {
     "pricing_id": "nvidia/nemotron-3.5-lightning/openrouter/global/2026-11-09",
@@ -1001961,7 +1001961,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689818+00:00"
+    "last_verified": "2026-11-09T18:09:31.526870+00:00"
   },
   "nvidia/nemotron-3.5-lightning:free/openrouter/global/2026-11-09": {
     "pricing_id": "nvidia/nemotron-3.5-lightning:free/openrouter/global/2026-11-09",
@@ -1001977,7 +1001977,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689819+00:00"
+    "last_verified": "2026-11-09T18:09:31.526872+00:00"
   },
   "sakana/sakana-namazu/openrouter/global/2026-11-09": {
     "pricing_id": "sakana/sakana-namazu/openrouter/global/2026-11-09",
@@ -1001993,7 +1001993,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689820+00:00"
+    "last_verified": "2026-11-09T18:09:31.526874+00:00"
   },
   "upstage/solar-pro4/openrouter/global/2026-11-09": {
     "pricing_id": "upstage/solar-pro4/openrouter/global/2026-11-09",
@@ -1002009,7 +1002009,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689821+00:00"
+    "last_verified": "2026-11-09T18:09:31.526875+00:00"
   },
   "meta/muse-glimmer-30b/openrouter/global/2026-11-09": {
     "pricing_id": "meta/muse-glimmer-30b/openrouter/global/2026-11-09",
@@ -1002025,7 +1002025,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689822+00:00"
+    "last_verified": "2026-11-09T18:09:31.526877+00:00"
   },
   "meta/muse-glimmer-30b:batch/openrouter/global/2026-11-09": {
     "pricing_id": "meta/muse-glimmer-30b:batch/openrouter/global/2026-11-09",
@@ -1002041,7 +1002041,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689823+00:00"
+    "last_verified": "2026-11-09T18:09:31.526879+00:00"
   },
   "inclusionai/ling-3.0-tiny/openrouter/global/2026-11-09": {
     "pricing_id": "inclusionai/ling-3.0-tiny/openrouter/global/2026-11-09",
@@ -1002057,7 +1002057,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689824+00:00"
+    "last_verified": "2026-11-09T18:09:31.526880+00:00"
   },
   "meta/muse-spark-1.2/openrouter/global/2026-11-09": {
     "pricing_id": "meta/muse-spark-1.2/openrouter/global/2026-11-09",
@@ -1002073,7 +1002073,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689825+00:00"
+    "last_verified": "2026-11-09T18:09:31.526882+00:00"
   },
   "~deepseek/deepseek-v4-flash-latest/openrouter/global/2026-11-09": {
     "pricing_id": "~deepseek/deepseek-v4-flash-latest/openrouter/global/2026-11-09",
@@ -1002089,7 +1002089,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689826+00:00"
+    "last_verified": "2026-11-09T18:09:31.526884+00:00"
   },
   "deepseek/deepseek-v4-flash-0731/openrouter/global/2026-11-09": {
     "pricing_id": "deepseek/deepseek-v4-flash-0731/openrouter/global/2026-11-09",
@@ -1002105,7 +1002105,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689827+00:00"
+    "last_verified": "2026-11-09T18:09:31.526886+00:00"
   },
   "deepseek/deepseek-v4-flash-0731:batch/openrouter/global/2026-11-09": {
     "pricing_id": "deepseek/deepseek-v4-flash-0731:batch/openrouter/global/2026-11-09",
@@ -1002121,7 +1002121,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689828+00:00"
+    "last_verified": "2026-11-09T18:09:31.526887+00:00"
   },
   "thinkingmachines/inkling-small/openrouter/global/2026-11-09": {
     "pricing_id": "thinkingmachines/inkling-small/openrouter/global/2026-11-09",
@@ -1002137,7 +1002137,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689829+00:00"
+    "last_verified": "2026-11-09T18:09:31.526889+00:00"
   },
   "thinkingmachines/inkling-small:batch/openrouter/global/2026-11-09": {
     "pricing_id": "thinkingmachines/inkling-small:batch/openrouter/global/2026-11-09",
@@ -1002153,7 +1002153,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689830+00:00"
+    "last_verified": "2026-11-09T18:09:31.526891+00:00"
   },
   "qwen/qwen3.7-flash/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3.7-flash/openrouter/global/2026-11-09",
@@ -1002169,7 +1002169,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689831+00:00"
+    "last_verified": "2026-11-09T18:09:31.526894+00:00"
   },
   "anthropic/claude-opus-5/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-opus-5/openrouter/global/2026-11-09",
@@ -1002185,7 +1002185,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689832+00:00"
+    "last_verified": "2026-11-09T18:09:31.526896+00:00"
   },
   "anthropic/claude-opus-5:batch/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-opus-5:batch/openrouter/global/2026-11-09",
@@ -1002201,7 +1002201,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689833+00:00"
+    "last_verified": "2026-11-09T18:09:31.526898+00:00"
   },
   "inclusionai/ling-3.0-flash/openrouter/global/2026-11-09": {
     "pricing_id": "inclusionai/ling-3.0-flash/openrouter/global/2026-11-09",
@@ -1002217,7 +1002217,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689834+00:00"
+    "last_verified": "2026-11-09T18:09:31.526899+00:00"
   },
   "google/gemini-3.6-flash/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-3.6-flash/openrouter/global/2026-11-09",
@@ -1002233,7 +1002233,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689835+00:00"
+    "last_verified": "2026-11-09T18:09:31.526901+00:00"
   },
   "google/gemini-3.6-flash:batch/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-3.6-flash:batch/openrouter/global/2026-11-09",
@@ -1002249,7 +1002249,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689836+00:00"
+    "last_verified": "2026-11-09T18:09:31.526903+00:00"
   },
   "google/gemini-3.5-flash-lite/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-3.5-flash-lite/openrouter/global/2026-11-09",
@@ -1002265,7 +1002265,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689837+00:00"
+    "last_verified": "2026-11-09T18:09:31.526904+00:00"
   },
   "google/gemini-3.5-flash-lite:batch/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-3.5-flash-lite:batch/openrouter/global/2026-11-09",
@@ -1002281,7 +1002281,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689838+00:00"
+    "last_verified": "2026-11-09T18:09:31.526906+00:00"
   },
   "meituan/longcat-2.0/openrouter/global/2026-11-09": {
     "pricing_id": "meituan/longcat-2.0/openrouter/global/2026-11-09",
@@ -1002297,7 +1002297,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689839+00:00"
+    "last_verified": "2026-11-09T18:09:31.526908+00:00"
   },
   "thinkingmachines/inkling/openrouter/global/2026-11-09": {
     "pricing_id": "thinkingmachines/inkling/openrouter/global/2026-11-09",
@@ -1002313,7 +1002313,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689840+00:00"
+    "last_verified": "2026-11-09T18:09:31.526910+00:00"
   },
   "moonshotai/kimi-k3/openrouter/global/2026-11-09": {
     "pricing_id": "moonshotai/kimi-k3/openrouter/global/2026-11-09",
@@ -1002329,7 +1002329,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689841+00:00"
+    "last_verified": "2026-11-09T18:09:31.526913+00:00"
   },
   "moonshotai/kimi-k3:batch/openrouter/global/2026-11-09": {
     "pricing_id": "moonshotai/kimi-k3:batch/openrouter/global/2026-11-09",
@@ -1002338,14 +1002338,14 @@
     "market_name": "openrouter",
     "region": "global",
     "valid_from": "2026-11-09",
-    "input_price_per_1m": 0.9169999999999999,
+    "input_price_per_1m": 0.883,
     "output_price_per_1m": 6.0,
     "price_per_image": null,
     "source": "https://openrouter.ai/api/v1/models/moonshotai/kimi-k3:batch",
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689842+00:00"
+    "last_verified": "2026-11-09T18:09:31.526915+00:00"
   },
   "meta/muse-spark-1.1/openrouter/global/2026-11-09": {
     "pricing_id": "meta/muse-spark-1.1/openrouter/global/2026-11-09",
@@ -1002361,7 +1002361,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689843+00:00"
+    "last_verified": "2026-11-09T18:09:31.526916+00:00"
   },
   "openai/gpt-5.6-luna-pro/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.6-luna-pro/openrouter/global/2026-11-09",
@@ -1002377,7 +1002377,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689844+00:00"
+    "last_verified": "2026-11-09T18:09:31.526918+00:00"
   },
   "openai/gpt-5.6-luna-pro:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.6-luna-pro:batch/openrouter/global/2026-11-09",
@@ -1002393,7 +1002393,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689845+00:00"
+    "last_verified": "2026-11-09T18:09:31.526920+00:00"
   },
   "openai/gpt-5.6-luna/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.6-luna/openrouter/global/2026-11-09",
@@ -1002409,7 +1002409,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689846+00:00"
+    "last_verified": "2026-11-09T18:09:31.526922+00:00"
   },
   "openai/gpt-5.6-luna:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.6-luna:batch/openrouter/global/2026-11-09",
@@ -1002425,7 +1002425,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689847+00:00"
+    "last_verified": "2026-11-09T18:09:31.526925+00:00"
   },
   "openai/gpt-5.6-terra-pro/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.6-terra-pro/openrouter/global/2026-11-09",
@@ -1002441,7 +1002441,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689848+00:00"
+    "last_verified": "2026-11-09T18:09:31.526927+00:00"
   },
   "openai/gpt-5.6-terra-pro:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.6-terra-pro:batch/openrouter/global/2026-11-09",
@@ -1002457,7 +1002457,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689849+00:00"
+    "last_verified": "2026-11-09T18:09:31.526929+00:00"
   },
   "openai/gpt-5.6-terra/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.6-terra/openrouter/global/2026-11-09",
@@ -1002473,7 +1002473,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689850+00:00"
+    "last_verified": "2026-11-09T18:09:31.526931+00:00"
   },
   "openai/gpt-5.6-terra:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.6-terra:batch/openrouter/global/2026-11-09",
@@ -1002489,7 +1002489,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689851+00:00"
+    "last_verified": "2026-11-09T18:09:31.526934+00:00"
   },
   "openai/gpt-5.6-sol-pro/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.6-sol-pro/openrouter/global/2026-11-09",
@@ -1002505,7 +1002505,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689851+00:00"
+    "last_verified": "2026-11-09T18:09:31.526936+00:00"
   },
   "openai/gpt-5.6-sol-pro:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.6-sol-pro:batch/openrouter/global/2026-11-09",
@@ -1002521,7 +1002521,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689852+00:00"
+    "last_verified": "2026-11-09T18:09:31.526938+00:00"
   },
   "openai/gpt-5.6-sol/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.6-sol/openrouter/global/2026-11-09",
@@ -1002537,7 +1002537,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689853+00:00"
+    "last_verified": "2026-11-09T18:09:31.526940+00:00"
   },
   "openai/gpt-5.6-sol:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.6-sol:batch/openrouter/global/2026-11-09",
@@ -1002553,7 +1002553,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689856+00:00"
+    "last_verified": "2026-11-09T18:09:31.526941+00:00"
   },
   "x-ai/grok-4.5/openrouter/global/2026-11-09": {
     "pricing_id": "x-ai/grok-4.5/openrouter/global/2026-11-09",
@@ -1002569,7 +1002569,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689857+00:00"
+    "last_verified": "2026-11-09T18:09:31.526943+00:00"
   },
   "~x-ai/grok-latest/openrouter/global/2026-11-09": {
     "pricing_id": "~x-ai/grok-latest/openrouter/global/2026-11-09",
@@ -1002585,7 +1002585,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689859+00:00"
+    "last_verified": "2026-11-09T18:09:31.526945+00:00"
   },
   "aion-labs/aion-3.0-mini/openrouter/global/2026-11-09": {
     "pricing_id": "aion-labs/aion-3.0-mini/openrouter/global/2026-11-09",
@@ -1002601,7 +1002601,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689860+00:00"
+    "last_verified": "2026-11-09T18:09:31.526946+00:00"
   },
   "aion-labs/aion-3.0/openrouter/global/2026-11-09": {
     "pricing_id": "aion-labs/aion-3.0/openrouter/global/2026-11-09",
@@ -1002617,7 +1002617,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689861+00:00"
+    "last_verified": "2026-11-09T18:09:31.526948+00:00"
   },
   "tencent/hy3/openrouter/global/2026-11-09": {
     "pricing_id": "tencent/hy3/openrouter/global/2026-11-09",
@@ -1002626,14 +1002626,14 @@
     "market_name": "openrouter",
     "region": "global",
     "valid_from": "2026-11-09",
-    "input_price_per_1m": 0.13199999999999998,
-    "output_price_per_1m": 0.5279999999999999,
+    "input_price_per_1m": 0.0825,
+    "output_price_per_1m": 0.33,
     "price_per_image": null,
     "source": "https://openrouter.ai/api/v1/models/tencent/hy3",
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689862+00:00"
+    "last_verified": "2026-11-09T18:09:31.526950+00:00"
   },
   "anthropic/claude-sonnet-5/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-sonnet-5/openrouter/global/2026-11-09",
@@ -1002649,7 +1002649,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689863+00:00"
+    "last_verified": "2026-11-09T18:09:31.526953+00:00"
   },
   "anthropic/claude-sonnet-5:batch/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-sonnet-5:batch/openrouter/global/2026-11-09",
@@ -1002665,7 +1002665,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689864+00:00"
+    "last_verified": "2026-11-09T18:09:31.526955+00:00"
   },
   "google/gemini-3.1-flash-lite-image/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-3.1-flash-lite-image/openrouter/global/2026-11-09",
@@ -1002681,7 +1002681,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689865+00:00"
+    "last_verified": "2026-11-09T18:09:31.526957+00:00"
   },
   "sakana/fugu-ultra/openrouter/global/2026-11-09": {
     "pricing_id": "sakana/fugu-ultra/openrouter/global/2026-11-09",
@@ -1002697,7 +1002697,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689866+00:00"
+    "last_verified": "2026-11-09T18:09:31.526958+00:00"
   },
   "google/gemini-3.1-flash-image/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-3.1-flash-image/openrouter/global/2026-11-09",
@@ -1002713,7 +1002713,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689868+00:00"
+    "last_verified": "2026-11-09T18:09:31.526960+00:00"
   },
   "google/gemini-3-pro-image/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-3-pro-image/openrouter/global/2026-11-09",
@@ -1002729,7 +1002729,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689869+00:00"
+    "last_verified": "2026-11-09T18:09:31.526962+00:00"
   },
   "cohere/north-mini-code:free/openrouter/global/2026-11-09": {
     "pricing_id": "cohere/north-mini-code:free/openrouter/global/2026-11-09",
@@ -1002745,7 +1002745,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689870+00:00"
+    "last_verified": "2026-11-09T18:09:31.526963+00:00"
   },
   "z-ai/glm-5.2/openrouter/global/2026-11-09": {
     "pricing_id": "z-ai/glm-5.2/openrouter/global/2026-11-09",
@@ -1002761,7 +1002761,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689880+00:00"
+    "last_verified": "2026-11-09T18:09:31.526965+00:00"
   },
   "z-ai/glm-5.2:batch/openrouter/global/2026-11-09": {
     "pricing_id": "z-ai/glm-5.2:batch/openrouter/global/2026-11-09",
@@ -1002777,7 +1002777,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689881+00:00"
+    "last_verified": "2026-11-09T18:09:31.526967+00:00"
   },
   "moonshotai/kimi-k2.7-code/openrouter/global/2026-11-09": {
     "pricing_id": "moonshotai/kimi-k2.7-code/openrouter/global/2026-11-09",
@@ -1002793,7 +1002793,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689882+00:00"
+    "last_verified": "2026-11-09T18:09:31.526968+00:00"
   },
   "~anthropic/claude-fable-latest/openrouter/global/2026-11-09": {
     "pricing_id": "~anthropic/claude-fable-latest/openrouter/global/2026-11-09",
@@ -1002809,7 +1002809,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689883+00:00"
+    "last_verified": "2026-11-09T18:09:31.526970+00:00"
   },
   "anthropic/claude-fable-5/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-fable-5/openrouter/global/2026-11-09",
@@ -1002825,7 +1002825,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689884+00:00"
+    "last_verified": "2026-11-09T18:09:31.526972+00:00"
   },
   "anthropic/claude-fable-5:batch/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-fable-5:batch/openrouter/global/2026-11-09",
@@ -1002841,7 +1002841,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689885+00:00"
+    "last_verified": "2026-11-09T18:09:31.526973+00:00"
   },
   "nvidia/nemotron-3.5-content-safety/openrouter/global/2026-11-09": {
     "pricing_id": "nvidia/nemotron-3.5-content-safety/openrouter/global/2026-11-09",
@@ -1002857,7 +1002857,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689886+00:00"
+    "last_verified": "2026-11-09T18:09:31.526975+00:00"
   },
   "nvidia/nemotron-3-ultra-550b-a55b/openrouter/global/2026-11-09": {
     "pricing_id": "nvidia/nemotron-3-ultra-550b-a55b/openrouter/global/2026-11-09",
@@ -1002873,7 +1002873,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689889+00:00"
+    "last_verified": "2026-11-09T18:09:31.526977+00:00"
   },
   "nvidia/nemotron-3-ultra-550b-a55b:free/openrouter/global/2026-11-09": {
     "pricing_id": "nvidia/nemotron-3-ultra-550b-a55b:free/openrouter/global/2026-11-09",
@@ -1002889,7 +1002889,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689890+00:00"
+    "last_verified": "2026-11-09T18:09:31.526978+00:00"
   },
   "qwen/qwen3.7-plus/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3.7-plus/openrouter/global/2026-11-09",
@@ -1002905,7 +1002905,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689891+00:00"
+    "last_verified": "2026-11-09T18:09:31.526980+00:00"
   },
   "qwen/qwen3.7-plus:batch/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3.7-plus:batch/openrouter/global/2026-11-09",
@@ -1002921,7 +1002921,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689892+00:00"
+    "last_verified": "2026-11-09T18:09:31.526982+00:00"
   },
   "minimax/minimax-m3/openrouter/global/2026-11-09": {
     "pricing_id": "minimax/minimax-m3/openrouter/global/2026-11-09",
@@ -1002937,7 +1002937,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689893+00:00"
+    "last_verified": "2026-11-09T18:09:31.526984+00:00"
   },
   "minimax/minimax-m3:batch/openrouter/global/2026-11-09": {
     "pricing_id": "minimax/minimax-m3:batch/openrouter/global/2026-11-09",
@@ -1002953,7 +1002953,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689894+00:00"
+    "last_verified": "2026-11-09T18:09:31.526985+00:00"
   },
   "stepfun/step-3.7-flash/openrouter/global/2026-11-09": {
     "pricing_id": "stepfun/step-3.7-flash/openrouter/global/2026-11-09",
@@ -1002969,7 +1002969,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689895+00:00"
+    "last_verified": "2026-11-09T18:09:31.526987+00:00"
   },
   "anthropic/claude-opus-4.8/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-opus-4.8/openrouter/global/2026-11-09",
@@ -1002985,7 +1002985,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689896+00:00"
+    "last_verified": "2026-11-09T18:09:31.526989+00:00"
   },
   "anthropic/claude-opus-4.8:batch/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-opus-4.8:batch/openrouter/global/2026-11-09",
@@ -1003001,7 +1003001,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689897+00:00"
+    "last_verified": "2026-11-09T18:09:31.526990+00:00"
   },
   "qwen/qwen3.7-max/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3.7-max/openrouter/global/2026-11-09",
@@ -1003017,7 +1003017,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689898+00:00"
+    "last_verified": "2026-11-09T18:09:31.526992+00:00"
   },
   "x-ai/grok-build-0.1/openrouter/global/2026-11-09": {
     "pricing_id": "x-ai/grok-build-0.1/openrouter/global/2026-11-09",
@@ -1003033,7 +1003033,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689900+00:00"
+    "last_verified": "2026-11-09T18:09:31.526994+00:00"
   },
   "google/gemini-3.5-flash/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-3.5-flash/openrouter/global/2026-11-09",
@@ -1003049,7 +1003049,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689901+00:00"
+    "last_verified": "2026-11-09T18:09:31.526995+00:00"
   },
   "google/gemini-3.5-flash:batch/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-3.5-flash:batch/openrouter/global/2026-11-09",
@@ -1003065,7 +1003065,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689902+00:00"
+    "last_verified": "2026-11-09T18:09:31.526997+00:00"
   },
   "perceptron/perceptron-mk1/openrouter/global/2026-11-09": {
     "pricing_id": "perceptron/perceptron-mk1/openrouter/global/2026-11-09",
@@ -1003081,7 +1003081,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689903+00:00"
+    "last_verified": "2026-11-09T18:09:31.526999+00:00"
   },
   "google/gemini-3.1-flash-lite/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-3.1-flash-lite/openrouter/global/2026-11-09",
@@ -1003097,7 +1003097,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689904+00:00"
+    "last_verified": "2026-11-09T18:09:31.527000+00:00"
   },
   "google/gemini-3.1-flash-lite:batch/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-3.1-flash-lite:batch/openrouter/global/2026-11-09",
@@ -1003113,7 +1003113,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689905+00:00"
+    "last_verified": "2026-11-09T18:09:31.527002+00:00"
   },
   "openai/gpt-chat-latest/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-chat-latest/openrouter/global/2026-11-09",
@@ -1003129,7 +1003129,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689906+00:00"
+    "last_verified": "2026-11-09T18:09:31.527004+00:00"
   },
   "x-ai/grok-4.3/openrouter/global/2026-11-09": {
     "pricing_id": "x-ai/grok-4.3/openrouter/global/2026-11-09",
@@ -1003145,7 +1003145,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689907+00:00"
+    "last_verified": "2026-11-09T18:09:31.527005+00:00"
   },
   "x-ai/grok-4.3:batch/openrouter/global/2026-11-09": {
     "pricing_id": "x-ai/grok-4.3:batch/openrouter/global/2026-11-09",
@@ -1003161,7 +1003161,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689908+00:00"
+    "last_verified": "2026-11-09T18:09:31.527007+00:00"
   },
   "mistralai/mistral-medium-3-5/openrouter/global/2026-11-09": {
     "pricing_id": "mistralai/mistral-medium-3-5/openrouter/global/2026-11-09",
@@ -1003177,7 +1003177,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689909+00:00"
+    "last_verified": "2026-11-09T18:09:31.527009+00:00"
   },
   "mistralai/mistral-medium-3-5:batch/openrouter/global/2026-11-09": {
     "pricing_id": "mistralai/mistral-medium-3-5:batch/openrouter/global/2026-11-09",
@@ -1003193,7 +1003193,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689910+00:00"
+    "last_verified": "2026-11-09T18:09:31.527011+00:00"
   },
   "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free/openrouter/global/2026-11-09": {
     "pricing_id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free/openrouter/global/2026-11-09",
@@ -1003209,7 +1003209,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689911+00:00"
+    "last_verified": "2026-11-09T18:09:31.527012+00:00"
   },
   "~anthropic/claude-haiku-latest/openrouter/global/2026-11-09": {
     "pricing_id": "~anthropic/claude-haiku-latest/openrouter/global/2026-11-09",
@@ -1003225,7 +1003225,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689912+00:00"
+    "last_verified": "2026-11-09T18:09:31.527017+00:00"
   },
   "~openai/gpt-mini-latest/openrouter/global/2026-11-09": {
     "pricing_id": "~openai/gpt-mini-latest/openrouter/global/2026-11-09",
@@ -1003241,7 +1003241,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689913+00:00"
+    "last_verified": "2026-11-09T18:09:31.527018+00:00"
   },
   "~google/gemini-pro-latest/openrouter/global/2026-11-09": {
     "pricing_id": "~google/gemini-pro-latest/openrouter/global/2026-11-09",
@@ -1003257,7 +1003257,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689914+00:00"
+    "last_verified": "2026-11-09T18:09:31.527020+00:00"
   },
   "~moonshotai/kimi-latest/openrouter/global/2026-11-09": {
     "pricing_id": "~moonshotai/kimi-latest/openrouter/global/2026-11-09",
@@ -1003266,14 +1003266,14 @@
     "market_name": "openrouter",
     "region": "global",
     "valid_from": "2026-11-09",
-    "input_price_per_1m": 0.1634,
-    "output_price_per_1m": 10.5539,
+    "input_price_per_1m": 0.15389999999999998,
+    "output_price_per_1m": 9.7471,
     "price_per_image": null,
     "source": "https://openrouter.ai/api/v1/models/~moonshotai/kimi-latest",
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689915+00:00"
+    "last_verified": "2026-11-09T18:09:31.527022+00:00"
   },
   "~google/gemini-flash-latest/openrouter/global/2026-11-09": {
     "pricing_id": "~google/gemini-flash-latest/openrouter/global/2026-11-09",
@@ -1003289,7 +1003289,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689916+00:00"
+    "last_verified": "2026-11-09T18:09:31.527024+00:00"
   },
   "~anthropic/claude-sonnet-latest/openrouter/global/2026-11-09": {
     "pricing_id": "~anthropic/claude-sonnet-latest/openrouter/global/2026-11-09",
@@ -1003305,7 +1003305,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689917+00:00"
+    "last_verified": "2026-11-09T18:09:31.527025+00:00"
   },
   "qwen/qwen3.5-plus-20260420/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3.5-plus-20260420/openrouter/global/2026-11-09",
@@ -1003321,7 +1003321,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689918+00:00"
+    "last_verified": "2026-11-09T18:09:31.527027+00:00"
   },
   "qwen/qwen3.6-flash/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3.6-flash/openrouter/global/2026-11-09",
@@ -1003337,7 +1003337,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689919+00:00"
+    "last_verified": "2026-11-09T18:09:31.527029+00:00"
   },
   "qwen/qwen3.6-35b-a3b/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3.6-35b-a3b/openrouter/global/2026-11-09",
@@ -1003353,7 +1003353,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689920+00:00"
+    "last_verified": "2026-11-09T18:09:31.527030+00:00"
   },
   "qwen/qwen3.6-27b/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3.6-27b/openrouter/global/2026-11-09",
@@ -1003369,7 +1003369,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689921+00:00"
+    "last_verified": "2026-11-09T18:09:31.527032+00:00"
   },
   "openai/gpt-5.5-pro/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.5-pro/openrouter/global/2026-11-09",
@@ -1003385,7 +1003385,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689922+00:00"
+    "last_verified": "2026-11-09T18:09:31.527034+00:00"
   },
   "openai/gpt-5.5-pro:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.5-pro:batch/openrouter/global/2026-11-09",
@@ -1003401,7 +1003401,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689923+00:00"
+    "last_verified": "2026-11-09T18:09:31.527035+00:00"
   },
   "openai/gpt-5.5/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.5/openrouter/global/2026-11-09",
@@ -1003417,7 +1003417,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689925+00:00"
+    "last_verified": "2026-11-09T18:09:31.527037+00:00"
   },
   "openai/gpt-5.5:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.5:batch/openrouter/global/2026-11-09",
@@ -1003433,7 +1003433,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689926+00:00"
+    "last_verified": "2026-11-09T18:09:31.527039+00:00"
   },
   "deepseek/deepseek-v4-pro/openrouter/global/2026-11-09": {
     "pricing_id": "deepseek/deepseek-v4-pro/openrouter/global/2026-11-09",
@@ -1003442,14 +1003442,14 @@
     "market_name": "openrouter",
     "region": "global",
     "valid_from": "2026-11-09",
-    "input_price_per_1m": 0.9552599999999999,
-    "output_price_per_1m": 1.9105199999999998,
+    "input_price_per_1m": 0.894012,
+    "output_price_per_1m": 1.788024,
     "price_per_image": null,
     "source": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro",
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689927+00:00"
+    "last_verified": "2026-11-09T18:09:31.527042+00:00"
   },
   "deepseek/deepseek-v4-flash/openrouter/global/2026-11-09": {
     "pricing_id": "deepseek/deepseek-v4-flash/openrouter/global/2026-11-09",
@@ -1003465,7 +1003465,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689928+00:00"
+    "last_verified": "2026-11-09T18:09:31.527044+00:00"
   },
   "tencent/hy3-preview/openrouter/global/2026-11-09": {
     "pricing_id": "tencent/hy3-preview/openrouter/global/2026-11-09",
@@ -1003481,7 +1003481,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689929+00:00"
+    "last_verified": "2026-11-09T18:09:31.527046+00:00"
   },
   "xiaomi/mimo-v2.5-pro/openrouter/global/2026-11-09": {
     "pricing_id": "xiaomi/mimo-v2.5-pro/openrouter/global/2026-11-09",
@@ -1003497,7 +1003497,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689930+00:00"
+    "last_verified": "2026-11-09T18:09:31.527047+00:00"
   },
   "xiaomi/mimo-v2.5/openrouter/global/2026-11-09": {
     "pricing_id": "xiaomi/mimo-v2.5/openrouter/global/2026-11-09",
@@ -1003513,7 +1003513,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689931+00:00"
+    "last_verified": "2026-11-09T18:09:31.527049+00:00"
   },
   "openai/gpt-5.4-image-2/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.4-image-2/openrouter/global/2026-11-09",
@@ -1003529,7 +1003529,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689932+00:00"
+    "last_verified": "2026-11-09T18:09:31.527051+00:00"
   },
   "~anthropic/claude-opus-latest/openrouter/global/2026-11-09": {
     "pricing_id": "~anthropic/claude-opus-latest/openrouter/global/2026-11-09",
@@ -1003545,7 +1003545,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689933+00:00"
+    "last_verified": "2026-11-09T18:09:31.527052+00:00"
   },
   "moonshotai/kimi-k2.6/openrouter/global/2026-11-09": {
     "pricing_id": "moonshotai/kimi-k2.6/openrouter/global/2026-11-09",
@@ -1003561,7 +1003561,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689934+00:00"
+    "last_verified": "2026-11-09T18:09:31.527054+00:00"
   },
   "anthropic/claude-opus-4.7/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-opus-4.7/openrouter/global/2026-11-09",
@@ -1003577,7 +1003577,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689935+00:00"
+    "last_verified": "2026-11-09T18:09:31.527056+00:00"
   },
   "anthropic/claude-opus-4.7:batch/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-opus-4.7:batch/openrouter/global/2026-11-09",
@@ -1003593,7 +1003593,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689936+00:00"
+    "last_verified": "2026-11-09T18:09:31.527057+00:00"
   },
   "z-ai/glm-5.1/openrouter/global/2026-11-09": {
     "pricing_id": "z-ai/glm-5.1/openrouter/global/2026-11-09",
@@ -1003609,7 +1003609,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689937+00:00"
+    "last_verified": "2026-11-09T18:09:31.527061+00:00"
   },
   "google/gemma-4-26b-a4b-it/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemma-4-26b-a4b-it/openrouter/global/2026-11-09",
@@ -1003625,7 +1003625,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689938+00:00"
+    "last_verified": "2026-11-09T18:09:31.527063+00:00"
   },
   "google/gemma-4-26b-a4b-it:free/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemma-4-26b-a4b-it:free/openrouter/global/2026-11-09",
@@ -1003641,7 +1003641,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689939+00:00"
+    "last_verified": "2026-11-09T18:09:31.527064+00:00"
   },
   "google/gemma-4-31b-it/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemma-4-31b-it/openrouter/global/2026-11-09",
@@ -1003657,7 +1003657,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689940+00:00"
+    "last_verified": "2026-11-09T18:09:31.527066+00:00"
   },
   "google/gemma-4-31b-it:free/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemma-4-31b-it:free/openrouter/global/2026-11-09",
@@ -1003673,7 +1003673,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689941+00:00"
+    "last_verified": "2026-11-09T18:09:31.527068+00:00"
   },
   "qwen/qwen3.6-plus/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3.6-plus/openrouter/global/2026-11-09",
@@ -1003689,7 +1003689,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689942+00:00"
+    "last_verified": "2026-11-09T18:09:31.527069+00:00"
   },
   "z-ai/glm-5v-turbo/openrouter/global/2026-11-09": {
     "pricing_id": "z-ai/glm-5v-turbo/openrouter/global/2026-11-09",
@@ -1003705,7 +1003705,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689943+00:00"
+    "last_verified": "2026-11-09T18:09:31.527071+00:00"
   },
   "x-ai/grok-4.20-multi-agent/openrouter/global/2026-11-09": {
     "pricing_id": "x-ai/grok-4.20-multi-agent/openrouter/global/2026-11-09",
@@ -1003721,7 +1003721,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689944+00:00"
+    "last_verified": "2026-11-09T18:09:31.527073+00:00"
   },
   "x-ai/grok-4.20/openrouter/global/2026-11-09": {
     "pricing_id": "x-ai/grok-4.20/openrouter/global/2026-11-09",
@@ -1003737,7 +1003737,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689945+00:00"
+    "last_verified": "2026-11-09T18:09:31.527075+00:00"
   },
   "google/lyria-3-pro-preview/openrouter/global/2026-11-09": {
     "pricing_id": "google/lyria-3-pro-preview/openrouter/global/2026-11-09",
@@ -1003753,7 +1003753,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689946+00:00"
+    "last_verified": "2026-11-09T18:09:31.527076+00:00"
   },
   "google/lyria-3-clip-preview/openrouter/global/2026-11-09": {
     "pricing_id": "google/lyria-3-clip-preview/openrouter/global/2026-11-09",
@@ -1003769,7 +1003769,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689947+00:00"
+    "last_verified": "2026-11-09T18:09:31.527080+00:00"
   },
   "rekaai/reka-edge/openrouter/global/2026-11-09": {
     "pricing_id": "rekaai/reka-edge/openrouter/global/2026-11-09",
@@ -1003785,7 +1003785,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689948+00:00"
+    "last_verified": "2026-11-09T18:09:31.527082+00:00"
   },
   "minimax/minimax-m2.7/openrouter/global/2026-11-09": {
     "pricing_id": "minimax/minimax-m2.7/openrouter/global/2026-11-09",
@@ -1003801,7 +1003801,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689949+00:00"
+    "last_verified": "2026-11-09T18:09:31.527083+00:00"
   },
   "openai/gpt-5.4-nano/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.4-nano/openrouter/global/2026-11-09",
@@ -1003817,7 +1003817,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689950+00:00"
+    "last_verified": "2026-11-09T18:09:31.527085+00:00"
   },
   "openai/gpt-5.4-nano:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.4-nano:batch/openrouter/global/2026-11-09",
@@ -1003833,7 +1003833,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689952+00:00"
+    "last_verified": "2026-11-09T18:09:31.527087+00:00"
   },
   "openai/gpt-5.4-mini/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.4-mini/openrouter/global/2026-11-09",
@@ -1003849,7 +1003849,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689953+00:00"
+    "last_verified": "2026-11-09T18:09:31.527088+00:00"
   },
   "openai/gpt-5.4-mini:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.4-mini:batch/openrouter/global/2026-11-09",
@@ -1003865,7 +1003865,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689954+00:00"
+    "last_verified": "2026-11-09T18:09:31.527090+00:00"
   },
   "mistralai/mistral-small-2603/openrouter/global/2026-11-09": {
     "pricing_id": "mistralai/mistral-small-2603/openrouter/global/2026-11-09",
@@ -1003881,7 +1003881,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689955+00:00"
+    "last_verified": "2026-11-09T18:09:31.527092+00:00"
   },
   "z-ai/glm-5-turbo/openrouter/global/2026-11-09": {
     "pricing_id": "z-ai/glm-5-turbo/openrouter/global/2026-11-09",
@@ -1003897,7 +1003897,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689956+00:00"
+    "last_verified": "2026-11-09T18:09:31.527094+00:00"
   },
   "nvidia/nemotron-3-super-120b-a12b/openrouter/global/2026-11-09": {
     "pricing_id": "nvidia/nemotron-3-super-120b-a12b/openrouter/global/2026-11-09",
@@ -1003913,7 +1003913,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689957+00:00"
+    "last_verified": "2026-11-09T18:09:31.527095+00:00"
   },
   "bytedance-seed/seed-2.0-lite/openrouter/global/2026-11-09": {
     "pricing_id": "bytedance-seed/seed-2.0-lite/openrouter/global/2026-11-09",
@@ -1003929,7 +1003929,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689958+00:00"
+    "last_verified": "2026-11-09T18:09:31.527099+00:00"
   },
   "qwen/qwen3.5-9b/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3.5-9b/openrouter/global/2026-11-09",
@@ -1003945,7 +1003945,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689959+00:00"
+    "last_verified": "2026-11-09T18:09:31.527101+00:00"
   },
   "openai/gpt-5.4-pro/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.4-pro/openrouter/global/2026-11-09",
@@ -1003961,7 +1003961,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689960+00:00"
+    "last_verified": "2026-11-09T18:09:31.527102+00:00"
   },
   "openai/gpt-5.4-pro:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.4-pro:batch/openrouter/global/2026-11-09",
@@ -1003977,7 +1003977,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689961+00:00"
+    "last_verified": "2026-11-09T18:09:31.527104+00:00"
   },
   "openai/gpt-5.4/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.4/openrouter/global/2026-11-09",
@@ -1003993,7 +1003993,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689964+00:00"
+    "last_verified": "2026-11-09T18:09:31.527106+00:00"
   },
   "openai/gpt-5.4:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.4:batch/openrouter/global/2026-11-09",
@@ -1004009,7 +1004009,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689965+00:00"
+    "last_verified": "2026-11-09T18:09:31.527107+00:00"
   },
   "google/gemini-3.1-flash-lite-preview/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-3.1-flash-lite-preview/openrouter/global/2026-11-09",
@@ -1004025,7 +1004025,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689966+00:00"
+    "last_verified": "2026-11-09T18:09:31.527109+00:00"
   },
   "bytedance-seed/seed-2.0-mini/openrouter/global/2026-11-09": {
     "pricing_id": "bytedance-seed/seed-2.0-mini/openrouter/global/2026-11-09",
@@ -1004041,7 +1004041,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689967+00:00"
+    "last_verified": "2026-11-09T18:09:31.527113+00:00"
   },
   "google/gemini-3.1-flash-image-preview/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-3.1-flash-image-preview/openrouter/global/2026-11-09",
@@ -1004057,7 +1004057,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689968+00:00"
+    "last_verified": "2026-11-09T18:09:31.527114+00:00"
   },
   "qwen/qwen3.5-35b-a3b/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3.5-35b-a3b/openrouter/global/2026-11-09",
@@ -1004073,7 +1004073,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689969+00:00"
+    "last_verified": "2026-11-09T18:09:31.527116+00:00"
   },
   "qwen/qwen3.5-27b/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3.5-27b/openrouter/global/2026-11-09",
@@ -1004089,7 +1004089,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689970+00:00"
+    "last_verified": "2026-11-09T18:09:31.527118+00:00"
   },
   "qwen/qwen3.5-122b-a10b/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3.5-122b-a10b/openrouter/global/2026-11-09",
@@ -1004105,7 +1004105,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689971+00:00"
+    "last_verified": "2026-11-09T18:09:31.527120+00:00"
   },
   "qwen/qwen3.5-flash-02-23/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3.5-flash-02-23/openrouter/global/2026-11-09",
@@ -1004121,7 +1004121,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689972+00:00"
+    "last_verified": "2026-11-09T18:09:31.527121+00:00"
   },
   "google/gemini-3.1-pro-preview-customtools/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-3.1-pro-preview-customtools/openrouter/global/2026-11-09",
@@ -1004137,7 +1004137,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689973+00:00"
+    "last_verified": "2026-11-09T18:09:31.527123+00:00"
   },
   "openai/gpt-5.3-codex/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.3-codex/openrouter/global/2026-11-09",
@@ -1004153,7 +1004153,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689975+00:00"
+    "last_verified": "2026-11-09T18:09:31.527125+00:00"
   },
   "aion-labs/aion-2.0/openrouter/global/2026-11-09": {
     "pricing_id": "aion-labs/aion-2.0/openrouter/global/2026-11-09",
@@ -1004169,7 +1004169,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689976+00:00"
+    "last_verified": "2026-11-09T18:09:31.527126+00:00"
   },
   "google/gemini-3.1-pro-preview/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-3.1-pro-preview/openrouter/global/2026-11-09",
@@ -1004185,7 +1004185,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689977+00:00"
+    "last_verified": "2026-11-09T18:09:31.527128+00:00"
   },
   "google/gemini-3.1-pro-preview:batch/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-3.1-pro-preview:batch/openrouter/global/2026-11-09",
@@ -1004201,7 +1004201,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689978+00:00"
+    "last_verified": "2026-11-09T18:09:31.527130+00:00"
   },
   "anthropic/claude-sonnet-4.6/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-sonnet-4.6/openrouter/global/2026-11-09",
@@ -1004217,7 +1004217,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689980+00:00"
+    "last_verified": "2026-11-09T18:09:31.527131+00:00"
   },
   "anthropic/claude-sonnet-4.6:batch/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-sonnet-4.6:batch/openrouter/global/2026-11-09",
@@ -1004233,7 +1004233,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689981+00:00"
+    "last_verified": "2026-11-09T18:09:31.527133+00:00"
   },
   "qwen/qwen3.5-plus-02-15/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3.5-plus-02-15/openrouter/global/2026-11-09",
@@ -1004249,7 +1004249,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689982+00:00"
+    "last_verified": "2026-11-09T18:09:31.527135+00:00"
   },
   "qwen/qwen3.5-397b-a17b/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3.5-397b-a17b/openrouter/global/2026-11-09",
@@ -1004265,7 +1004265,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689983+00:00"
+    "last_verified": "2026-11-09T18:09:31.527136+00:00"
   },
   "minimax/minimax-m2.5/openrouter/global/2026-11-09": {
     "pricing_id": "minimax/minimax-m2.5/openrouter/global/2026-11-09",
@@ -1004281,7 +1004281,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689985+00:00"
+    "last_verified": "2026-11-09T18:09:31.527138+00:00"
   },
   "z-ai/glm-5/openrouter/global/2026-11-09": {
     "pricing_id": "z-ai/glm-5/openrouter/global/2026-11-09",
@@ -1004297,7 +1004297,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689986+00:00"
+    "last_verified": "2026-11-09T18:09:31.527140+00:00"
   },
   "anthropic/claude-opus-4.6/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-opus-4.6/openrouter/global/2026-11-09",
@@ -1004313,7 +1004313,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689988+00:00"
+    "last_verified": "2026-11-09T18:09:31.527141+00:00"
   },
   "anthropic/claude-opus-4.6:batch/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-opus-4.6:batch/openrouter/global/2026-11-09",
@@ -1004329,7 +1004329,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689989+00:00"
+    "last_verified": "2026-11-09T18:09:31.527143+00:00"
   },
   "qwen/qwen3-coder-next/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3-coder-next/openrouter/global/2026-11-09",
@@ -1004345,7 +1004345,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689990+00:00"
+    "last_verified": "2026-11-09T18:09:31.527145+00:00"
   },
   "stepfun/step-3.5-flash/openrouter/global/2026-11-09": {
     "pricing_id": "stepfun/step-3.5-flash/openrouter/global/2026-11-09",
@@ -1004361,7 +1004361,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689991+00:00"
+    "last_verified": "2026-11-09T18:09:31.527146+00:00"
   },
   "moonshotai/kimi-k2.5/openrouter/global/2026-11-09": {
     "pricing_id": "moonshotai/kimi-k2.5/openrouter/global/2026-11-09",
@@ -1004377,7 +1004377,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689992+00:00"
+    "last_verified": "2026-11-09T18:09:31.527148+00:00"
   },
   "writer/palmyra-x5/openrouter/global/2026-11-09": {
     "pricing_id": "writer/palmyra-x5/openrouter/global/2026-11-09",
@@ -1004393,7 +1004393,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689993+00:00"
+    "last_verified": "2026-11-09T18:09:31.527150+00:00"
   },
   "openai/gpt-audio/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-audio/openrouter/global/2026-11-09",
@@ -1004409,7 +1004409,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689994+00:00"
+    "last_verified": "2026-11-09T18:09:31.527152+00:00"
   },
   "openai/gpt-audio-mini/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-audio-mini/openrouter/global/2026-11-09",
@@ -1004425,7 +1004425,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689995+00:00"
+    "last_verified": "2026-11-09T18:09:31.527153+00:00"
   },
   "z-ai/glm-4.7-flash/openrouter/global/2026-11-09": {
     "pricing_id": "z-ai/glm-4.7-flash/openrouter/global/2026-11-09",
@@ -1004441,7 +1004441,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689996+00:00"
+    "last_verified": "2026-11-09T18:09:31.527155+00:00"
   },
   "openai/gpt-5.2-codex/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.2-codex/openrouter/global/2026-11-09",
@@ -1004457,7 +1004457,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689997+00:00"
+    "last_verified": "2026-11-09T18:09:31.527157+00:00"
   },
   "bytedance-seed/seed-1.6-flash/openrouter/global/2026-11-09": {
     "pricing_id": "bytedance-seed/seed-1.6-flash/openrouter/global/2026-11-09",
@@ -1004473,7 +1004473,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689998+00:00"
+    "last_verified": "2026-11-09T18:09:31.527158+00:00"
   },
   "bytedance-seed/seed-1.6/openrouter/global/2026-11-09": {
     "pricing_id": "bytedance-seed/seed-1.6/openrouter/global/2026-11-09",
@@ -1004489,7 +1004489,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.689999+00:00"
+    "last_verified": "2026-11-09T18:09:31.527160+00:00"
   },
   "z-ai/glm-4.7/openrouter/global/2026-11-09": {
     "pricing_id": "z-ai/glm-4.7/openrouter/global/2026-11-09",
@@ -1004505,7 +1004505,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690000+00:00"
+    "last_verified": "2026-11-09T18:09:31.527162+00:00"
   },
   "google/gemini-3-flash-preview/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-3-flash-preview/openrouter/global/2026-11-09",
@@ -1004521,7 +1004521,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690001+00:00"
+    "last_verified": "2026-11-09T18:09:31.527163+00:00"
   },
   "google/gemini-3-flash-preview:batch/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-3-flash-preview:batch/openrouter/global/2026-11-09",
@@ -1004537,7 +1004537,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690002+00:00"
+    "last_verified": "2026-11-09T18:09:31.527165+00:00"
   },
   "nvidia/nemotron-3-nano-30b-a3b/openrouter/global/2026-11-09": {
     "pricing_id": "nvidia/nemotron-3-nano-30b-a3b/openrouter/global/2026-11-09",
@@ -1004553,7 +1004553,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690003+00:00"
+    "last_verified": "2026-11-09T18:09:31.527167+00:00"
   },
   "openai/gpt-5.2-chat/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.2-chat/openrouter/global/2026-11-09",
@@ -1004569,7 +1004569,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690004+00:00"
+    "last_verified": "2026-11-09T18:09:31.527168+00:00"
   },
   "openai/gpt-5.2-pro/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.2-pro/openrouter/global/2026-11-09",
@@ -1004585,7 +1004585,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690005+00:00"
+    "last_verified": "2026-11-09T18:09:31.527170+00:00"
   },
   "openai/gpt-5.2-pro:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.2-pro:batch/openrouter/global/2026-11-09",
@@ -1004601,7 +1004601,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690005+00:00"
+    "last_verified": "2026-11-09T18:09:31.527172+00:00"
   },
   "openai/gpt-5.2/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.2/openrouter/global/2026-11-09",
@@ -1004617,7 +1004617,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690006+00:00"
+    "last_verified": "2026-11-09T18:09:31.527173+00:00"
   },
   "openai/gpt-5.2:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.2:batch/openrouter/global/2026-11-09",
@@ -1004633,7 +1004633,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690007+00:00"
+    "last_verified": "2026-11-09T18:09:31.527175+00:00"
   },
   "mistralai/devstral-2512/openrouter/global/2026-11-09": {
     "pricing_id": "mistralai/devstral-2512/openrouter/global/2026-11-09",
@@ -1004649,7 +1004649,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690008+00:00"
+    "last_verified": "2026-11-09T18:09:31.527177+00:00"
   },
   "relace/relace-search/openrouter/global/2026-11-09": {
     "pricing_id": "relace/relace-search/openrouter/global/2026-11-09",
@@ -1004665,7 +1004665,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690009+00:00"
+    "last_verified": "2026-11-09T18:09:31.527178+00:00"
   },
   "z-ai/glm-4.6v/openrouter/global/2026-11-09": {
     "pricing_id": "z-ai/glm-4.6v/openrouter/global/2026-11-09",
@@ -1004681,7 +1004681,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690010+00:00"
+    "last_verified": "2026-11-09T18:09:31.527180+00:00"
   },
   "openai/gpt-5.1-codex-max/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.1-codex-max/openrouter/global/2026-11-09",
@@ -1004697,7 +1004697,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690011+00:00"
+    "last_verified": "2026-11-09T18:09:31.527182+00:00"
   },
   "amazon/nova-2-lite-v1/openrouter/global/2026-11-09": {
     "pricing_id": "amazon/nova-2-lite-v1/openrouter/global/2026-11-09",
@@ -1004713,7 +1004713,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690012+00:00"
+    "last_verified": "2026-11-09T18:09:31.527184+00:00"
   },
   "mistralai/ministral-14b-2512/openrouter/global/2026-11-09": {
     "pricing_id": "mistralai/ministral-14b-2512/openrouter/global/2026-11-09",
@@ -1004729,7 +1004729,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690013+00:00"
+    "last_verified": "2026-11-09T18:09:31.527192+00:00"
   },
   "mistralai/ministral-8b-2512/openrouter/global/2026-11-09": {
     "pricing_id": "mistralai/ministral-8b-2512/openrouter/global/2026-11-09",
@@ -1004745,7 +1004745,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690014+00:00"
+    "last_verified": "2026-11-09T18:09:31.527194+00:00"
   },
   "mistralai/ministral-3b-2512/openrouter/global/2026-11-09": {
     "pricing_id": "mistralai/ministral-3b-2512/openrouter/global/2026-11-09",
@@ -1004761,7 +1004761,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690015+00:00"
+    "last_verified": "2026-11-09T18:09:31.527195+00:00"
   },
   "mistralai/mistral-large-2512/openrouter/global/2026-11-09": {
     "pricing_id": "mistralai/mistral-large-2512/openrouter/global/2026-11-09",
@@ -1004777,7 +1004777,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690016+00:00"
+    "last_verified": "2026-11-09T18:09:31.527197+00:00"
   },
   "deepseek/deepseek-v3.2/openrouter/global/2026-11-09": {
     "pricing_id": "deepseek/deepseek-v3.2/openrouter/global/2026-11-09",
@@ -1004793,7 +1004793,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690017+00:00"
+    "last_verified": "2026-11-09T18:09:31.527199+00:00"
   },
   "anthropic/claude-opus-4.5/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-opus-4.5/openrouter/global/2026-11-09",
@@ -1004809,7 +1004809,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690018+00:00"
+    "last_verified": "2026-11-09T18:09:31.527200+00:00"
   },
   "anthropic/claude-opus-4.5:batch/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-opus-4.5:batch/openrouter/global/2026-11-09",
@@ -1004825,7 +1004825,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690019+00:00"
+    "last_verified": "2026-11-09T18:09:31.527202+00:00"
   },
   "google/gemini-3-pro-image-preview/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-3-pro-image-preview/openrouter/global/2026-11-09",
@@ -1004841,7 +1004841,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690020+00:00"
+    "last_verified": "2026-11-09T18:09:31.527204+00:00"
   },
   "openai/gpt-5.1/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.1/openrouter/global/2026-11-09",
@@ -1004857,7 +1004857,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690021+00:00"
+    "last_verified": "2026-11-09T18:09:31.527207+00:00"
   },
   "openai/gpt-5.1:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.1:batch/openrouter/global/2026-11-09",
@@ -1004873,7 +1004873,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690022+00:00"
+    "last_verified": "2026-11-09T18:09:31.527209+00:00"
   },
   "openai/gpt-5.1-codex/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.1-codex/openrouter/global/2026-11-09",
@@ -1004889,7 +1004889,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690023+00:00"
+    "last_verified": "2026-11-09T18:09:31.527212+00:00"
   },
   "openai/gpt-5.1-codex-mini/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.1-codex-mini/openrouter/global/2026-11-09",
@@ -1004905,7 +1004905,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690024+00:00"
+    "last_verified": "2026-11-09T18:09:31.527214+00:00"
   },
   "moonshotai/kimi-k2-thinking/openrouter/global/2026-11-09": {
     "pricing_id": "moonshotai/kimi-k2-thinking/openrouter/global/2026-11-09",
@@ -1004921,7 +1004921,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690025+00:00"
+    "last_verified": "2026-11-09T18:09:31.527216+00:00"
   },
   "amazon/nova-premier-v1/openrouter/global/2026-11-09": {
     "pricing_id": "amazon/nova-premier-v1/openrouter/global/2026-11-09",
@@ -1004937,7 +1004937,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690026+00:00"
+    "last_verified": "2026-11-09T18:09:31.527218+00:00"
   },
   "perplexity/sonar-pro-search/openrouter/global/2026-11-09": {
     "pricing_id": "perplexity/sonar-pro-search/openrouter/global/2026-11-09",
@@ -1004953,7 +1004953,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690027+00:00"
+    "last_verified": "2026-11-09T18:09:31.527219+00:00"
   },
   "mistralai/voxtral-small-24b-2507/openrouter/global/2026-11-09": {
     "pricing_id": "mistralai/voxtral-small-24b-2507/openrouter/global/2026-11-09",
@@ -1004969,7 +1004969,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690028+00:00"
+    "last_verified": "2026-11-09T18:09:31.527221+00:00"
   },
   "openai/gpt-oss-safeguard-20b/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-oss-safeguard-20b/openrouter/global/2026-11-09",
@@ -1004985,7 +1004985,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690029+00:00"
+    "last_verified": "2026-11-09T18:09:31.527223+00:00"
   },
   "openai/gpt-5-image-mini/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5-image-mini/openrouter/global/2026-11-09",
@@ -1005001,7 +1005001,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690030+00:00"
+    "last_verified": "2026-11-09T18:09:31.527225+00:00"
   },
   "anthropic/claude-haiku-4.5/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-haiku-4.5/openrouter/global/2026-11-09",
@@ -1005017,7 +1005017,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690031+00:00"
+    "last_verified": "2026-11-09T18:09:31.527226+00:00"
   },
   "anthropic/claude-haiku-4.5:batch/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-haiku-4.5:batch/openrouter/global/2026-11-09",
@@ -1005033,7 +1005033,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690033+00:00"
+    "last_verified": "2026-11-09T18:09:31.527228+00:00"
   },
   "qwen/qwen3-vl-8b-instruct/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3-vl-8b-instruct/openrouter/global/2026-11-09",
@@ -1005049,7 +1005049,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690034+00:00"
+    "last_verified": "2026-11-09T18:09:31.527231+00:00"
   },
   "openai/gpt-5-image/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5-image/openrouter/global/2026-11-09",
@@ -1005065,7 +1005065,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690035+00:00"
+    "last_verified": "2026-11-09T18:09:31.527233+00:00"
   },
   "google/gemini-2.5-flash-image/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-2.5-flash-image/openrouter/global/2026-11-09",
@@ -1005081,7 +1005081,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690036+00:00"
+    "last_verified": "2026-11-09T18:09:31.527235+00:00"
   },
   "qwen/qwen3-vl-30b-a3b-thinking/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3-vl-30b-a3b-thinking/openrouter/global/2026-11-09",
@@ -1005097,7 +1005097,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690037+00:00"
+    "last_verified": "2026-11-09T18:09:31.527237+00:00"
   },
   "qwen/qwen3-vl-30b-a3b-instruct/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3-vl-30b-a3b-instruct/openrouter/global/2026-11-09",
@@ -1005113,7 +1005113,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690040+00:00"
+    "last_verified": "2026-11-09T18:09:31.527238+00:00"
   },
   "openai/gpt-5-pro/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5-pro/openrouter/global/2026-11-09",
@@ -1005129,7 +1005129,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690041+00:00"
+    "last_verified": "2026-11-09T18:09:31.527240+00:00"
   },
   "openai/gpt-5-pro:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5-pro:batch/openrouter/global/2026-11-09",
@@ -1005145,7 +1005145,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690042+00:00"
+    "last_verified": "2026-11-09T18:09:31.527242+00:00"
   },
   "z-ai/glm-4.6/openrouter/global/2026-11-09": {
     "pricing_id": "z-ai/glm-4.6/openrouter/global/2026-11-09",
@@ -1005161,7 +1005161,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690043+00:00"
+    "last_verified": "2026-11-09T18:09:31.527243+00:00"
   },
   "anthropic/claude-sonnet-4.5/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-sonnet-4.5/openrouter/global/2026-11-09",
@@ -1005177,7 +1005177,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690043+00:00"
+    "last_verified": "2026-11-09T18:09:31.527245+00:00"
   },
   "anthropic/claude-sonnet-4.5:batch/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-sonnet-4.5:batch/openrouter/global/2026-11-09",
@@ -1005193,7 +1005193,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690044+00:00"
+    "last_verified": "2026-11-09T18:09:31.527247+00:00"
   },
   "deepseek/deepseek-v3.2-exp/openrouter/global/2026-11-09": {
     "pricing_id": "deepseek/deepseek-v3.2-exp/openrouter/global/2026-11-09",
@@ -1005209,7 +1005209,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690045+00:00"
+    "last_verified": "2026-11-09T18:09:31.527250+00:00"
   },
   "thedrummer/cydonia-24b-v4.1/openrouter/global/2026-11-09": {
     "pricing_id": "thedrummer/cydonia-24b-v4.1/openrouter/global/2026-11-09",
@@ -1005225,7 +1005225,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690046+00:00"
+    "last_verified": "2026-11-09T18:09:31.527252+00:00"
   },
   "relace/relace-apply-3/openrouter/global/2026-11-09": {
     "pricing_id": "relace/relace-apply-3/openrouter/global/2026-11-09",
@@ -1005241,7 +1005241,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690047+00:00"
+    "last_verified": "2026-11-09T18:09:31.527253+00:00"
   },
   "qwen/qwen3-vl-235b-a22b-instruct/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3-vl-235b-a22b-instruct/openrouter/global/2026-11-09",
@@ -1005257,7 +1005257,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690048+00:00"
+    "last_verified": "2026-11-09T18:09:31.527255+00:00"
   },
   "deepseek/deepseek-v3.1-terminus/openrouter/global/2026-11-09": {
     "pricing_id": "deepseek/deepseek-v3.1-terminus/openrouter/global/2026-11-09",
@@ -1005273,7 +1005273,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690051+00:00"
+    "last_verified": "2026-11-09T18:09:31.527257+00:00"
   },
   "qwen/qwen3-coder-flash/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3-coder-flash/openrouter/global/2026-11-09",
@@ -1005289,7 +1005289,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690052+00:00"
+    "last_verified": "2026-11-09T18:09:31.527259+00:00"
   },
   "qwen/qwen3-next-80b-a3b-instruct/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3-next-80b-a3b-instruct/openrouter/global/2026-11-09",
@@ -1005305,7 +1005305,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690053+00:00"
+    "last_verified": "2026-11-09T18:09:31.527260+00:00"
   },
   "moonshotai/kimi-k2-0905/openrouter/global/2026-11-09": {
     "pricing_id": "moonshotai/kimi-k2-0905/openrouter/global/2026-11-09",
@@ -1005321,7 +1005321,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690054+00:00"
+    "last_verified": "2026-11-09T18:09:31.527262+00:00"
   },
   "nousresearch/hermes-4-405b/openrouter/global/2026-11-09": {
     "pricing_id": "nousresearch/hermes-4-405b/openrouter/global/2026-11-09",
@@ -1005337,7 +1005337,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690055+00:00"
+    "last_verified": "2026-11-09T18:09:31.527264+00:00"
   },
   "deepseek/deepseek-chat-v3.1/openrouter/global/2026-11-09": {
     "pricing_id": "deepseek/deepseek-chat-v3.1/openrouter/global/2026-11-09",
@@ -1005353,7 +1005353,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690055+00:00"
+    "last_verified": "2026-11-09T18:09:31.527265+00:00"
   },
   "mistralai/mistral-medium-3.1/openrouter/global/2026-11-09": {
     "pricing_id": "mistralai/mistral-medium-3.1/openrouter/global/2026-11-09",
@@ -1005369,7 +1005369,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690056+00:00"
+    "last_verified": "2026-11-09T18:09:31.527267+00:00"
   },
   "z-ai/glm-4.5v/openrouter/global/2026-11-09": {
     "pricing_id": "z-ai/glm-4.5v/openrouter/global/2026-11-09",
@@ -1005385,7 +1005385,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690057+00:00"
+    "last_verified": "2026-11-09T18:09:31.527269+00:00"
   },
   "openai/gpt-5/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5/openrouter/global/2026-11-09",
@@ -1005401,7 +1005401,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690058+00:00"
+    "last_verified": "2026-11-09T18:09:31.527270+00:00"
   },
   "openai/gpt-5:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5:batch/openrouter/global/2026-11-09",
@@ -1005417,7 +1005417,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690059+00:00"
+    "last_verified": "2026-11-09T18:09:31.527272+00:00"
   },
   "openai/gpt-5-mini/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5-mini/openrouter/global/2026-11-09",
@@ -1005433,7 +1005433,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690063+00:00"
+    "last_verified": "2026-11-09T18:09:31.527274+00:00"
   },
   "openai/gpt-5-mini:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5-mini:batch/openrouter/global/2026-11-09",
@@ -1005449,7 +1005449,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690064+00:00"
+    "last_verified": "2026-11-09T18:09:31.527275+00:00"
   },
   "openai/gpt-5-nano/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5-nano/openrouter/global/2026-11-09",
@@ -1005465,7 +1005465,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690065+00:00"
+    "last_verified": "2026-11-09T18:09:31.527277+00:00"
   },
   "openai/gpt-5-nano:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-5-nano:batch/openrouter/global/2026-11-09",
@@ -1005481,7 +1005481,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690066+00:00"
+    "last_verified": "2026-11-09T18:09:31.527279+00:00"
   },
   "openai/gpt-oss-120b/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-oss-120b/openrouter/global/2026-11-09",
@@ -1005497,7 +1005497,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690067+00:00"
+    "last_verified": "2026-11-09T18:09:31.527280+00:00"
   },
   "openai/gpt-oss-120b:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-oss-120b:batch/openrouter/global/2026-11-09",
@@ -1005513,7 +1005513,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690068+00:00"
+    "last_verified": "2026-11-09T18:09:31.527282+00:00"
   },
   "openai/gpt-oss-20b/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-oss-20b/openrouter/global/2026-11-09",
@@ -1005529,7 +1005529,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690069+00:00"
+    "last_verified": "2026-11-09T18:09:31.527284+00:00"
   },
   "openai/gpt-oss-20b:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-oss-20b:batch/openrouter/global/2026-11-09",
@@ -1005545,7 +1005545,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690070+00:00"
+    "last_verified": "2026-11-09T18:09:31.527286+00:00"
   },
   "anthropic/claude-opus-4.1/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-opus-4.1/openrouter/global/2026-11-09",
@@ -1005561,7 +1005561,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690071+00:00"
+    "last_verified": "2026-11-09T18:09:31.527287+00:00"
   },
   "anthropic/claude-opus-4.1:batch/openrouter/global/2026-11-09": {
     "pricing_id": "anthropic/claude-opus-4.1:batch/openrouter/global/2026-11-09",
@@ -1005577,7 +1005577,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690072+00:00"
+    "last_verified": "2026-11-09T18:09:31.527289+00:00"
   },
   "mistralai/codestral-2508/openrouter/global/2026-11-09": {
     "pricing_id": "mistralai/codestral-2508/openrouter/global/2026-11-09",
@@ -1005593,7 +1005593,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690075+00:00"
+    "last_verified": "2026-11-09T18:09:31.527291+00:00"
   },
   "qwen/qwen3-coder-30b-a3b-instruct/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3-coder-30b-a3b-instruct/openrouter/global/2026-11-09",
@@ -1005609,7 +1005609,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690076+00:00"
+    "last_verified": "2026-11-09T18:09:31.527292+00:00"
   },
   "qwen/qwen3-30b-a3b-instruct-2507/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3-30b-a3b-instruct-2507/openrouter/global/2026-11-09",
@@ -1005625,7 +1005625,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690077+00:00"
+    "last_verified": "2026-11-09T18:09:31.527294+00:00"
   },
   "z-ai/glm-4.5/openrouter/global/2026-11-09": {
     "pricing_id": "z-ai/glm-4.5/openrouter/global/2026-11-09",
@@ -1005641,7 +1005641,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690078+00:00"
+    "last_verified": "2026-11-09T18:09:31.527296+00:00"
   },
   "z-ai/glm-4.5-air/openrouter/global/2026-11-09": {
     "pricing_id": "z-ai/glm-4.5-air/openrouter/global/2026-11-09",
@@ -1005650,14 +1005650,14 @@
     "market_name": "openrouter",
     "region": "global",
     "valid_from": "2026-11-09",
-    "input_price_per_1m": 0.13,
-    "output_price_per_1m": 0.85,
+    "input_price_per_1m": 0.19999999999999998,
+    "output_price_per_1m": 1.1,
     "price_per_image": null,
     "source": "https://openrouter.ai/api/v1/models/z-ai/glm-4.5-air",
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690078+00:00"
+    "last_verified": "2026-11-09T18:09:31.527298+00:00"
   },
   "qwen/qwen3-235b-a22b-thinking-2507/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3-235b-a22b-thinking-2507/openrouter/global/2026-11-09",
@@ -1005673,7 +1005673,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690079+00:00"
+    "last_verified": "2026-11-09T18:09:31.527299+00:00"
   },
   "qwen/qwen3-coder/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3-coder/openrouter/global/2026-11-09",
@@ -1005689,7 +1005689,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690080+00:00"
+    "last_verified": "2026-11-09T18:09:31.527332+00:00"
   },
   "bytedance/ui-tars-1.5-7b/openrouter/global/2026-11-09": {
     "pricing_id": "bytedance/ui-tars-1.5-7b/openrouter/global/2026-11-09",
@@ -1005705,7 +1005705,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690081+00:00"
+    "last_verified": "2026-11-09T18:09:31.527334+00:00"
   },
   "google/gemini-2.5-flash-lite/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-2.5-flash-lite/openrouter/global/2026-11-09",
@@ -1005721,7 +1005721,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690082+00:00"
+    "last_verified": "2026-11-09T18:09:31.527336+00:00"
   },
   "qwen/qwen3-235b-a22b-2507/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3-235b-a22b-2507/openrouter/global/2026-11-09",
@@ -1005737,7 +1005737,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690083+00:00"
+    "last_verified": "2026-11-09T18:09:31.527337+00:00"
   },
   "moonshotai/kimi-k2/openrouter/global/2026-11-09": {
     "pricing_id": "moonshotai/kimi-k2/openrouter/global/2026-11-09",
@@ -1005753,7 +1005753,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690084+00:00"
+    "last_verified": "2026-11-09T18:09:31.527339+00:00"
   },
   "cognitivecomputations/dolphin-mistral-24b-venice-edition/openrouter/global/2026-11-09": {
     "pricing_id": "cognitivecomputations/dolphin-mistral-24b-venice-edition/openrouter/global/2026-11-09",
@@ -1005769,7 +1005769,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690085+00:00"
+    "last_verified": "2026-11-09T18:09:31.527341+00:00"
   },
   "tencent/hunyuan-a13b-instruct/openrouter/global/2026-11-09": {
     "pricing_id": "tencent/hunyuan-a13b-instruct/openrouter/global/2026-11-09",
@@ -1005785,7 +1005785,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690086+00:00"
+    "last_verified": "2026-11-09T18:09:31.527342+00:00"
   },
   "morph/morph-v3-large/openrouter/global/2026-11-09": {
     "pricing_id": "morph/morph-v3-large/openrouter/global/2026-11-09",
@@ -1005801,7 +1005801,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690087+00:00"
+    "last_verified": "2026-11-09T18:09:31.527344+00:00"
   },
   "morph/morph-v3-large:batch/openrouter/global/2026-11-09": {
     "pricing_id": "morph/morph-v3-large:batch/openrouter/global/2026-11-09",
@@ -1005817,7 +1005817,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690088+00:00"
+    "last_verified": "2026-11-09T18:09:31.527346+00:00"
   },
   "morph/morph-v3-fast/openrouter/global/2026-11-09": {
     "pricing_id": "morph/morph-v3-fast/openrouter/global/2026-11-09",
@@ -1005833,7 +1005833,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690089+00:00"
+    "last_verified": "2026-11-09T18:09:31.527347+00:00"
   },
   "morph/morph-v3-fast:batch/openrouter/global/2026-11-09": {
     "pricing_id": "morph/morph-v3-fast:batch/openrouter/global/2026-11-09",
@@ -1005849,7 +1005849,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690096+00:00"
+    "last_verified": "2026-11-09T18:09:31.527349+00:00"
   },
   "mistralai/mistral-small-3.2-24b-instruct/openrouter/global/2026-11-09": {
     "pricing_id": "mistralai/mistral-small-3.2-24b-instruct/openrouter/global/2026-11-09",
@@ -1005858,14 +1005858,14 @@
     "market_name": "openrouter",
     "region": "global",
     "valid_from": "2026-11-09",
-    "input_price_per_1m": 0.075,
-    "output_price_per_1m": 0.19999999999999998,
+    "input_price_per_1m": 0.09999999999999999,
+    "output_price_per_1m": 0.3,
     "price_per_image": null,
     "source": "https://openrouter.ai/api/v1/models/mistralai/mistral-small-3.2-24b-instruct",
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690097+00:00"
+    "last_verified": "2026-11-09T18:09:31.527351+00:00"
   },
   "minimax/minimax-m1/openrouter/global/2026-11-09": {
     "pricing_id": "minimax/minimax-m1/openrouter/global/2026-11-09",
@@ -1005897,7 +1005897,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690099+00:00"
+    "last_verified": "2026-11-09T18:09:31.527352+00:00"
   },
   "google/gemini-2.5-pro/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-2.5-pro/openrouter/global/2026-11-09",
@@ -1005913,7 +1005913,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690100+00:00"
+    "last_verified": "2026-11-09T18:09:31.527354+00:00"
   },
   "openai/o3-pro/openrouter/global/2026-11-09": {
     "pricing_id": "openai/o3-pro/openrouter/global/2026-11-09",
@@ -1005929,7 +1005929,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690101+00:00"
+    "last_verified": "2026-11-09T18:09:31.527356+00:00"
   },
   "google/gemini-2.5-pro-preview/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemini-2.5-pro-preview/openrouter/global/2026-11-09",
@@ -1005945,7 +1005945,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690102+00:00"
+    "last_verified": "2026-11-09T18:09:31.527358+00:00"
   },
   "deepseek/deepseek-r1-0528/openrouter/global/2026-11-09": {
     "pricing_id": "deepseek/deepseek-r1-0528/openrouter/global/2026-11-09",
@@ -1005961,7 +1005961,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690103+00:00"
+    "last_verified": "2026-11-09T18:09:31.527359+00:00"
   },
   "mistralai/mistral-medium-3/openrouter/global/2026-11-09": {
     "pricing_id": "mistralai/mistral-medium-3/openrouter/global/2026-11-09",
@@ -1005977,7 +1005977,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690104+00:00"
+    "last_verified": "2026-11-09T18:09:31.527361+00:00"
   },
   "meta-llama/llama-guard-4-12b/openrouter/global/2026-11-09": {
     "pricing_id": "meta-llama/llama-guard-4-12b/openrouter/global/2026-11-09",
@@ -1005993,7 +1005993,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690105+00:00"
+    "last_verified": "2026-11-09T18:09:31.527363+00:00"
   },
   "qwen/qwen3-30b-a3b/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3-30b-a3b/openrouter/global/2026-11-09",
@@ -1006009,7 +1006009,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690106+00:00"
+    "last_verified": "2026-11-09T18:09:31.527364+00:00"
   },
   "qwen/qwen3-14b/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3-14b/openrouter/global/2026-11-09",
@@ -1006025,7 +1006025,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690107+00:00"
+    "last_verified": "2026-11-09T18:09:31.527368+00:00"
   },
   "qwen/qwen3-32b/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen3-32b/openrouter/global/2026-11-09",
@@ -1006041,7 +1006041,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690108+00:00"
+    "last_verified": "2026-11-09T18:09:31.527370+00:00"
   },
   "openai/o3/openrouter/global/2026-11-09": {
     "pricing_id": "openai/o3/openrouter/global/2026-11-09",
@@ -1006057,7 +1006057,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690109+00:00"
+    "last_verified": "2026-11-09T18:09:31.527371+00:00"
   },
   "openai/o3:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/o3:batch/openrouter/global/2026-11-09",
@@ -1006073,7 +1006073,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690110+00:00"
+    "last_verified": "2026-11-09T18:09:31.527373+00:00"
   },
   "openai/o4-mini:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/o4-mini:batch/openrouter/global/2026-11-09",
@@ -1006089,7 +1006089,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690111+00:00"
+    "last_verified": "2026-11-09T18:09:31.527375+00:00"
   },
   "openai/gpt-4.1/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-4.1/openrouter/global/2026-11-09",
@@ -1006105,7 +1006105,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690112+00:00"
+    "last_verified": "2026-11-09T18:09:31.527377+00:00"
   },
   "openai/gpt-4.1:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-4.1:batch/openrouter/global/2026-11-09",
@@ -1006121,7 +1006121,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690113+00:00"
+    "last_verified": "2026-11-09T18:09:31.527378+00:00"
   },
   "openai/gpt-4.1-mini/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-4.1-mini/openrouter/global/2026-11-09",
@@ -1006137,7 +1006137,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690114+00:00"
+    "last_verified": "2026-11-09T18:09:31.527380+00:00"
   },
   "openai/gpt-4.1-mini:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-4.1-mini:batch/openrouter/global/2026-11-09",
@@ -1006153,7 +1006153,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690115+00:00"
+    "last_verified": "2026-11-09T18:09:31.527382+00:00"
   },
   "openai/gpt-4.1-nano/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-4.1-nano/openrouter/global/2026-11-09",
@@ -1006169,7 +1006169,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690116+00:00"
+    "last_verified": "2026-11-09T18:09:31.527384+00:00"
   },
   "openai/gpt-4.1-nano:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-4.1-nano:batch/openrouter/global/2026-11-09",
@@ -1006185,7 +1006185,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690117+00:00"
+    "last_verified": "2026-11-09T18:09:31.527387+00:00"
   },
   "meta-llama/llama-4-maverick/openrouter/global/2026-11-09": {
     "pricing_id": "meta-llama/llama-4-maverick/openrouter/global/2026-11-09",
@@ -1006201,7 +1006201,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690118+00:00"
+    "last_verified": "2026-11-09T18:09:31.527389+00:00"
   },
   "meta-llama/llama-4-scout/openrouter/global/2026-11-09": {
     "pricing_id": "meta-llama/llama-4-scout/openrouter/global/2026-11-09",
@@ -1006217,7 +1006217,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690119+00:00"
+    "last_verified": "2026-11-09T18:09:31.527390+00:00"
   },
   "deepseek/deepseek-chat-v3-0324/openrouter/global/2026-11-09": {
     "pricing_id": "deepseek/deepseek-chat-v3-0324/openrouter/global/2026-11-09",
@@ -1006233,7 +1006233,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690120+00:00"
+    "last_verified": "2026-11-09T18:09:31.527392+00:00"
   },
   "mistralai/mistral-small-3.1-24b-instruct/openrouter/global/2026-11-09": {
     "pricing_id": "mistralai/mistral-small-3.1-24b-instruct/openrouter/global/2026-11-09",
@@ -1006249,7 +1006249,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690121+00:00"
+    "last_verified": "2026-11-09T18:09:31.527394+00:00"
   },
   "google/gemma-3-4b-it/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemma-3-4b-it/openrouter/global/2026-11-09",
@@ -1006265,7 +1006265,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690122+00:00"
+    "last_verified": "2026-11-09T18:09:31.527396+00:00"
   },
   "google/gemma-3-12b-it/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemma-3-12b-it/openrouter/global/2026-11-09",
@@ -1006281,7 +1006281,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690123+00:00"
+    "last_verified": "2026-11-09T18:09:31.527397+00:00"
   },
   "cohere/command-a/openrouter/global/2026-11-09": {
     "pricing_id": "cohere/command-a/openrouter/global/2026-11-09",
@@ -1006297,7 +1006297,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690124+00:00"
+    "last_verified": "2026-11-09T18:09:31.527399+00:00"
   },
   "rekaai/reka-flash-3/openrouter/global/2026-11-09": {
     "pricing_id": "rekaai/reka-flash-3/openrouter/global/2026-11-09",
@@ -1006313,7 +1006313,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690124+00:00"
+    "last_verified": "2026-11-09T18:09:31.527401+00:00"
   },
   "google/gemma-3-27b-it/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemma-3-27b-it/openrouter/global/2026-11-09",
@@ -1006329,7 +1006329,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690125+00:00"
+    "last_verified": "2026-11-09T18:09:31.527402+00:00"
   },
   "thedrummer/skyfall-36b-v2/openrouter/global/2026-11-09": {
     "pricing_id": "thedrummer/skyfall-36b-v2/openrouter/global/2026-11-09",
@@ -1006345,7 +1006345,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690126+00:00"
+    "last_verified": "2026-11-09T18:09:31.527406+00:00"
   },
   "perplexity/sonar-reasoning-pro/openrouter/global/2026-11-09": {
     "pricing_id": "perplexity/sonar-reasoning-pro/openrouter/global/2026-11-09",
@@ -1006361,7 +1006361,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690127+00:00"
+    "last_verified": "2026-11-09T18:09:31.527408+00:00"
   },
   "perplexity/sonar-pro/openrouter/global/2026-11-09": {
     "pricing_id": "perplexity/sonar-pro/openrouter/global/2026-11-09",
@@ -1006377,7 +1006377,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690128+00:00"
+    "last_verified": "2026-11-09T18:09:31.527409+00:00"
   },
   "perplexity/sonar-deep-research/openrouter/global/2026-11-09": {
     "pricing_id": "perplexity/sonar-deep-research/openrouter/global/2026-11-09",
@@ -1006393,7 +1006393,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690131+00:00"
+    "last_verified": "2026-11-09T18:09:31.527411+00:00"
   },
   "mistralai/mistral-saba/openrouter/global/2026-11-09": {
     "pricing_id": "mistralai/mistral-saba/openrouter/global/2026-11-09",
@@ -1006409,7 +1006409,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690132+00:00"
+    "last_verified": "2026-11-09T18:09:31.527413+00:00"
   },
   "aion-labs/aion-rp-llama-3.1-8b/openrouter/global/2026-11-09": {
     "pricing_id": "aion-labs/aion-rp-llama-3.1-8b/openrouter/global/2026-11-09",
@@ -1006425,7 +1006425,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690133+00:00"
+    "last_verified": "2026-11-09T18:09:31.527414+00:00"
   },
   "qwen/qwen2.5-vl-72b-instruct/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen2.5-vl-72b-instruct/openrouter/global/2026-11-09",
@@ -1006441,7 +1006441,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690134+00:00"
+    "last_verified": "2026-11-09T18:09:31.527416+00:00"
   },
   "qwen/qwen-plus/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen-plus/openrouter/global/2026-11-09",
@@ -1006457,7 +1006457,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690135+00:00"
+    "last_verified": "2026-11-09T18:09:31.527418+00:00"
   },
   "openai/o3-mini:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/o3-mini:batch/openrouter/global/2026-11-09",
@@ -1006473,7 +1006473,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690136+00:00"
+    "last_verified": "2026-11-09T18:09:31.527420+00:00"
   },
   "mistralai/mistral-small-24b-instruct-2501/openrouter/global/2026-11-09": {
     "pricing_id": "mistralai/mistral-small-24b-instruct-2501/openrouter/global/2026-11-09",
@@ -1006489,7 +1006489,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690137+00:00"
+    "last_verified": "2026-11-09T18:09:31.527421+00:00"
   },
   "perplexity/sonar/openrouter/global/2026-11-09": {
     "pricing_id": "perplexity/sonar/openrouter/global/2026-11-09",
@@ -1006505,7 +1006505,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690138+00:00"
+    "last_verified": "2026-11-09T18:09:31.527427+00:00"
   },
   "microsoft/phi-4/openrouter/global/2026-11-09": {
     "pricing_id": "microsoft/phi-4/openrouter/global/2026-11-09",
@@ -1006521,7 +1006521,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690139+00:00"
+    "last_verified": "2026-11-09T18:09:31.527428+00:00"
   },
   "deepseek/deepseek-chat/openrouter/global/2026-11-09": {
     "pricing_id": "deepseek/deepseek-chat/openrouter/global/2026-11-09",
@@ -1006537,7 +1006537,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690140+00:00"
+    "last_verified": "2026-11-09T18:09:31.527430+00:00"
   },
   "cohere/command-r7b-12-2024/openrouter/global/2026-11-09": {
     "pricing_id": "cohere/command-r7b-12-2024/openrouter/global/2026-11-09",
@@ -1006553,7 +1006553,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690142+00:00"
+    "last_verified": "2026-11-09T18:09:31.527432+00:00"
   },
   "meta-llama/llama-3.3-70b-instruct/openrouter/global/2026-11-09": {
     "pricing_id": "meta-llama/llama-3.3-70b-instruct/openrouter/global/2026-11-09",
@@ -1006569,7 +1006569,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690143+00:00"
+    "last_verified": "2026-11-09T18:09:31.527434+00:00"
   },
   "amazon/nova-lite-v1/openrouter/global/2026-11-09": {
     "pricing_id": "amazon/nova-lite-v1/openrouter/global/2026-11-09",
@@ -1006585,7 +1006585,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690144+00:00"
+    "last_verified": "2026-11-09T18:09:31.527435+00:00"
   },
   "amazon/nova-micro-v1/openrouter/global/2026-11-09": {
     "pricing_id": "amazon/nova-micro-v1/openrouter/global/2026-11-09",
@@ -1006601,7 +1006601,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690145+00:00"
+    "last_verified": "2026-11-09T18:09:31.527437+00:00"
   },
   "amazon/nova-pro-v1/openrouter/global/2026-11-09": {
     "pricing_id": "amazon/nova-pro-v1/openrouter/global/2026-11-09",
@@ -1006617,7 +1006617,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690146+00:00"
+    "last_verified": "2026-11-09T18:09:31.527439+00:00"
   },
   "openai/gpt-4o-2024-11-20/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-4o-2024-11-20/openrouter/global/2026-11-09",
@@ -1006633,7 +1006633,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690147+00:00"
+    "last_verified": "2026-11-09T18:09:31.527440+00:00"
   },
   "mistralai/mistral-large-2407/openrouter/global/2026-11-09": {
     "pricing_id": "mistralai/mistral-large-2407/openrouter/global/2026-11-09",
@@ -1006649,7 +1006649,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690148+00:00"
+    "last_verified": "2026-11-09T18:09:31.527442+00:00"
   },
   "qwen/qwen-2.5-coder-32b-instruct/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen-2.5-coder-32b-instruct/openrouter/global/2026-11-09",
@@ -1006665,7 +1006665,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690149+00:00"
+    "last_verified": "2026-11-09T18:09:31.527444+00:00"
   },
   "thedrummer/unslopnemo-12b/openrouter/global/2026-11-09": {
     "pricing_id": "thedrummer/unslopnemo-12b/openrouter/global/2026-11-09",
@@ -1006681,7 +1006681,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690152+00:00"
+    "last_verified": "2026-11-09T18:09:31.527446+00:00"
   },
   "anthracite-org/magnum-v4-72b/openrouter/global/2026-11-09": {
     "pricing_id": "anthracite-org/magnum-v4-72b/openrouter/global/2026-11-09",
@@ -1006697,7 +1006697,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690153+00:00"
+    "last_verified": "2026-11-09T18:09:31.527447+00:00"
   },
   "qwen/qwen-2.5-7b-instruct/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen-2.5-7b-instruct/openrouter/global/2026-11-09",
@@ -1006713,7 +1006713,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690155+00:00"
+    "last_verified": "2026-11-09T18:09:31.527449+00:00"
   },
   "meta-llama/llama-3.2-1b-instruct/openrouter/global/2026-11-09": {
     "pricing_id": "meta-llama/llama-3.2-1b-instruct/openrouter/global/2026-11-09",
@@ -1006729,7 +1006729,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690156+00:00"
+    "last_verified": "2026-11-09T18:09:31.527450+00:00"
   },
   "meta-llama/llama-3.2-3b-instruct/openrouter/global/2026-11-09": {
     "pricing_id": "meta-llama/llama-3.2-3b-instruct/openrouter/global/2026-11-09",
@@ -1006745,7 +1006745,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690157+00:00"
+    "last_verified": "2026-11-09T18:09:31.527452+00:00"
   },
   "qwen/qwen-2.5-72b-instruct/openrouter/global/2026-11-09": {
     "pricing_id": "qwen/qwen-2.5-72b-instruct/openrouter/global/2026-11-09",
@@ -1006761,7 +1006761,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690158+00:00"
+    "last_verified": "2026-11-09T18:09:31.527454+00:00"
   },
   "cohere/command-r-08-2024/openrouter/global/2026-11-09": {
     "pricing_id": "cohere/command-r-08-2024/openrouter/global/2026-11-09",
@@ -1006777,7 +1006777,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690159+00:00"
+    "last_verified": "2026-11-09T18:09:31.527455+00:00"
   },
   "cohere/command-r-plus-08-2024/openrouter/global/2026-11-09": {
     "pricing_id": "cohere/command-r-plus-08-2024/openrouter/global/2026-11-09",
@@ -1006793,7 +1006793,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690160+00:00"
+    "last_verified": "2026-11-09T18:09:31.527457+00:00"
   },
   "sao10k/l3.1-euryale-70b/openrouter/global/2026-11-09": {
     "pricing_id": "sao10k/l3.1-euryale-70b/openrouter/global/2026-11-09",
@@ -1006809,7 +1006809,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690161+00:00"
+    "last_verified": "2026-11-09T18:09:31.527459+00:00"
   },
   "sao10k/l3-lunaris-8b/openrouter/global/2026-11-09": {
     "pricing_id": "sao10k/l3-lunaris-8b/openrouter/global/2026-11-09",
@@ -1006825,7 +1006825,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690162+00:00"
+    "last_verified": "2026-11-09T18:09:31.527461+00:00"
   },
   "openai/gpt-4o-2024-08-06/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-4o-2024-08-06/openrouter/global/2026-11-09",
@@ -1006841,7 +1006841,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690163+00:00"
+    "last_verified": "2026-11-09T18:09:31.527462+00:00"
   },
   "meta-llama/llama-3.1-70b-instruct/openrouter/global/2026-11-09": {
     "pricing_id": "meta-llama/llama-3.1-70b-instruct/openrouter/global/2026-11-09",
@@ -1006857,7 +1006857,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690164+00:00"
+    "last_verified": "2026-11-09T18:09:31.527464+00:00"
   },
   "meta-llama/llama-3.1-8b-instruct/openrouter/global/2026-11-09": {
     "pricing_id": "meta-llama/llama-3.1-8b-instruct/openrouter/global/2026-11-09",
@@ -1006873,7 +1006873,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690167+00:00"
+    "last_verified": "2026-11-09T18:09:31.527466+00:00"
   },
   "mistralai/mistral-nemo/openrouter/global/2026-11-09": {
     "pricing_id": "mistralai/mistral-nemo/openrouter/global/2026-11-09",
@@ -1006889,7 +1006889,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690168+00:00"
+    "last_verified": "2026-11-09T18:09:31.527467+00:00"
   },
   "openai/gpt-4o-mini/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-4o-mini/openrouter/global/2026-11-09",
@@ -1006905,7 +1006905,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690169+00:00"
+    "last_verified": "2026-11-09T18:09:31.527469+00:00"
   },
   "openai/gpt-4o-mini-2024-07-18/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-4o-mini-2024-07-18/openrouter/global/2026-11-09",
@@ -1006921,7 +1006921,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690170+00:00"
+    "last_verified": "2026-11-09T18:09:31.527471+00:00"
   },
   "openai/gpt-4o-mini:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-4o-mini:batch/openrouter/global/2026-11-09",
@@ -1006937,7 +1006937,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690171+00:00"
+    "last_verified": "2026-11-09T18:09:31.527473+00:00"
   },
   "google/gemma-2-27b-it/openrouter/global/2026-11-09": {
     "pricing_id": "google/gemma-2-27b-it/openrouter/global/2026-11-09",
@@ -1006953,7 +1006953,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690172+00:00"
+    "last_verified": "2026-11-09T18:09:31.527474+00:00"
   },
   "openai/gpt-4o/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-4o/openrouter/global/2026-11-09",
@@ -1006969,7 +1006969,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690173+00:00"
+    "last_verified": "2026-11-09T18:09:31.527476+00:00"
   },
   "openai/gpt-4o-2024-05-13/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-4o-2024-05-13/openrouter/global/2026-11-09",
@@ -1006985,7 +1006985,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690174+00:00"
+    "last_verified": "2026-11-09T18:09:31.527478+00:00"
   },
   "openai/gpt-4o:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-4o:batch/openrouter/global/2026-11-09",
@@ -1007001,7 +1007001,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690174+00:00"
+    "last_verified": "2026-11-09T18:09:31.527479+00:00"
   },
   "mistralai/mixtral-8x22b-instruct/openrouter/global/2026-11-09": {
     "pricing_id": "mistralai/mixtral-8x22b-instruct/openrouter/global/2026-11-09",
@@ -1007017,7 +1007017,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690175+00:00"
+    "last_verified": "2026-11-09T18:09:31.527481+00:00"
   },
   "openai/gpt-4-turbo:batch/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-4-turbo:batch/openrouter/global/2026-11-09",
@@ -1007033,7 +1007033,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690176+00:00"
+    "last_verified": "2026-11-09T18:09:31.527483+00:00"
   },
   "mistralai/mistral-large/openrouter/global/2026-11-09": {
     "pricing_id": "mistralai/mistral-large/openrouter/global/2026-11-09",
@@ -1007049,7 +1007049,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690177+00:00"
+    "last_verified": "2026-11-09T18:09:31.527484+00:00"
   },
   "openai/gpt-3.5-turbo-0613/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-3.5-turbo-0613/openrouter/global/2026-11-09",
@@ -1007065,7 +1007065,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690178+00:00"
+    "last_verified": "2026-11-09T18:09:31.527486+00:00"
   },
   "openai/gpt-3.5-turbo-16k/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-3.5-turbo-16k/openrouter/global/2026-11-09",
@@ -1007081,7 +1007081,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690179+00:00"
+    "last_verified": "2026-11-09T18:09:31.527488+00:00"
   },
   "mancer/weaver/openrouter/global/2026-11-09": {
     "pricing_id": "mancer/weaver/openrouter/global/2026-11-09",
@@ -1007097,7 +1007097,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690180+00:00"
+    "last_verified": "2026-11-09T18:09:31.527489+00:00"
   },
   "undi95/remm-slerp-l2-13b/openrouter/global/2026-11-09": {
     "pricing_id": "undi95/remm-slerp-l2-13b/openrouter/global/2026-11-09",
@@ -1007113,7 +1007113,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690181+00:00"
+    "last_verified": "2026-11-09T18:09:31.527491+00:00"
   },
   "gryphe/mythomax-l2-13b/openrouter/global/2026-11-09": {
     "pricing_id": "gryphe/mythomax-l2-13b/openrouter/global/2026-11-09",
@@ -1007129,7 +1007129,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690182+00:00"
+    "last_verified": "2026-11-09T18:09:31.527493+00:00"
   },
   "openai/gpt-4/openrouter/global/2026-11-09": {
     "pricing_id": "openai/gpt-4/openrouter/global/2026-11-09",
@@ -1007145,7 +1007145,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690183+00:00"
+    "last_verified": "2026-11-09T18:09:31.527494+00:00"
   },
   "openrouter/free/openrouter/global/2026-11-09": {
     "pricing_id": "openrouter/free/openrouter/global/2026-11-09",
@@ -1007161,7 +1007161,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:22.690184+00:00"
+    "last_verified": "2026-11-09T18:09:31.527496+00:00"
   },
   "openai/gpt-5.4 (<272k context length)/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.4 (<272k context length)/official/global/2026-11-09",
@@ -1007175,7 +1007175,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529526+00:00"
+    "last_verified": "2026-11-09T18:09:42.137316+00:00"
   },
   "openai/gpt-5.4-pro (<272k context length)/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.4-pro (<272k context length)/official/global/2026-11-09",
@@ -1007189,7 +1007189,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529550+00:00"
+    "last_verified": "2026-11-09T18:09:42.137337+00:00"
   },
   "openai/gpt-5.2/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.2/official/global/2026-11-09",
@@ -1007203,7 +1007203,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529552+00:00"
+    "last_verified": "2026-11-09T18:09:42.137340+00:00"
   },
   "openai/gpt-5.1/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.1/official/global/2026-11-09",
@@ -1007217,7 +1007217,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529554+00:00"
+    "last_verified": "2026-11-09T18:09:42.137342+00:00"
   },
   "openai/gpt-5/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-5/official/global/2026-11-09",
@@ -1007231,7 +1007231,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529555+00:00"
+    "last_verified": "2026-11-09T18:09:42.137344+00:00"
   },
   "openai/gpt-5-mini/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-5-mini/official/global/2026-11-09",
@@ -1007245,7 +1007245,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529557+00:00"
+    "last_verified": "2026-11-09T18:09:42.137346+00:00"
   },
   "openai/gpt-5-nano/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-5-nano/official/global/2026-11-09",
@@ -1007259,7 +1007259,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529558+00:00"
+    "last_verified": "2026-11-09T18:09:42.137349+00:00"
   },
   "openai/gpt-5.2-pro/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.2-pro/official/global/2026-11-09",
@@ -1007273,7 +1007273,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529560+00:00"
+    "last_verified": "2026-11-09T18:09:42.137351+00:00"
   },
   "openai/gpt-5-pro/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-5-pro/official/global/2026-11-09",
@@ -1007287,7 +1007287,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529561+00:00"
+    "last_verified": "2026-11-09T18:09:42.137353+00:00"
   },
   "openai/gpt-4.1/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4.1/official/global/2026-11-09",
@@ -1007301,7 +1007301,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529562+00:00"
+    "last_verified": "2026-11-09T18:09:42.137355+00:00"
   },
   "openai/gpt-4.1-mini/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4.1-mini/official/global/2026-11-09",
@@ -1007315,7 +1007315,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529563+00:00"
+    "last_verified": "2026-11-09T18:09:42.137357+00:00"
   },
   "openai/gpt-4.1-nano/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4.1-nano/official/global/2026-11-09",
@@ -1007329,7 +1007329,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529564+00:00"
+    "last_verified": "2026-11-09T18:09:42.137359+00:00"
   },
   "openai/gpt-4o/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4o/official/global/2026-11-09",
@@ -1007343,7 +1007343,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529566+00:00"
+    "last_verified": "2026-11-09T18:09:42.137361+00:00"
   },
   "openai/gpt-4o-2024-05-13/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4o-2024-05-13/official/global/2026-11-09",
@@ -1007357,7 +1007357,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529567+00:00"
+    "last_verified": "2026-11-09T18:09:42.137363+00:00"
   },
   "openai/gpt-4o-mini/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4o-mini/official/global/2026-11-09",
@@ -1007371,7 +1007371,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529568+00:00"
+    "last_verified": "2026-11-09T18:09:42.137365+00:00"
   },
   "openai/o1-pro/official/global/2026-11-09": {
     "pricing_id": "openai/o1-pro/official/global/2026-11-09",
@@ -1007385,7 +1007385,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529570+00:00"
+    "last_verified": "2026-11-09T18:09:42.137367+00:00"
   },
   "openai/o3-pro/official/global/2026-11-09": {
     "pricing_id": "openai/o3-pro/official/global/2026-11-09",
@@ -1007399,7 +1007399,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529571+00:00"
+    "last_verified": "2026-11-09T18:09:42.137369+00:00"
   },
   "openai/o3-deep-research/official/global/2026-11-09": {
     "pricing_id": "openai/o3-deep-research/official/global/2026-11-09",
@@ -1007413,7 +1007413,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529573+00:00"
+    "last_verified": "2026-11-09T18:09:42.137371+00:00"
   },
   "openai/o4-mini/official/global/2026-11-09": {
     "pricing_id": "openai/o4-mini/official/global/2026-11-09",
@@ -1007427,7 +1007427,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529574+00:00"
+    "last_verified": "2026-11-09T18:09:42.137373+00:00"
   },
   "openai/o4-mini-deep-research/official/global/2026-11-09": {
     "pricing_id": "openai/o4-mini-deep-research/official/global/2026-11-09",
@@ -1007441,7 +1007441,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529575+00:00"
+    "last_verified": "2026-11-09T18:09:42.137375+00:00"
   },
   "openai/o3-mini/official/global/2026-11-09": {
     "pricing_id": "openai/o3-mini/official/global/2026-11-09",
@@ -1007455,7 +1007455,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529576+00:00"
+    "last_verified": "2026-11-09T18:09:42.137376+00:00"
   },
   "openai/o1-mini/official/global/2026-11-09": {
     "pricing_id": "openai/o1-mini/official/global/2026-11-09",
@@ -1007469,7 +1007469,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529578+00:00"
+    "last_verified": "2026-11-09T18:09:42.137378+00:00"
   },
   "openai/computer-use-preview/official/global/2026-11-09": {
     "pricing_id": "openai/computer-use-preview/official/global/2026-11-09",
@@ -1007483,7 +1007483,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529579+00:00"
+    "last_verified": "2026-11-09T18:09:42.137380+00:00"
   },
   "openai/gpt-image-1.5/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-image-1.5/official/global/2026-11-09",
@@ -1007497,7 +1007497,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529580+00:00"
+    "last_verified": "2026-11-09T18:09:42.137382+00:00"
   },
   "openai/chatgpt-image-latest/official/global/2026-11-09": {
     "pricing_id": "openai/chatgpt-image-latest/official/global/2026-11-09",
@@ -1007511,7 +1007511,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529581+00:00"
+    "last_verified": "2026-11-09T18:09:42.137384+00:00"
   },
   "openai/gpt-image-1/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-image-1/official/global/2026-11-09",
@@ -1007525,7 +1007525,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529582+00:00"
+    "last_verified": "2026-11-09T18:09:42.137385+00:00"
   },
   "openai/gpt-image-1-mini/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-image-1-mini/official/global/2026-11-09",
@@ -1007539,7 +1007539,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529583+00:00"
+    "last_verified": "2026-11-09T18:09:42.137387+00:00"
   },
   "openai/gpt-5.4 (>272k context length)/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.4 (>272k context length)/official/global/2026-11-09",
@@ -1007553,7 +1007553,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529585+00:00"
+    "last_verified": "2026-11-09T18:09:42.137389+00:00"
   },
   "openai/gpt-5.4-pro (>272k context length)/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.4-pro (>272k context length)/official/global/2026-11-09",
@@ -1007567,7 +1007567,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529586+00:00"
+    "last_verified": "2026-11-09T18:09:42.137391+00:00"
   },
   "openai/gpt-5.3-chat-latest/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.3-chat-latest/official/global/2026-11-09",
@@ -1007581,7 +1007581,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529587+00:00"
+    "last_verified": "2026-11-09T18:09:42.137392+00:00"
   },
   "openai/gpt-5.2-chat-latest/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.2-chat-latest/official/global/2026-11-09",
@@ -1007595,7 +1007595,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529589+00:00"
+    "last_verified": "2026-11-09T18:09:42.137394+00:00"
   },
   "openai/gpt-5.1-chat-latest/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.1-chat-latest/official/global/2026-11-09",
@@ -1007609,7 +1007609,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529590+00:00"
+    "last_verified": "2026-11-09T18:09:42.137396+00:00"
   },
   "openai/gpt-5-chat-latest/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-5-chat-latest/official/global/2026-11-09",
@@ -1007623,7 +1007623,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529591+00:00"
+    "last_verified": "2026-11-09T18:09:42.137397+00:00"
   },
   "openai/gpt-5.3-codex/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.3-codex/official/global/2026-11-09",
@@ -1007637,7 +1007637,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529593+00:00"
+    "last_verified": "2026-11-09T18:09:42.137399+00:00"
   },
   "openai/gpt-5.2-codex/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.2-codex/official/global/2026-11-09",
@@ -1007651,7 +1007651,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529594+00:00"
+    "last_verified": "2026-11-09T18:09:42.137401+00:00"
   },
   "openai/gpt-5.1-codex-max/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.1-codex-max/official/global/2026-11-09",
@@ -1007665,7 +1007665,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529596+00:00"
+    "last_verified": "2026-11-09T18:09:42.137403+00:00"
   },
   "openai/gpt-5.1-codex/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.1-codex/official/global/2026-11-09",
@@ -1007679,7 +1007679,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529597+00:00"
+    "last_verified": "2026-11-09T18:09:42.137404+00:00"
   },
   "openai/gpt-5-codex/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-5-codex/official/global/2026-11-09",
@@ -1007693,7 +1007693,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529598+00:00"
+    "last_verified": "2026-11-09T18:09:42.137406+00:00"
   },
   "openai/gpt-realtime/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-realtime/official/global/2026-11-09",
@@ -1007707,7 +1007707,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529598+00:00"
+    "last_verified": "2026-11-09T18:09:42.137408+00:00"
   },
   "openai/gpt-realtime-1.5/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-realtime-1.5/official/global/2026-11-09",
@@ -1007721,7 +1007721,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529599+00:00"
+    "last_verified": "2026-11-09T18:09:42.137410+00:00"
   },
   "openai/gpt-realtime-mini/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-realtime-mini/official/global/2026-11-09",
@@ -1007735,7 +1007735,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529600+00:00"
+    "last_verified": "2026-11-09T18:09:42.137411+00:00"
   },
   "openai/gpt-4o-realtime-preview/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4o-realtime-preview/official/global/2026-11-09",
@@ -1007749,7 +1007749,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529602+00:00"
+    "last_verified": "2026-11-09T18:09:42.137413+00:00"
   },
   "openai/gpt-4o-mini-realtime-preview/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4o-mini-realtime-preview/official/global/2026-11-09",
@@ -1007763,7 +1007763,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529602+00:00"
+    "last_verified": "2026-11-09T18:09:42.137415+00:00"
   },
   "openai/gpt-audio/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-audio/official/global/2026-11-09",
@@ -1007777,7 +1007777,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529604+00:00"
+    "last_verified": "2026-11-09T18:09:42.137417+00:00"
   },
   "openai/gpt-audio-1.5/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-audio-1.5/official/global/2026-11-09",
@@ -1007791,7 +1007791,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529605+00:00"
+    "last_verified": "2026-11-09T18:09:42.137418+00:00"
   },
   "openai/gpt-audio-mini/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-audio-mini/official/global/2026-11-09",
@@ -1007805,7 +1007805,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529606+00:00"
+    "last_verified": "2026-11-09T18:09:42.137420+00:00"
   },
   "openai/gpt-4o-audio-preview/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4o-audio-preview/official/global/2026-11-09",
@@ -1007819,7 +1007819,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529607+00:00"
+    "last_verified": "2026-11-09T18:09:42.137422+00:00"
   },
   "openai/gpt-4o-mini-audio-preview/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4o-mini-audio-preview/official/global/2026-11-09",
@@ -1007833,7 +1007833,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529608+00:00"
+    "last_verified": "2026-11-09T18:09:42.137424+00:00"
   },
   "openai/gpt-5.1-codex-mini/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-5.1-codex-mini/official/global/2026-11-09",
@@ -1007847,7 +1007847,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529610+00:00"
+    "last_verified": "2026-11-09T18:09:42.137425+00:00"
   },
   "openai/codex-mini-latest/official/global/2026-11-09": {
     "pricing_id": "openai/codex-mini-latest/official/global/2026-11-09",
@@ -1007861,7 +1007861,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529611+00:00"
+    "last_verified": "2026-11-09T18:09:42.137427+00:00"
   },
   "openai/gpt-5-search-api/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-5-search-api/official/global/2026-11-09",
@@ -1007875,7 +1007875,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529612+00:00"
+    "last_verified": "2026-11-09T18:09:42.137429+00:00"
   },
   "openai/gpt-4o-mini-search-preview/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4o-mini-search-preview/official/global/2026-11-09",
@@ -1007889,7 +1007889,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529614+00:00"
+    "last_verified": "2026-11-09T18:09:42.137431+00:00"
   },
   "openai/gpt-4o-search-preview/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4o-search-preview/official/global/2026-11-09",
@@ -1007903,7 +1007903,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529614+00:00"
+    "last_verified": "2026-11-09T18:09:42.137433+00:00"
   },
   "openai/o4-mini-2025-04-16/official/global/2026-11-09": {
     "pricing_id": "openai/o4-mini-2025-04-16/official/global/2026-11-09",
@@ -1007917,7 +1007917,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529616+00:00"
+    "last_verified": "2026-11-09T18:09:42.137435+00:00"
   },
   "openai/o4-mini-2025-04-16with data sharing/official/global/2026-11-09": {
     "pricing_id": "openai/o4-mini-2025-04-16with data sharing/official/global/2026-11-09",
@@ -1007931,7 +1007931,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529617+00:00"
+    "last_verified": "2026-11-09T18:09:42.137437+00:00"
   },
   "openai/gpt-4.1-2025-04-14/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4.1-2025-04-14/official/global/2026-11-09",
@@ -1007945,7 +1007945,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529618+00:00"
+    "last_verified": "2026-11-09T18:09:42.137439+00:00"
   },
   "openai/gpt-4.1-mini-2025-04-14/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4.1-mini-2025-04-14/official/global/2026-11-09",
@@ -1007959,7 +1007959,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529619+00:00"
+    "last_verified": "2026-11-09T18:09:42.137441+00:00"
   },
   "openai/gpt-4.1-nano-2025-04-14/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4.1-nano-2025-04-14/official/global/2026-11-09",
@@ -1007973,7 +1007973,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529620+00:00"
+    "last_verified": "2026-11-09T18:09:42.137443+00:00"
   },
   "openai/gpt-4o-2024-08-06/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4o-2024-08-06/official/global/2026-11-09",
@@ -1007987,7 +1007987,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529621+00:00"
+    "last_verified": "2026-11-09T18:09:42.137444+00:00"
   },
   "openai/gpt-4o-mini-2024-07-18/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4o-mini-2024-07-18/official/global/2026-11-09",
@@ -1008001,7 +1008001,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529623+00:00"
+    "last_verified": "2026-11-09T18:09:42.137446+00:00"
   },
   "openai/gpt-3.5-turbo/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-3.5-turbo/official/global/2026-11-09",
@@ -1008015,7 +1008015,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529624+00:00"
+    "last_verified": "2026-11-09T18:09:42.137448+00:00"
   },
   "openai/davinci-002/official/global/2026-11-09": {
     "pricing_id": "openai/davinci-002/official/global/2026-11-09",
@@ -1008029,7 +1008029,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529625+00:00"
+    "last_verified": "2026-11-09T18:09:42.137450+00:00"
   },
   "openai/babbage-002/official/global/2026-11-09": {
     "pricing_id": "openai/babbage-002/official/global/2026-11-09",
@@ -1008043,7 +1008043,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529626+00:00"
+    "last_verified": "2026-11-09T18:09:42.137452+00:00"
   },
   "openai/gpt-4o-mini-tts/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4o-mini-tts/official/global/2026-11-09",
@@ -1008057,7 +1008057,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529627+00:00"
+    "last_verified": "2026-11-09T18:09:42.137453+00:00"
   },
   "openai/gpt-4o-transcribe/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4o-transcribe/official/global/2026-11-09",
@@ -1008071,7 +1008071,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529628+00:00"
+    "last_verified": "2026-11-09T18:09:42.137455+00:00"
   },
   "openai/gpt-4o-transcribe-diarize/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4o-transcribe-diarize/official/global/2026-11-09",
@@ -1008085,7 +1008085,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529629+00:00"
+    "last_verified": "2026-11-09T18:09:42.137457+00:00"
   },
   "openai/gpt-4o-mini-transcribe/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4o-mini-transcribe/official/global/2026-11-09",
@@ -1008099,7 +1008099,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529630+00:00"
+    "last_verified": "2026-11-09T18:09:42.137459+00:00"
   },
   "openai/gpt-4-turbo-2024-04-09/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4-turbo-2024-04-09/official/global/2026-11-09",
@@ -1008113,7 +1008113,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529631+00:00"
+    "last_verified": "2026-11-09T18:09:42.137460+00:00"
   },
   "openai/gpt-4-0125-preview/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4-0125-preview/official/global/2026-11-09",
@@ -1008127,7 +1008127,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529633+00:00"
+    "last_verified": "2026-11-09T18:09:42.137462+00:00"
   },
   "openai/gpt-4-1106-preview/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4-1106-preview/official/global/2026-11-09",
@@ -1008141,7 +1008141,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529634+00:00"
+    "last_verified": "2026-11-09T18:09:42.137464+00:00"
   },
   "openai/gpt-4-1106-vision-preview/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4-1106-vision-preview/official/global/2026-11-09",
@@ -1008155,7 +1008155,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529635+00:00"
+    "last_verified": "2026-11-09T18:09:42.137466+00:00"
   },
   "openai/gpt-4-0613/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4-0613/official/global/2026-11-09",
@@ -1008169,7 +1008169,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529637+00:00"
+    "last_verified": "2026-11-09T18:09:42.137467+00:00"
   },
   "openai/gpt-4-0314/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4-0314/official/global/2026-11-09",
@@ -1008183,7 +1008183,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529638+00:00"
+    "last_verified": "2026-11-09T18:09:42.137469+00:00"
   },
   "openai/gpt-4-32k/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-4-32k/official/global/2026-11-09",
@@ -1008197,7 +1008197,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529639+00:00"
+    "last_verified": "2026-11-09T18:09:42.137471+00:00"
   },
   "openai/gpt-3.5-turbo-0125/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-3.5-turbo-0125/official/global/2026-11-09",
@@ -1008211,7 +1008211,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529640+00:00"
+    "last_verified": "2026-11-09T18:09:42.137473+00:00"
   },
   "openai/gpt-3.5-turbo-1106/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-3.5-turbo-1106/official/global/2026-11-09",
@@ -1008225,7 +1008225,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529641+00:00"
+    "last_verified": "2026-11-09T18:09:42.137475+00:00"
   },
   "openai/gpt-3.5-turbo-0613/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-3.5-turbo-0613/official/global/2026-11-09",
@@ -1008239,7 +1008239,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529643+00:00"
+    "last_verified": "2026-11-09T18:09:42.137477+00:00"
   },
   "openai/gpt-3.5-0301/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-3.5-0301/official/global/2026-11-09",
@@ -1008253,7 +1008253,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529644+00:00"
+    "last_verified": "2026-11-09T18:09:42.137479+00:00"
   },
   "openai/gpt-3.5-turbo-16k-0613/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-3.5-turbo-16k-0613/official/global/2026-11-09",
@@ -1008267,7 +1008267,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529645+00:00"
+    "last_verified": "2026-11-09T18:09:42.137480+00:00"
   },
   "openai/chatgpt-4o-latest/official/global/2026-11-09": {
     "pricing_id": "openai/chatgpt-4o-latest/official/global/2026-11-09",
@@ -1008281,7 +1008281,7 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529646+00:00"
+    "last_verified": "2026-11-09T18:09:42.137482+00:00"
   },
   "openai/gpt-3.5-turbo-instruct/official/global/2026-11-09": {
     "pricing_id": "openai/gpt-3.5-turbo-instruct/official/global/2026-11-09",
@@ -1008295,6 +1008295,22 @@
     "currency": "USD",
     "reasoning_tokens_charged": 0,
     "has_spot": 0,
-    "last_verified": "2026-11-09T08:55:28.529647+00:00"
+    "last_verified": "2026-11-09T18:09:42.137484+00:00"
+  },
+  "qwen/qwen3.8-max-0902:batch/openrouter/global/2026-11-09": {
+    "pricing_id": "qwen/qwen3.8-max-0902:batch/openrouter/global/2026-11-09",
+    "model_id": "qwen/qwen3.8-max-0902:batch",
+    "channel": "marketplace",
+    "market_name": "openrouter",
+    "region": "global",
+    "valid_from": "2026-11-09",
+    "input_price_per_1m": 1.15,
+    "output_price_per_1m": 3.45,
+    "price_per_image": null,
+    "source": "https://openrouter.ai/api/v1/models/qwen/qwen3.8-max-0902:batch",
+    "currency": "USD",
+    "reasoning_tokens_charged": 0,
+    "has_spot": 0,
+    "last_verified": "2026-11-09T18:09:31.526807+00:00"
   }
 }
